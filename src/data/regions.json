@@ -1,0 +1,1685 @@
+[
+  {
+    "key": "3k_main_anding_capital",
+    "settlement": {
+      "x": 1184,
+      "y": 797
+    },
+    "name": "Anding, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_anding_resource_1",
+    "settlement": {
+      "x": 1378,
+      "y": 724
+    },
+    "name": "Anding, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_anding_resource_2",
+    "settlement": {
+      "x": 1197,
+      "y": 715
+    },
+    "name": "Anding, Toolmakers",
+    "icon": "tools"
+  },
+  {
+    "key": "3k_main_anding_resource_3",
+    "settlement": {
+      "x": 1037,
+      "y": 650
+    },
+    "name": "Anding, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_anping_capital",
+    "settlement": {
+      "x": 2114,
+      "y": 646
+    },
+    "name": "Anping, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_anping_resource_1",
+    "settlement": {
+      "x": 1976,
+      "y": 681
+    },
+    "name": "Anping, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_badong_capital",
+    "settlement": {
+      "x": 1494,
+      "y": 1357
+    },
+    "name": "Badong, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_badong_resource_1",
+    "settlement": {
+      "x": 1339,
+      "y": 1430
+    },
+    "name": "Badong, Iron Mine",
+    "icon": "iron"
+  },
+  {
+    "key": "3k_main_badong_resource_2",
+    "settlement": {
+      "x": 1640,
+      "y": 1559
+    },
+    "name": "Badong, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_bajun_capital",
+    "settlement": {
+      "x": 1076,
+      "y": 1538
+    },
+    "name": "Ba, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_bajun_resource_1",
+    "settlement": {
+      "x": 1205,
+      "y": 1275
+    },
+    "name": "Ba, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_baxi_capital",
+    "settlement": {
+      "x": 1037,
+      "y": 1279
+    },
+    "name": "Baxi, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_baxi_resource_1",
+    "settlement": {
+      "x": 1162,
+      "y": 1176
+    },
+    "name": "Baxi, Toolmakers",
+    "icon": "tools"
+  },
+  {
+    "key": "3k_main_baxi_resource_2",
+    "settlement": {
+      "x": 861,
+      "y": 1254
+    },
+    "name": "Baxi, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_beihai_capital",
+    "settlement": {
+      "x": 2488,
+      "y": 745
+    },
+    "name": "Beihai, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_beihai_resource_1",
+    "settlement": {
+      "x": 2592,
+      "y": 767
+    },
+    "name": "Beihai, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_bohai_capital",
+    "settlement": {
+      "x": 2204,
+      "y": 569
+    },
+    "name": "Bohai, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_bohai_resource_1",
+    "settlement": {
+      "x": 2303,
+      "y": 543
+    },
+    "name": "Bohai, Fishing Port",
+    "icon": "fish"
+  },
+  {
+    "key": "3k_main_cangwu_capital",
+    "settlement": {
+      "x": 1675,
+      "y": 2193
+    },
+    "name": "Cangwu, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_cangwu_resource_1",
+    "settlement": {
+      "x": 1653,
+      "y": 2025
+    },
+    "name": "Cangwu, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_cangwu_resource_2",
+    "settlement": {
+      "x": 1541,
+      "y": 2128
+    },
+    "name": "Cangwu, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_cangwu_resource_3",
+    "settlement": {
+      "x": 1399,
+      "y": 1973
+    },
+    "name": "Cangwu, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_changan_capital",
+    "settlement": {
+      "x": 1330,
+      "y": 978
+    },
+    "name": "Chang'an, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_changan_resource_1",
+    "settlement": {
+      "x": 1352,
+      "y": 1047
+    },
+    "name": "Chang'an, Jade Bed",
+    "icon": "jade"
+  },
+  {
+    "key": "3k_main_changsha_capital",
+    "settlement": {
+      "x": 1808,
+      "y": 1706
+    },
+    "name": "Changsha, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_changsha_resource_1",
+    "settlement": {
+      "x": 1881,
+      "y": 1585
+    },
+    "name": "Changsha, Trade Port",
+    "icon": "trade_port"
+  },
+  {
+    "key": "3k_main_changsha_resource_2",
+    "settlement": {
+      "x": 1743,
+      "y": 1831
+    },
+    "name": "Changsha, Armour Master",
+    "icon": "craftsmen_armour"
+  },
+  {
+    "key": "3k_main_changsha_resource_3",
+    "settlement": {
+      "x": 1864,
+      "y": 1857
+    },
+    "name": "Changsha, Tea Field",
+    "icon": "tea"
+  },
+  {
+    "key": "3k_main_chengdu_capital",
+    "settlement": {
+      "x": 749,
+      "y": 1409
+    },
+    "name": "Chengdu, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_chengdu_resource_1",
+    "settlement": {
+      "x": 629,
+      "y": 1452
+    },
+    "name": "Chengdu, Armour Master",
+    "icon": "craftsmen_armour"
+  },
+  {
+    "key": "3k_main_chengdu_resource_2",
+    "settlement": {
+      "x": 951,
+      "y": 1391
+    },
+    "name": "Chengdu, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_chengdu_resource_3",
+    "settlement": {
+      "x": 848,
+      "y": 1473
+    },
+    "name": "Chengdu, Salt Pit",
+    "icon": "salt"
+  },
+  {
+    "key": "3k_main_chenjun_capital",
+    "settlement": {
+      "x": 2135,
+      "y": 1086
+    },
+    "name": "Chen, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_chenjun_resource_1",
+    "settlement": {
+      "x": 2234,
+      "y": 1146
+    },
+    "name": "Chen, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_chenjun_resource_2",
+    "settlement": {
+      "x": 1989,
+      "y": 1176
+    },
+    "name": "Chen, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_chenjun_resource_3",
+    "settlement": {
+      "x": 1782,
+      "y": 1025
+    },
+    "name": "Luoyang, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_daijun_capital",
+    "settlement": {
+      "x": 2036,
+      "y": 431
+    },
+    "name": "Dai, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_daijun_resource_1",
+    "settlement": {
+      "x": 2144,
+      "y": 401
+    },
+    "name": "Dai, Horse Pastures",
+    "icon": "horses"
+  },
+  {
+    "key": "3k_main_donghai_capital",
+    "settlement": {
+      "x": 2480,
+      "y": 1017
+    },
+    "name": "Donghai, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_donghai_resource_1",
+    "settlement": {
+      "x": 2712,
+      "y": 1077
+    },
+    "name": "Donghai, Fishing Port",
+    "icon": "fish"
+  },
+  {
+    "key": "3k_main_dongjun_capital",
+    "settlement": {
+      "x": 2213,
+      "y": 810
+    },
+    "name": "Dong, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_dongjun_resource_1",
+    "settlement": {
+      "x": 2381,
+      "y": 857
+    },
+    "name": "Dong, Iron Mine",
+    "icon": "iron"
+  },
+  {
+    "key": "3k_main_donglai_capital",
+    "settlement": {
+      "x": 2652,
+      "y": 655
+    },
+    "name": "Donglai, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_donglai_resource_1",
+    "settlement": {
+      "x": 2794,
+      "y": 728
+    },
+    "name": "Donglai, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_dongou_capital",
+    "settlement": {
+      "x": 2777,
+      "y": 1792
+    },
+    "name": "Dongou, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_dongou_resource_1",
+    "settlement": {
+      "x": 2682,
+      "y": 1908
+    },
+    "name": "Dongou, Salt Beach",
+    "icon": "salt"
+  },
+  {
+    "key": "3k_main_fuling_capital",
+    "settlement": {
+      "x": 1270,
+      "y": 1572
+    },
+    "name": "Fuling, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_fuling_resource_1",
+    "settlement": {
+      "x": 1145,
+      "y": 1702
+    },
+    "name": "Fuling, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_gaoliang_capital",
+    "settlement": {
+      "x": 1817,
+      "y": 2318
+    },
+    "name": "Gaoliang, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_gaoliang_resource_1",
+    "settlement": {
+      "x": 1688,
+      "y": 2356
+    },
+    "name": "Gaoliang, Salt Beach",
+    "icon": "salt"
+  },
+  {
+    "key": "3k_main_guangling_capital",
+    "settlement": {
+      "x": 2579,
+      "y": 1163
+    },
+    "name": "Guangling, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_guangling_resource_1",
+    "settlement": {
+      "x": 2682,
+      "y": 1223
+    },
+    "name": "Guangling, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_guangling_resource_2",
+    "settlement": {
+      "x": 2716,
+      "y": 1301
+    },
+    "name": "Guangling, Trade Port",
+    "icon": "trade_port"
+  },
+  {
+    "key": "3k_main_hanzhong_capital",
+    "settlement": {
+      "x": 1124,
+      "y": 1094
+    },
+    "name": "Hanzhong, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_hanzhong_resource_1",
+    "settlement": {
+      "x": 1218,
+      "y": 999
+    },
+    "name": "Hanzhong, Silk Trader",
+    "icon": "silk"
+  },
+  {
+    "key": "3k_main_hedong_capital",
+    "settlement": {
+      "x": 1554,
+      "y": 874
+    },
+    "name": "Hedong, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_hedong_resource_1",
+    "settlement": {
+      "x": 1868,
+      "y": 862
+    },
+    "name": "Hedong, Copper Mine",
+    "icon": "copper"
+  },
+  {
+    "key": "3k_main_henei_capital",
+    "settlement": {
+      "x": 2041,
+      "y": 870
+    },
+    "name": "Henei, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_henei_resource_1",
+    "settlement": {
+      "x": 2152,
+      "y": 780
+    },
+    "name": "Henei, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_hepu_capital",
+    "settlement": {
+      "x": 1360,
+      "y": 2365
+    },
+    "name": "Hepu, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_hepu_resource_1",
+    "settlement": {
+      "x": 1545,
+      "y": 2417
+    },
+    "name": "Hepu, Fishing Port",
+    "icon": "fish"
+  },
+  {
+    "key": "3k_main_hepu_resource_2",
+    "settlement": {
+      "x": 1537,
+      "y": 2585
+    },
+    "name": "Hepu, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_jianan_capital",
+    "settlement": {
+      "x": 2536,
+      "y": 1814
+    },
+    "name": "Jian'an, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_jianan_resource_1",
+    "settlement": {
+      "x": 2441,
+      "y": 1796
+    },
+    "name": "Jian'an, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_jianan_resource_2",
+    "settlement": {
+      "x": 2583,
+      "y": 1684
+    },
+    "name": "Jian'an, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_jiangxia_capital",
+    "settlement": {
+      "x": 1924,
+      "y": 1478
+    },
+    "name": "Jiangxia, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_jiangxia_resource_1",
+    "settlement": {
+      "x": 2006,
+      "y": 1404
+    },
+    "name": "Jiangxia, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_jiangyang_capital",
+    "settlement": {
+      "x": 926,
+      "y": 1620
+    },
+    "name": "Jiangyang, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_jiangyang_resource_1",
+    "settlement": {
+      "x": 728,
+      "y": 1534
+    },
+    "name": "Jiangyang, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_jiangyang_resource_2",
+    "settlement": {
+      "x": 775,
+      "y": 1680
+    },
+    "name": "Jiangyang, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_jiangyang_resource_3",
+    "settlement": {
+      "x": 943,
+      "y": 1706
+    },
+    "name": "Jiangyang, Copper Mine",
+    "icon": "copper"
+  },
+  {
+    "key": "3k_main_jianning_capital",
+    "settlement": {
+      "x": 728,
+      "y": 1882
+    },
+    "name": "Jianning, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_jianning_resource_1",
+    "settlement": {
+      "x": 822,
+      "y": 1865
+    },
+    "name": "Jianning, Iron Mine",
+    "icon": "iron"
+  },
+  {
+    "key": "3k_main_jianning_resource_2",
+    "settlement": {
+      "x": 775,
+      "y": 2068
+    },
+    "name": "Jianning, Spice Trader",
+    "icon": "spice"
+  },
+  {
+    "key": "3k_main_jianye_capital",
+    "settlement": {
+      "x": 2553,
+      "y": 1314
+    },
+    "name": "Jianye, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_jianye_resource_1",
+    "settlement": {
+      "x": 2794,
+      "y": 1387
+    },
+    "name": "Jianye, Salt Beach",
+    "icon": "salt"
+  },
+  {
+    "key": "3k_main_jianye_resource_2",
+    "settlement": {
+      "x": 2600,
+      "y": 1413
+    },
+    "name": "Jianye, Copper Mine",
+    "icon": "copper"
+  },
+  {
+    "key": "3k_main_jiaozhi_capital",
+    "settlement": {
+      "x": 1072,
+      "y": 2335
+    },
+    "name": "Jiaozhi, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_jiaozhi_resource_1",
+    "settlement": {
+      "x": 1192,
+      "y": 2279
+    },
+    "name": "Jiaozhi, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_jiaozhi_resource_2",
+    "settlement": {
+      "x": 1218,
+      "y": 2184
+    },
+    "name": "Jiaozhi, Spice Trader",
+    "icon": "spice"
+  },
+  {
+    "key": "3k_main_jincheng_capital",
+    "settlement": {
+      "x": 689,
+      "y": 801
+    },
+    "name": "Jincheng, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_jincheng_resource_1",
+    "settlement": {
+      "x": 887,
+      "y": 715
+    },
+    "name": "Jincheng, Silk Trader",
+    "icon": "silk"
+  },
+  {
+    "key": "3k_main_jincheng_resource_2",
+    "settlement": {
+      "x": 943,
+      "y": 862
+    },
+    "name": "Jincheng, Horse Pastures",
+    "icon": "horses"
+  },
+  {
+    "key": "3k_main_jingzhou_capital",
+    "settlement": {
+      "x": 1670,
+      "y": 1486
+    },
+    "name": "Jiangling, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_jingzhou_resource_1",
+    "settlement": {
+      "x": 1795,
+      "y": 1443
+    },
+    "name": "Jiangling, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_kuaiji_capital",
+    "settlement": {
+      "x": 2785,
+      "y": 1538
+    },
+    "name": "Kuaiji, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_kuaiji_resource_1",
+    "settlement": {
+      "x": 2811,
+      "y": 1667
+    },
+    "name": "Kuaiji, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_kuaiji_resource_2",
+    "settlement": {
+      "x": 2686,
+      "y": 1615
+    },
+    "name": "Kuaiji, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_langye_capital",
+    "settlement": {
+      "x": 2488,
+      "y": 918
+    },
+    "name": "Langye, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_langye_resource_1",
+    "settlement": {
+      "x": 2626,
+      "y": 840
+    },
+    "name": "Langye, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_langye_resource_2",
+    "settlement": {
+      "x": 2708,
+      "y": 788
+    },
+    "name": "Langye, Fishing Port",
+    "icon": "fish"
+  },
+  {
+    "key": "3k_main_lingling_capital",
+    "settlement": {
+      "x": 1657,
+      "y": 1930
+    },
+    "name": "Lingling, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_lingling_resource_1",
+    "settlement": {
+      "x": 1614,
+      "y": 1874
+    },
+    "name": "Lingling, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_lingling_resource_2",
+    "settlement": {
+      "x": 1795,
+      "y": 2042
+    },
+    "name": "Lingling, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_lingling_resource_3",
+    "settlement": {
+      "x": 1907,
+      "y": 1977
+    },
+    "name": "Lingling, Toolmaker",
+    "icon": "tools"
+  },
+  {
+    "key": "3k_main_lujiang_capital",
+    "settlement": {
+      "x": 2247,
+      "y": 1396
+    },
+    "name": "Lujiang, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_lujiang_resource_1",
+    "settlement": {
+      "x": 2079,
+      "y": 1624
+    },
+    "name": "Lujiang, Fishing Port",
+    "icon": "fish"
+  },
+  {
+    "key": "3k_main_lujiang_resource_2",
+    "settlement": {
+      "x": 2273,
+      "y": 1499
+    },
+    "name": "Lujiang, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_luling_capital",
+    "settlement": {
+      "x": 2075,
+      "y": 1969
+    },
+    "name": "Luling, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_luling_resource_1",
+    "settlement": {
+      "x": 2226,
+      "y": 1951
+    },
+    "name": "Luling, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_luoyang_capital",
+    "settlement": {
+      "x": 1851,
+      "y": 952
+    },
+    "name": "Luoyang, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_luoyang_resource_1",
+    "settlement": {
+      "x": 1541,
+      "y": 952
+    },
+    "name": "Luoyang, Trade Port",
+    "icon": "trade_port"
+  },
+  {
+    "key": "3k_main_nanhai_capital",
+    "settlement": {
+      "x": 1967,
+      "y": 2274
+    },
+    "name": "Nanhai, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_nanhai_resource_1",
+    "settlement": {
+      "x": 2058,
+      "y": 2145
+    },
+    "name": "Nanhai, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_nanhai_resource_2",
+    "settlement": {
+      "x": 2217,
+      "y": 2119
+    },
+    "name": "Nanhai, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_nanhai_resource_3",
+    "settlement": {
+      "x": 2320,
+      "y": 2231
+    },
+    "name": "Nanhai, Trade Port",
+    "icon": "trade_port"
+  },
+  {
+    "key": "3k_main_nanyang_capital",
+    "settlement": {
+      "x": 1761,
+      "y": 1107
+    },
+    "name": "Nanyang, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_nanyang_resource_1",
+    "settlement": {
+      "x": 1804,
+      "y": 1206
+    },
+    "name": "Nanyang, Jade Bed",
+    "icon": "jade"
+  },
+  {
+    "key": "3k_main_penchang_capital",
+    "settlement": {
+      "x": 2329,
+      "y": 1055
+    },
+    "name": "Pengcheng, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_penchang_resource_1",
+    "settlement": {
+      "x": 2286,
+      "y": 982
+    },
+    "name": "Pengcheng, Temple",
+    "icon": "temple"
+  },
+  {
+    "key": "3k_main_penchang_resource_2",
+    "settlement": {
+      "x": 2402,
+      "y": 991
+    },
+    "name": "Pengcheng, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_pingyuan_capital",
+    "settlement": {
+      "x": 2273,
+      "y": 672
+    },
+    "name": "Pingyuan, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_pingyuan_resource_1",
+    "settlement": {
+      "x": 2376,
+      "y": 638
+    },
+    "name": "Pingyuan, Salt Beach",
+    "icon": "salt"
+  },
+  {
+    "key": "3k_main_poyang_capital",
+    "settlement": {
+      "x": 2260,
+      "y": 1710
+    },
+    "name": "Poyang, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_poyang_resource_1",
+    "settlement": {
+      "x": 2079,
+      "y": 1689
+    },
+    "name": "Poyang, Iron Mine",
+    "icon": "iron"
+  },
+  {
+    "key": "3k_main_poyang_resource_2",
+    "settlement": {
+      "x": 2303,
+      "y": 1598
+    },
+    "name": "Poyang, Copper Mine",
+    "icon": "copper"
+  },
+  {
+    "key": "3k_main_poyang_resource_3",
+    "settlement": {
+      "x": 2419,
+      "y": 1637
+    },
+    "name": "Poyang, Weapon Master",
+    "icon": "craftsmen_weapon"
+  },
+  {
+    "key": "3k_main_runan_capital",
+    "settlement": {
+      "x": 2049,
+      "y": 1322
+    },
+    "name": "Runan, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_runan_resource_1",
+    "settlement": {
+      "x": 1873,
+      "y": 1322
+    },
+    "name": "Runan, Iron Mine",
+    "icon": "iron"
+  },
+  {
+    "key": "3k_main_shangdang_capital",
+    "settlement": {
+      "x": 1860,
+      "y": 758
+    },
+    "name": "Shangdang, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_shangdang_resource_1",
+    "settlement": {
+      "x": 1739,
+      "y": 836
+    },
+    "name": "Shangdang, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_shangyong_capital",
+    "settlement": {
+      "x": 1459,
+      "y": 1189
+    },
+    "name": "Shangyong, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_shangyong_resource_1",
+    "settlement": {
+      "x": 1330,
+      "y": 1154
+    },
+    "name": "Shangyong, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_shangyong_resource_2",
+    "settlement": {
+      "x": 1343,
+      "y": 1301
+    },
+    "name": "Shangyong, Weapon Master",
+    "icon": "craftsmen_weapon"
+  },
+  {
+    "key": "3k_main_shoufang_capital",
+    "settlement": {
+      "x": 1339,
+      "y": 370
+    },
+    "name": "Shuofang, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_shoufang_resource_1",
+    "settlement": {
+      "x": 1369,
+      "y": 530
+    },
+    "name": "Shuofang, Horse Pastures",
+    "icon": "horses"
+  },
+  {
+    "key": "3k_main_shoufang_resource_2",
+    "settlement": {
+      "x": 1192,
+      "y": 452
+    },
+    "name": "Shuofang, Horse Master",
+    "icon": "craftsmen_mounts"
+  },
+  {
+    "key": "3k_main_shoufang_resource_3",
+    "settlement": {
+      "x": 1167,
+      "y": 573
+    },
+    "name": "Shuofang, Salt Pit",
+    "icon": "salt"
+  },
+  {
+    "key": "3k_main_taishan_capital",
+    "settlement": {
+      "x": 2372,
+      "y": 758
+    },
+    "name": "Taishan, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_taishan_resource_1",
+    "settlement": {
+      "x": 2488,
+      "y": 685
+    },
+    "name": "Taishan, Trade Port",
+    "icon": "trade_port"
+  },
+  {
+    "key": "3k_main_taiyuan_capital",
+    "settlement": {
+      "x": 1713,
+      "y": 642
+    },
+    "name": "Taiyuan, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_taiyuan_resource_1",
+    "settlement": {
+      "x": 1821,
+      "y": 646
+    },
+    "name": "Taiyuan, Iron Mine",
+    "icon": "iron"
+  },
+  {
+    "key": "3k_main_taiyuan_resource_2",
+    "settlement": {
+      "x": 1679,
+      "y": 737
+    },
+    "name": "Taiyuan, Toolmaker",
+    "icon": "tools"
+  },
+  {
+    "key": "3k_main_tongan_capital",
+    "settlement": {
+      "x": 2488,
+      "y": 2106
+    },
+    "name": "Tong'an, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_tongan_resource_1",
+    "settlement": {
+      "x": 2363,
+      "y": 2033
+    },
+    "name": "Tong'an, Toolmaker",
+    "icon": "tools"
+  },
+  {
+    "key": "3k_main_weijun_capital",
+    "settlement": {
+      "x": 2075,
+      "y": 728
+    },
+    "name": "Wei, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_weijun_resource_1",
+    "settlement": {
+      "x": 1985,
+      "y": 818
+    },
+    "name": "Wei, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_wudu_capital",
+    "settlement": {
+      "x": 977,
+      "y": 1008
+    },
+    "name": "Wudu, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_wudu_resource_1",
+    "settlement": {
+      "x": 1055,
+      "y": 913
+    },
+    "name": "Wudu, Silk Trader",
+    "icon": "silk"
+  },
+  {
+    "key": "3k_main_wudu_resource_2",
+    "settlement": {
+      "x": 891,
+      "y": 1073
+    },
+    "name": "Wudu, Copper Mine",
+    "icon": "copper"
+  },
+  {
+    "key": "3k_main_wuling_capital",
+    "settlement": {
+      "x": 1378,
+      "y": 1684
+    },
+    "name": "Wuling, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_wuling_resource_1",
+    "settlement": {
+      "x": 1429,
+      "y": 1568
+    },
+    "name": "Wuling, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_wuling_resource_2",
+    "settlement": {
+      "x": 1533,
+      "y": 1745
+    },
+    "name": "Wuling, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_wuling_resource_3",
+    "settlement": {
+      "x": 1395,
+      "y": 1852
+    },
+    "name": "Wuling, Toolmaker",
+    "icon": "tools"
+  },
+  {
+    "key": "3k_main_wuwei_capital",
+    "settlement": {
+      "x": 581,
+      "y": 599
+    },
+    "name": "Wuwei, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_wuwei_resource_1",
+    "settlement": {
+      "x": 779,
+      "y": 577
+    },
+    "name": "Wuwei, Horse Pastures",
+    "icon": "horses"
+  },
+  {
+    "key": "3k_main_wuwei_resource_2",
+    "settlement": {
+      "x": 973,
+      "y": 513
+    },
+    "name": "Wuwei, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_xiangyang_capital",
+    "settlement": {
+      "x": 1705,
+      "y": 1232
+    },
+    "name": "Xiangyang, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_xiangyang_resource_1",
+    "settlement": {
+      "x": 1593,
+      "y": 1310
+    },
+    "name": "Xiangyang, Toolmaker",
+    "icon": "tools"
+  },
+  {
+    "key": "3k_main_xihe_capital",
+    "settlement": {
+      "x": 1537,
+      "y": 620
+    },
+    "name": "Xihe, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_xihe_resource_1",
+    "settlement": {
+      "x": 1472,
+      "y": 711
+    },
+    "name": "Xihe, Fishing Port",
+    "icon": "fish"
+  },
+  {
+    "key": "3k_main_xindu_capital",
+    "settlement": {
+      "x": 2544,
+      "y": 1534
+    },
+    "name": "Xindu, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_xindu_resource_1",
+    "settlement": {
+      "x": 2510,
+      "y": 1598
+    },
+    "name": "Xindu, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_xindu_resource_2",
+    "settlement": {
+      "x": 2372,
+      "y": 1486
+    },
+    "name": "Xindu, Fishing Port",
+    "icon": "fish"
+  },
+  {
+    "key": "3k_main_yangzhou_capital",
+    "settlement": {
+      "x": 2342,
+      "y": 1288
+    },
+    "name": "Yangzhou, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_yangzhou_resource_1",
+    "settlement": {
+      "x": 2329,
+      "y": 1198
+    },
+    "name": "Yangzhou, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_yangzhou_resource_2",
+    "settlement": {
+      "x": 2174,
+      "y": 1266
+    },
+    "name": "Yangzhou, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_yangzhou_resource_3",
+    "settlement": {
+      "x": 2394,
+      "y": 1366
+    },
+    "name": "Yangzhou, Toolmaker",
+    "icon": "tools"
+  },
+  {
+    "key": "3k_main_yanmen_capital",
+    "settlement": {
+      "x": 1692,
+      "y": 495
+    },
+    "name": "Yanmen, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_yanmen_resource_1",
+    "settlement": {
+      "x": 1911,
+      "y": 470
+    },
+    "name": "Yanmen, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_ye_capital",
+    "settlement": {
+      "x": 2673,
+      "y": 1990
+    },
+    "name": "Ye, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_ye_resource_1",
+    "settlement": {
+      "x": 2488,
+      "y": 1943
+    },
+    "name": "Ye, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_yingchuan_capital",
+    "settlement": {
+      "x": 1980,
+      "y": 1017
+    },
+    "name": "Yingchuan, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_yingchuan_resource_1",
+    "settlement": {
+      "x": 2071,
+      "y": 926
+    },
+    "name": "Yingchuan, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_yizhou_capital",
+    "settlement": {
+      "x": 844,
+      "y": 2033
+    },
+    "name": "Yizhou, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_yizhou_island_capital",
+    "settlement": {
+      "x": 2854,
+      "y": 2119
+    },
+    "name": "Yizhou Island, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_yizhou_island_resource_1",
+    "settlement": {
+      "x": 2729,
+      "y": 2343
+    },
+    "name": "Yizhou Island, Fishing Port",
+    "icon": "fish"
+  },
+  {
+    "key": "3k_main_yizhou_resource_1",
+    "settlement": {
+      "x": 977,
+      "y": 2089
+    },
+    "name": "Yizhou, Forest",
+    "icon": "lumber"
+  },
+  {
+    "key": "3k_main_yizhou_resource_2",
+    "settlement": {
+      "x": 930,
+      "y": 2188
+    },
+    "name": "Yizhou, Tea Field",
+    "icon": "tea"
+  },
+  {
+    "key": "3k_main_youbeiping_capital",
+    "settlement": {
+      "x": 2368,
+      "y": 435
+    },
+    "name": "Youbeiping, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_youbeiping_resource_1",
+    "settlement": {
+      "x": 2536,
+      "y": 396
+    },
+    "name": "Youbeiping, Trade Port",
+    "icon": "trade_port"
+  },
+  {
+    "key": "3k_main_youzhou_capital",
+    "settlement": {
+      "x": 2230,
+      "y": 409
+    },
+    "name": "Youzhou, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_youzhou_resource_1",
+    "settlement": {
+      "x": 2376,
+      "y": 362
+    },
+    "name": "Youzhou, Iron Mine",
+    "icon": "iron"
+  },
+  {
+    "key": "3k_main_yu_capital",
+    "settlement": {
+      "x": 2622,
+      "y": 267
+    },
+    "name": "Yu, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_yu_resource_1",
+    "settlement": {
+      "x": 2505,
+      "y": 310
+    },
+    "name": "Yu, Toolmaker",
+    "icon": "tools"
+  },
+  {
+    "key": "3k_main_yulin_capital",
+    "settlement": {
+      "x": 1502,
+      "y": 2274
+    },
+    "name": "Yulin, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_yulin_resource_1",
+    "settlement": {
+      "x": 1429,
+      "y": 2193
+    },
+    "name": "Yulin, Trade Port",
+    "icon": "trade_port"
+  },
+  {
+    "key": "3k_main_yulin_resource_2",
+    "settlement": {
+      "x": 1317,
+      "y": 2115
+    },
+    "name": "Yulin, Spice Trader",
+    "icon": "spice"
+  },
+  {
+    "key": "3k_main_yuzhang_capital",
+    "settlement": {
+      "x": 2165,
+      "y": 1801
+    },
+    "name": "Yuzhang, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_yuzhang_resource_1",
+    "settlement": {
+      "x": 2049,
+      "y": 1818
+    },
+    "name": "Yuzhang, Farms",
+    "icon": "farms"
+  },
+  {
+    "key": "3k_main_yuzhang_resource_2",
+    "settlement": {
+      "x": 2312,
+      "y": 1792
+    },
+    "name": "Yuzhang, Cattle Farm",
+    "icon": "livestock"
+  },
+  {
+    "key": "3k_main_yuzhang_resource_3",
+    "settlement": {
+      "x": 2355,
+      "y": 1895
+    },
+    "name": "Yuzhang, Copper Mine",
+    "icon": "copper"
+  },
+  {
+    "key": "3k_main_zangke_capital",
+    "settlement": {
+      "x": 1184,
+      "y": 1874
+    },
+    "name": "Zangke, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_zangke_resource_1",
+    "settlement": {
+      "x": 990,
+      "y": 1857
+    },
+    "name": "Zangke, Tea Field",
+    "icon": "tea"
+  },
+  {
+    "key": "3k_main_zangke_resource_2",
+    "settlement": {
+      "x": 1180,
+      "y": 1969
+    },
+    "name": "Zangke, Trade Port",
+    "icon": "trade_port"
+  },
+  {
+    "key": "3k_main_zhongshan_capital",
+    "settlement": {
+      "x": 2045,
+      "y": 551
+    },
+    "name": "Zhongshan, District",
+    "icon": "district"
+  },
+  {
+    "key": "3k_main_zhongshan_resource_1",
+    "settlement": {
+      "x": 1916,
+      "y": 560
+    },
+    "name": "Zhongshan, Cattle Farm",
+    "icon": "livestock"
+  }
+]

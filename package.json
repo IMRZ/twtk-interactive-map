@@ -1,0 +1,37 @@
+{
+  "name": "twtk-interactive-map",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "npm run build && push-dir --dir=dist --branch=gh-pages --cleanup",
+    "gen:data": "ts-node scripts/data/generate.ts"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^0.3.4",
+    "core-js": "^3.4.4",
+    "gsap": "^3.0.5",
+    "register-service-worker": "^1.6.2",
+    "svg-pan-zoom": "^3.6.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-pwa": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "push-dir": "^0.4.1",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "total-war-save-parser": "github:IMRZ/total-war-save-parser#d964f60",
+    "ts-node": "^8.6.2",
+    "tw-db": "github:IMRZ/tw-db#98826cc",
+    "typescript": "3.7.5",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
