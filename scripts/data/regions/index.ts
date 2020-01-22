@@ -9,13 +9,15 @@ interface MapImageDimensions {
   readonly height: number;
 }
 
+
+// 0,0 is bottom left
 function toImageMapX(dims: MapImageDimensions, gameSettlementX: number, gameMapWidth: number) {
   const result = gameSettlementX * (dims.width / gameMapWidth);
   return Math.round(result);
 }
 
 function toImageMapY(dims: MapImageDimensions, gameSettlementY: number, gameMapHeight: number) {
-  const result = dims.height - (gameSettlementY * (dims.height / gameMapHeight));
+  const result = gameSettlementY * (dims.height / gameMapHeight);
   return Math.round(result);
 }
 

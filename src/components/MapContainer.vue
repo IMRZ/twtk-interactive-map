@@ -1,98 +1,102 @@
 <template>
-  <div style="opacity: 0;" ref="container" class="map-container">
-
-    <MapCssLayerSettlement
-      :style="[overlayTransform, { opacity }]"
-      :mapMatrix="zoomMatrix"
-      :zoomLevel="zoomLevel"
-    />
-
-    <svg ref="svg" class="svg-container" xmlns="http://www.w3.org/2000/svg" version="1.1">
-      <g class="svg-pan-zoom_viewport">
-        <image
-          @load="fadeInImage"
-          :href="path"
-          width="3840"
-          height="3024"
-        />
-      </g>
-    </svg>
+  <div style="opacity: 0;" ref="mapRef" class="map">
+    <div ref="markersRef" id="markers">
+      <MapMarkerIcon
+        v-for="region in regions"
+        :key="region.key"
+        :region="region"
+        :zoomLevel="zoomLevel"
+        :style="{ opacity }"
+      />
+    </div>
   </div>
 </template>
 
 <script>
-import { computed, reactive, ref, watch, toRefs } from "@vue/composition-api";
-import { useSvgpanzoom } from "@/use/svgpanzoom";
+import { ref, reactive, onMounted, toRefs, watch } from "@vue/composition-api";
+import MapMarkerIcon from "@/components/MapMarkerIcon.vue";
+import { L, createIcon } from "./util";
 import { useGsap } from "@/use/gsap";
-
-import MapCssLayerSettlement from "@/components/MapCssLayerSettlement.vue";
+import regions from "@/data/regions.json";
 
 export default {
   components: {
-    MapCssLayerSettlement
+    MapMarkerIcon
   },
   props: {
     path: String
   },
-  setup() {
-    const container = ref(null);
-    const svg = ref(null);
+  setup(props) {
+    const mapRef = ref(null);
+    const markersRef = ref(null);
+
+    const zoomLevel = ref("high");
+
+    const { gsap, animateOpacity } = useGsap();
     const state = reactive({
       opacity: 0
     });
+    watch(zoomLevel, animateOpacity(state)); // fade-in icons on zoomLevel change
+    const fadeInImage = () => gsap.to(mapRef.value, 2, { opacity: 1 }); // fade-in onload svg image
 
-    const { matrix, zoomMatrix, zoomLevel } = useSvgpanzoom(container, svg);
+    onMounted(() => {
+      const bounds = [[0,0], [3024,3840]];
 
-    const overlayTransform = computed(() => {
-      if (matrix.value) {
-        const e = Math.round(matrix.value.e);
-        const f = Math.round(matrix.value.f);
+      const map = L.map(mapRef.value, {
+        crs: L.CRS.Simple,
+        minZoom: -2,
+        maxZoom: 2,
+        attributionControl: false,
+        maxBounds: bounds
+      });
 
-        return {
-          transform: `translate3d(${e}px, ${f}px, 0px)`
-        };
-      } else {
-        return {
-          transform: `translate3d(0px, 0px, 0px)`
-        };
-      }
+      const imageLayer = L.imageOverlay(props.path, bounds).addTo(map);
+      imageLayer.on('load', fadeInImage);
+
+      // markersRef.value.children.forEach((element, i) => {
+      //   const icon = createIcon({ element });
+      //   const { name, settlement } = reg[i];
+      //   L.marker(L.latLng(settlement.y, settlement.x), { icon }).addTo(map).bindPopup(name);
+      // });
+
+      const reg = Object.values(regions);
+      const layer = [];
+      markersRef.value.children.forEach((element, i) => {
+        const icon = createIcon({ element });
+        const { name, settlement } = reg[i];
+        const m = L.marker(L.latLng(settlement.y, settlement.x), { icon }).bindPopup(name);
+        layer.push(m);
+      })
+
+      const layerGroup = L.layerGroup(layer);
+
+      map.addLayer(layerGroup);
+
+      L.control.layers({}, { 'Resources': layerGroup }).addTo(map);
+
+      map.fitBounds(bounds);
+
+      map.on('zoomend', (e) => e.target._zoom < -1 ? zoomLevel.value = "high" : zoomLevel.value = "low");
     });
 
-    // data animations
-    const { gsap, animateOpacity } = useGsap();
-    const fadeInImage = () => gsap.to(container.value, 2, { opacity: 1 }); // fade-in onload svg image
-    watch(zoomLevel, animateOpacity(state)); // fade-in icons on zoomLevel change
-
     return {
-      ...toRefs(state),
-      container,
-      svg,
+      mapRef,
+      markersRef,
 
-      zoomMatrix,
+      regions,
       zoomLevel,
-      overlayTransform,
 
-      fadeInImage
+      ...toRefs(state),
     };
   }
 };
 </script>
 
-<style lang="scss" scoped>
-.map-container {
-  height: 100%;
-  overflow-y: hidden;
-}
-
-.svg-container {
-  display: block;
+<style lang="scss">
+.map {
   width: 100%;
   height: 100%;
-  min-width: inherit;
-  max-width: inherit;
-  min-height: inherit;
-  max-height: inherit;
-  padding: none;
-  margin: none;
+  overflow: hidden;
+  background-color: rgba(239, 233, 207, 1);
 }
 </style>

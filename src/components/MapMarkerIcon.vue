@@ -1,6 +1,6 @@
 <template>
   <div
-    class="settlement"
+    class="settlement leaflet-zoom-animated leaflet-interactive"
     :class="[{ capital: isCapital }, region.icon, [zoomLevel]]"
     v-on="tooltip"
   />
@@ -17,12 +17,13 @@ export default {
   },
   setup(props) {
     const { createTooltip } = useTooltip();
+    const tooltip = createTooltip("settlement", props.region);
 
     const isCapital = computed(() =>  props.region.key.endsWith("_capital"));
 
     return {
-      isCapital,
-      tooltip: createTooltip("settlement", props.region)
+      tooltip,
+      isCapital
     };
   }
 };
@@ -30,8 +31,11 @@ export default {
 
 <style lang="scss" scoped>
 .settlement {
+  position: fixed;
   height: 50px;
   width: 50px;
+  margin-left: -25px;
+  margin-top: -25px;
   filter: brightness(90%);
   background-size: contain;
   background-image: url("~@/assets/ui/skins/default/3k_main_ui_building_group_undiscovered_settlement_map.png");
