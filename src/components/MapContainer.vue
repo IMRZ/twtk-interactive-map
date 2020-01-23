@@ -144,8 +144,6 @@ export default {
   background-color: rgba(239, 233, 207, 1);
 }
 
-
-
 .region {
   fill: transparent;
   fill-opacity: 0.5;
@@ -159,7 +157,7 @@ export default {
   .transparent &:hover {
     stroke: black;
     stroke-width: 1;
-    fill-opacity: 0.6;
+    fill-opacity: 0.2;
     fill: grey;
   }
 }

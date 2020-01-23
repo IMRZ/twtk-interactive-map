@@ -1,9 +1,14 @@
 <template>
   <div
-    class="settlement leaflet-zoom-animated leaflet-interactive"
-    :class="[{ capital: isCapital }, region.icon, [zoomLevel]]"
+    class="resource leaflet-zoom-animated leaflet-interactive"
+    :class="[zoomLevel]"
     v-on="tooltip"
-  />
+  >
+    <div
+      class="icon"
+      :class="[{ capital: isCapital }, region.icon]"
+    />
+  </div>
 </template>
 
 <script>
@@ -30,17 +35,35 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.settlement {
+.resource {
   position: fixed;
+  height: 36px;
+  width: 36px;
+  margin-left: -18px;
+  margin-top: -18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.high {
+    height: 18px;
+    width: 18px;
+    margin-left: -9px;
+    margin-top: -9px;
+  }
+}
+
+.icon {
+  pointer-events: none;
+  flex-shrink: 0;
   height: 50px;
   width: 50px;
-  margin-left: -25px;
-  margin-top: -25px;
   filter: brightness(90%);
   background-size: contain;
   background-image: url("~@/assets/ui/skins/default/3k_main_ui_building_group_undiscovered_settlement_map.png");
 
-  &.high {
+  .resource.high & {
     background-image: url("~@/assets/ui/skins/default/3k_main_ui_building_bg_high_map.png") !important;
 
     &.capital {
@@ -48,9 +71,8 @@ export default {
     }
   }
 
-  &:hover {
+  .resource:hover & {
     filter: brightness(100%);
-    cursor: help;
   }
 
   &.district {
