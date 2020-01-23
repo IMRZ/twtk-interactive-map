@@ -8,14 +8,37 @@
         :zoomLevel="zoomLevel"
       />
     </div>
-    <svg ref="svgRef" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 3024" version="1.1">
-      <path
-        v-for="region in regions"
-        :key="region.key"
-        :d="region.d"
-        :style="{ fill: region.province.fill, opacity: 0.6 }"
-      />
-    </svg>
+
+    <div style="display: none;">
+      <svg ref="svgRef" class="leaflet-interactive transparent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 3024" version="1.1">
+        <path
+          v-for="region in regions"
+          :key="region.key"
+          :d="region.d"
+          class="region"
+        />
+      </svg>
+
+      <svg ref="svgRef1" class="leaflet-interactive" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 3024" version="1.1">
+        <path
+          v-for="region in regions"
+          :key="region.key"
+          :d="region.d"
+          class="region"
+          :style="{ fill: region.fill }"
+        />
+      </svg>
+
+      <svg ref="svgRef2" class="leaflet-interactive" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 3024" version="1.1">
+        <path
+          v-for="region in regions"
+          :key="region.key"
+          :d="region.d"
+          class="region"
+          :style="{ fill: region.province.fill }"
+        />
+      </svg>
+    </div>
   </div>
 </template>
 
@@ -40,6 +63,8 @@ export default {
       mapRef: null,
       markersRef: null,
       svgRef: null,
+      svgRef1: null,
+      svgRef2: null,
       zoomLevel: 'high'
     });
 
@@ -58,18 +83,24 @@ export default {
     onMounted(() => {
       const bounds = [[0,0], [3024,3840]];
 
+      const imageLayer = L.imageOverlay(props.path, bounds);
+      const transparentLayer = L.svgOverlay(state.svgRef, bounds);
+      const regionsLayer = L.svgOverlay(state.svgRef1, bounds);
+      const provincesLayer = L.svgOverlay(state.svgRef2, bounds);
+
+      imageLayer.on('load', fadeInImage);
+
       map = L.map(state.mapRef, {
         crs: L.CRS.Simple,
         minZoom: -2,
         maxZoom: 2,
         attributionControl: false,
-        maxBounds: bounds
+        maxBounds: bounds,
+        layers: [
+          imageLayer,
+          transparentLayer
+        ]
       });
-
-      const imageLayer = L.imageOverlay(props.path, bounds).addTo(map);
-      imageLayer.on('load', fadeInImage);
-
-      const regionsLayer = L.svgOverlay(state.svgRef, [[0,0], [3024,3840]]).addTo(map);
 
       const reg = Object.values(regions);
       const layer = [];
@@ -85,9 +116,10 @@ export default {
       map.addLayer(layerGroup);
 
       L.control.layers({
-
+        'None': transparentLayer,
+        'Regions': regionsLayer,
+        'Provinces': provincesLayer,
       }, {
-        'Provinces': regionsLayer,
         'Resources': layerGroup
       }).addTo(map);
 
@@ -110,5 +142,25 @@ export default {
   height: 100%;
   overflow: hidden;
   background-color: rgba(239, 233, 207, 1);
+}
+
+
+
+.region {
+  fill: transparent;
+  fill-opacity: 0.5;
+
+  &:hover {
+    stroke: black;
+    stroke-width: 1;
+    fill-opacity: 0.6;
+  }
+
+  .transparent &:hover {
+    stroke: black;
+    stroke-width: 1;
+    fill-opacity: 0.6;
+    fill: grey;
+  }
 }
 </style>
