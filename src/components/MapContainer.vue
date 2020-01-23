@@ -6,18 +6,19 @@
         :key="region.key"
         :region="region"
         :zoomLevel="zoomLevel"
-        :style="{ opacity }"
       />
     </div>
   </div>
 </template>
 
 <script>
-import { ref, reactive, onMounted, toRefs, watch } from "@vue/composition-api";
+import { reactive, toRefs, onMounted, watch } from "@vue/composition-api";
 import MapMarkerIcon from "@/components/MapMarkerIcon.vue";
 import { L, createIcon } from "./util";
 import { useGsap } from "@/use/gsap";
 import regions from "@/data/regions.json";
+
+import { useLeaflet } from '@/use/leaflet';
 
 export default {
   components: {
@@ -27,22 +28,28 @@ export default {
     path: String
   },
   setup(props) {
-    const mapRef = ref(null);
-    const markersRef = ref(null);
-
-    const zoomLevel = ref("high");
-
-    const { gsap, animateOpacity } = useGsap();
     const state = reactive({
-      opacity: 0
+      mapRef: null,
+      markersRef: null,
+      zoomLevel: 'high'
     });
-    watch(zoomLevel, animateOpacity(state)); // fade-in icons on zoomLevel change
-    const fadeInImage = () => gsap.to(mapRef.value, 2, { opacity: 1 }); // fade-in onload svg image
+
+    let map = null;
+
+    const { gsap } = useGsap();
+    const fadeInImage = () => gsap.to(map._container, 2, { opacity: 1 });
+    watch(
+      () => state.zoomLevel,
+      () => gsap.fromTo(map._panes.markerPane, { opacity: 0 }, { opacity: 1, duration: 0.5 }),
+      { lazy: true }
+    );
+
+    useLeaflet();
 
     onMounted(() => {
       const bounds = [[0,0], [3024,3840]];
 
-      const map = L.map(mapRef.value, {
+      map = L.map(state.mapRef, {
         crs: L.CRS.Simple,
         minZoom: -2,
         maxZoom: 2,
@@ -53,15 +60,9 @@ export default {
       const imageLayer = L.imageOverlay(props.path, bounds).addTo(map);
       imageLayer.on('load', fadeInImage);
 
-      // markersRef.value.children.forEach((element, i) => {
-      //   const icon = createIcon({ element });
-      //   const { name, settlement } = reg[i];
-      //   L.marker(L.latLng(settlement.y, settlement.x), { icon }).addTo(map).bindPopup(name);
-      // });
-
       const reg = Object.values(regions);
       const layer = [];
-      markersRef.value.children.forEach((element, i) => {
+      state.markersRef.children.forEach((element, i) => {
         const icon = createIcon({ element });
         const { name, settlement } = reg[i];
         const m = L.marker(L.latLng(settlement.y, settlement.x), { icon }).bindPopup(name);
@@ -76,17 +77,12 @@ export default {
 
       map.fitBounds(bounds);
 
-      map.on('zoomend', (e) => e.target._zoom < -1 ? zoomLevel.value = "high" : zoomLevel.value = "low");
+      map.on('zoomend', (e) => e.target._zoom < -1 ? state.zoomLevel = "high" : state.zoomLevel = "low");
     });
 
     return {
-      mapRef,
-      markersRef,
-
-      regions,
-      zoomLevel,
-
       ...toRefs(state),
+      regions
     };
   }
 };

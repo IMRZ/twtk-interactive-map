@@ -10,6 +10,7 @@ const MarkerIcon = Leaflet.DivIcon.extend({
   }
 });
 
+// bounds: [width, height];
 export function createIcon(options) {
   return new MarkerIcon(options);
 }
