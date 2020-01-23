@@ -4,6 +4,8 @@ import * as path from "path";
 import * as TwsParser from "total-war-save-parser";
 import * as TwDb from "tw-db";
 
+import { getRegionPaths } from "../region_paths";
+
 interface MapImageDimensions {
   readonly width: number;
   readonly height: number;
@@ -28,7 +30,7 @@ const settings = {
   height: 3024
 }
 
-export function getRegions() {
+export async function getRegions() {
   const file = fs.readFileSync(path.resolve(__dirname, "map_data.esf"));
   const rootNode = TwsParser.read(file);
 
@@ -71,16 +73,34 @@ export function getRegions() {
 
   const db = TwDb.createInstanceThreeKingdoms("D:\\Program Files (x86)\\Steam\\steamapps\\common\\Total War THREE KINGDOMS\\assembly_kit\\raw_data\\db");
 
+  const regionPaths = await getRegionPaths(path.resolve(__dirname,  "../region_paths/region_paths.svg"));
+
   return Object.values(regions).map((region: any) => {
     const startPosSettlement = db.startPosSettlements.find(entry => entry.region._campaign === settings.campaign && entry.region._region === region.key);
     const { iconPath } = startPosSettlement.primaryBuilding.settlementUiDisplay;
     const icon = getIcon(iconPath);
 
+    const regionEntry = db.regions.find(entry => entry.key === region.key);
+    const regionFill = `#${rgbToHexString(regionEntry)}`;
+    const regionPath = regionPaths[regionFill];
+
+    const provinceJunction = db.regionToProvinceJunctions.find(entry => entry._region === region.key);
+    const provinceCapitalRegion = db.regionToProvinceJunctions.find(entry => entry._province === provinceJunction._province && entry.isCapital === true).region;
+    const provinceFill = `#${rgbToHexString(provinceCapitalRegion)}`;
+
+    if (!regionPath) throw Error(`Could not find regionPath for: ${regionEntry.key} - ${regionFill}`);
+
     return {
       key: region.key,
       settlement: region.settlement,
       name: startPosSettlement.onscreenName,
-      icon
+      icon,
+      d: regionPath.d,
+      fill: regionFill,
+      province: {
+        name: provinceJunction.province.onscreen,
+        fill: provinceFill,
+      }
     };
   });
 }
@@ -95,4 +115,9 @@ function getIcon(iconPath: string): string {
   }
 }
 
-// resources -> faction_resource_ids
+function rgbToHexString({ r, g, b }) {
+  function toHexString(value) {
+    return ("00" + Number(value).toString(16)).slice(-2).toUpperCase();
+  }
+  return `${toHexString(r)}${toHexString(g)}${toHexString(b)}`;
+}
