@@ -125,7 +125,15 @@ export default {
 
       map.fitBounds(bounds);
 
-      map.on('zoomend', (e) => e.target._zoom < -1 ? state.zoomLevel = "high" : state.zoomLevel = "low");
+      map.on('zoomend', (e) => {
+        if (e.target._zoom < -1) {
+          state.zoomLevel = "high";
+        } else if (e.target._zoom > 0) {
+          state.zoomLevel = "low";
+        } else {
+          state.zoomLevel = "med";
+        }
+      });
     });
 
     return {
