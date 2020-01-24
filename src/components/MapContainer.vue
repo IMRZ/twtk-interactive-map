@@ -10,34 +10,26 @@
         />
       </div>
 
-      <svg ref="transparentLayer" class="leaflet-interactive transparent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 3024" version="1.1">
-        <path
-          v-for="region in regions"
-          :key="region.key"
-          :d="region.d"
-          class="region"
-        />
-      </svg>
+      <MapLayerRegions
+        ref="transparentLayer"
+        viewBox="0 0 3840 3024"
+        :regions="regions"
+        class="transparent"
+      />
 
-      <svg ref="regionsLayer" class="leaflet-interactive" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 3024" version="1.1">
-        <path
-          v-for="region in regions"
-          :key="region.key"
-          :d="region.d"
-          class="region"
-          :style="{ fill: region.fill }"
-        />
-      </svg>
+      <MapLayerRegions
+        ref="regionsLayer"
+        viewBox="0 0 3840 3024"
+        :regions="regions"
+        :regionStyle="(r) => ({ fill: r.fill })"
+      />
 
-      <svg ref="provincesLayer" class="leaflet-interactive" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 3024" version="1.1">
-        <path
-          v-for="region in regions"
-          :key="region.key"
-          :d="region.d"
-          class="region"
-          :style="{ fill: region.province.fill }"
-        />
-      </svg>
+      <MapLayerRegions
+        ref="provincesLayer"
+        viewBox="0 0 3840 3024"
+        :regions="regions"
+        :regionStyle="(r) => ({ fill: r.province.fill })"
+      />
     </div>
   </div>
 </template>
@@ -47,12 +39,14 @@ import { reactive, toRefs, watch } from '@vue/composition-api';
 import { useLeaflet, createImageLayer, createSvgLayer, createMarkerLayer } from '@/use/leaflet';
 import { fadeIn } from '@/use/gsap';
 
+import MapLayerRegions from '@/components/MapLayerRegions.vue';
 import MapMarkerIcon from '@/components/MapMarkerIcon.vue';
 
 import regions from '@/data/regions.json';
 
 export default {
   components: {
+    MapLayerRegions,
     MapMarkerIcon
   },
   props: {
@@ -79,9 +73,9 @@ export default {
         return imageLayer;
       },
       initLayers: () => ({
-        'None': createSvgLayer(refs.transparentLayer, bounds),
-        'Regions': createSvgLayer(refs.regionsLayer, bounds),
-        'Provinces': createSvgLayer(refs.provincesLayer, bounds)
+        'None': createSvgLayer(refs.transparentLayer.$el, bounds),
+        'Regions': createSvgLayer(refs.regionsLayer.$el, bounds),
+        'Provinces': createSvgLayer(refs.provincesLayer.$el, bounds)
       }),
       initOverlays: () => ({
         'Resources': createMarkerLayer(regions, refs.markers.children, (data) => data.settlement)
