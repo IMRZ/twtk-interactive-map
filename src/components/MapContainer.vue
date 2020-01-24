@@ -86,7 +86,12 @@ export default {
         'Resources': createMarkerLayer(regions, refs.markers.children, (data) => data.settlement)
       }),
       onReady() {
-        watch( zoomLevel, () => fadeIn(getMap()._panes.markerPane, 0.5), { lazy: true }); // animate markers on zoom
+        // animate markers on zoom
+        watch( zoomLevel, (newZoomLevel, oldZoomLevel) => {
+          const transitionHighToMid = newZoomLevel === 'med' && oldZoomLevel === 'high';
+          const transitionMidToHidh = newZoomLevel === 'high' && oldZoomLevel === 'med';
+          if (transitionHighToMid || transitionMidToHidh) fadeIn(getMap()._panes.markerPane, 0.5);
+        }, { lazy: true });
       }
     });
 

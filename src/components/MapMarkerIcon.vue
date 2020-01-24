@@ -1,9 +1,12 @@
 <template>
   <div
-    class="resource leaflet-zoom-animated leaflet-interactive"
+    class="marker leaflet-zoom-animated leaflet-interactive"
     :class="[zoomLevel]"
     v-on="tooltip"
   >
+    <div v-if="zoomLevel === 'low'" class="name">
+      <pre>{{region.name}}</pre>
+    </div>
     <div
       class="icon"
       :class="[{ capital: isCapital }, region.icon]"
@@ -35,12 +38,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.resource {
+.marker {
   position: fixed;
   height: 36px;
   width: 36px;
-  margin-left: -18px;
   margin-top: -18px;
+  margin-left: -18px;
 
   display: flex;
   justify-content: center;
@@ -49,8 +52,21 @@ export default {
   &.high {
     height: 18px;
     width: 18px;
-    margin-left: -9px;
     margin-top: -9px;
+    margin-left: -9px;
+  }
+}
+
+.name {
+  pointer-events: none;
+  position: absolute;
+  top: -30px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+
+  pre {
+    margin: 0 5px;
   }
 }
 
@@ -63,7 +79,7 @@ export default {
   background-size: contain;
   background-image: url("~@/assets/ui/skins/default/3k_main_ui_building_group_undiscovered_settlement_map.png");
 
-  .resource.high & {
+  .marker.high & {
     background-image: url("~@/assets/ui/skins/default/3k_main_ui_building_bg_high_map.png") !important;
 
     &.capital {
@@ -71,7 +87,7 @@ export default {
     }
   }
 
-  .resource:hover & {
+  .marker:hover & {
     filter: brightness(100%);
   }
 
