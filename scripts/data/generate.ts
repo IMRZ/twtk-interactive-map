@@ -7,4 +7,5 @@ function outputJson(filePath: string, data: any) {
   fs.outputJson(path.resolve(__dirname, filePath), data, { spaces: 2 });
 }
 
-outputJson("../../src/data/regions.json", getRegions());
+getRegions().then(result => outputJson("../../src/data/regions.json", result));
+

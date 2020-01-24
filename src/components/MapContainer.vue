@@ -1,98 +1,134 @@
 <template>
-  <div style="opacity: 0;" ref="container" class="map-container">
-
-    <MapCssLayerSettlement
-      :style="[overlayTransform, { opacity }]"
-      :mapMatrix="zoomMatrix"
-      :zoomLevel="zoomLevel"
-    />
-
-    <svg ref="svg" class="svg-container" xmlns="http://www.w3.org/2000/svg" version="1.1">
-      <g class="svg-pan-zoom_viewport">
-        <image
-          @load="fadeInImage"
-          :href="path"
-          width="3840"
-          height="3024"
+  <div style="opacity: 0;" ref="map" class="map">
+    <div style="display: none;">
+      <div ref="markers">
+        <MapMarkerIcon
+          v-for="region in regions"
+          :key="region.key"
+          :region="region"
+          :zoomLevel="zoomLevel"
         />
-      </g>
-    </svg>
+      </div>
+
+      <svg ref="transparentLayer" class="leaflet-interactive transparent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 3024" version="1.1">
+        <path
+          v-for="region in regions"
+          :key="region.key"
+          :d="region.d"
+          class="region"
+        />
+      </svg>
+
+      <svg ref="regionsLayer" class="leaflet-interactive" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 3024" version="1.1">
+        <path
+          v-for="region in regions"
+          :key="region.key"
+          :d="region.d"
+          class="region"
+          :style="{ fill: region.fill }"
+        />
+      </svg>
+
+      <svg ref="provincesLayer" class="leaflet-interactive" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 3024" version="1.1">
+        <path
+          v-for="region in regions"
+          :key="region.key"
+          :d="region.d"
+          class="region"
+          :style="{ fill: region.province.fill }"
+        />
+      </svg>
+    </div>
   </div>
 </template>
 
 <script>
-import { computed, reactive, ref, watch, toRefs } from "@vue/composition-api";
-import { useSvgpanzoom } from "@/use/svgpanzoom";
-import { useGsap } from "@/use/gsap";
+import { reactive, toRefs, watch } from '@vue/composition-api';
+import { useLeaflet, createImageLayer, createSvgLayer, createMarkerLayer } from '@/use/leaflet';
+import { fadeIn } from '@/use/gsap';
 
-import MapCssLayerSettlement from "@/components/MapCssLayerSettlement.vue";
+import MapMarkerIcon from '@/components/MapMarkerIcon.vue';
+
+import regions from '@/data/regions.json';
 
 export default {
   components: {
-    MapCssLayerSettlement
+    MapMarkerIcon
   },
   props: {
     path: String
   },
-  setup() {
-    const container = ref(null);
-    const svg = ref(null);
-    const state = reactive({
-      opacity: 0
+  setup(props) {
+    const refs = reactive({
+      map: null,
+      markers: null,
+      transparentLayer: null,
+      regionsLayer: null,
+      provincesLayer: null
     });
 
-    const { matrix, zoomMatrix, zoomLevel } = useSvgpanzoom(container, svg);
+    const bounds = [[0, 0], [3024, 3840]];
 
-    const overlayTransform = computed(() => {
-      if (matrix.value) {
-        const e = Math.round(matrix.value.e);
-        const f = Math.round(matrix.value.f);
-
-        return {
-          transform: `translate3d(${e}px, ${f}px, 0px)`
-        };
-      } else {
-        return {
-          transform: `translate3d(0px, 0px, 0px)`
-        };
+    const { getMap, zoomLevel } = useLeaflet({
+      bounds: bounds,
+      refs: refs,
+      initImageLayer: () => {
+        const imageLayer = createImageLayer(props.path, bounds);
+        // animate mapContainer on load
+        imageLayer.on('load', () => fadeIn(refs.map, 2));
+        return imageLayer;
+      },
+      initLayers: () => ({
+        'None': createSvgLayer(refs.transparentLayer, bounds),
+        'Regions': createSvgLayer(refs.regionsLayer, bounds),
+        'Provinces': createSvgLayer(refs.provincesLayer, bounds)
+      }),
+      initOverlays: () => ({
+        'Resources': createMarkerLayer(regions, refs.markers.children, (data) => data.settlement)
+      }),
+      onReady() {
+        // animate markers on zoom
+        watch( zoomLevel, (newZoomLevel, oldZoomLevel) => {
+          const transitionHighToMid = newZoomLevel === 'med' && oldZoomLevel === 'high';
+          const transitionMidToHidh = newZoomLevel === 'high' && oldZoomLevel === 'med';
+          if (transitionHighToMid || transitionMidToHidh) fadeIn(getMap()._panes.markerPane, 0.5);
+        }, { lazy: true });
       }
     });
 
-    // data animations
-    const { gsap, animateOpacity } = useGsap();
-    const fadeInImage = () => gsap.to(container.value, 2, { opacity: 1 }); // fade-in onload svg image
-    watch(zoomLevel, animateOpacity(state)); // fade-in icons on zoomLevel change
-
     return {
-      ...toRefs(state),
-      container,
-      svg,
-
-      zoomMatrix,
+      ...toRefs(refs),
       zoomLevel,
-      overlayTransform,
 
-      fadeInImage
+      regions
     };
   }
 };
 </script>
 
-<style lang="scss" scoped>
-.map-container {
-  height: 100%;
-  overflow-y: hidden;
-}
-
-.svg-container {
-  display: block;
+<style lang="scss">
+.map {
   width: 100%;
   height: 100%;
-  min-width: inherit;
-  max-width: inherit;
-  min-height: inherit;
-  max-height: inherit;
-  padding: none;
-  margin: none;
+  overflow: hidden;
+  background-color: rgba(239, 233, 207, 1);
+}
+
+.region {
+  fill: transparent;
+  fill-opacity: 0.5;
+
+  &:hover {
+    stroke: black;
+    stroke-width: 1;
+    fill-opacity: 0.6;
+  }
+
+  .transparent &:hover {
+    stroke: black;
+    stroke-width: 1;
+    fill-opacity: 0.2;
+    fill: grey;
+  }
 }
 </style>

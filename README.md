@@ -2,11 +2,14 @@
 
 Total War THREE KINGDOMS Interactive Map.
 
+[View the app here](https://imrz.github.io/twtk-interactive-map)
+
 **Open an issue if you have suggestions/feature requests or problems!**
 
 ## Built With
 
 * [Vue.js](https://vuejs.org/)
+* [Leaflet.js](https://leafletjs.com/)
 
 ## Build Setup
 
@@ -27,6 +30,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* [svgpanzoom](https://github.com/ariutta/svg-pan-zoom)
 * [packfilemanager](https://sourceforge.net/projects/packfilemanager/)
 * [saveparser](https://sourceforge.net/projects/saveparser/)
