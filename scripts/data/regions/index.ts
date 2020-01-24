@@ -6,20 +6,14 @@ import * as TwDb from "tw-db";
 
 import { getRegionPaths } from "../region_paths";
 
-interface MapImageDimensions {
-  readonly width: number;
-  readonly height: number;
-}
-
-
 // 0,0 is bottom left
-function toImageMapX(dims: MapImageDimensions, gameSettlementX: number, gameMapWidth: number) {
-  const result = gameSettlementX * (dims.width / gameMapWidth);
+function toImageMapX(gameSettlementX: number, imageMapWidth: number, gameMapWidth: number) {
+  const result = gameSettlementX * (imageMapWidth / gameMapWidth);
   return Math.round(result);
 }
 
-function toImageMapY(dims: MapImageDimensions, gameSettlementY: number, gameMapHeight: number) {
-  const result = gameSettlementY * (dims.height / gameMapHeight);
+function toImageMapY(gameSettlementY: number, imageMapHeight: number, gameMapHeight: number) {
+  const result = gameSettlementY * (imageMapHeight / gameMapHeight);
   return Math.round(result);
 }
 
@@ -52,18 +46,15 @@ export async function getRegions() {
 
       // only collect regions with settlementInfo: no sea regions!
       if (settlementInfo) {
-        const [/* LOGICAL_POSITION_BIT_ARRAY */, x, y] = settlementInfo.data;
-
-        const gameSettlementX = x;
-        const gameSettlementY = y;
+        const [/* LOGICAL_POSITION_BIT_ARRAY */, gameSettlementX, gameSettlementY] = settlementInfo.data;
 
         const regionKey = regionData.data[1];
 
         accumulator[regionKey] = {
           key: regionKey,
           settlement: {
-            x: toImageMapX(settings, gameSettlementX, gameMapWidth),
-            y: toImageMapY(settings, gameSettlementY, gameMapLength)
+            x: toImageMapX(gameSettlementX, settings.width, gameMapWidth),
+            y: toImageMapY(gameSettlementY, settings.height, gameMapLength)
           }
         };
       }

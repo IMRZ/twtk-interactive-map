@@ -74,7 +74,8 @@ export default {
       refs: refs,
       initImageLayer: () => {
         const imageLayer = createImageLayer(props.path, bounds);
-        imageLayer.on('load', () => fadeIn(refs.map, 2)); // animate mapContainer on load
+        // animate mapContainer on load
+        imageLayer.on('load', () => fadeIn(refs.map, 2));
         return imageLayer;
       },
       initLayers: () => ({
