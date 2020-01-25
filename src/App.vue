@@ -1,29 +1,29 @@
 <template>
   <div id="app" v-on="eventListeners">
     <Map />
+
     <GlobalTooltip
       :tooltip="tooltip"
       :mouseEvent="mouseEvent"
     />
 
-    <pre class="version">3k_main_map v1.4.0</pre>
-    <a class="repo" href="https://github.com/IMRZ/twtk-interactive-map" target="_blank" rel="noopener noreferrer">
-      <img src="GitHub-Mark-32px.png" width="16px" height="16px">
-    </a>
+    <BottomControl />
   </div>
 </template>
 
 <script>
-import { ref } from "@vue/composition-api";
-import { useTooltip } from "@/use/tooltip";
+import { ref } from '@vue/composition-api';
+import { useTooltip } from '@/use/tooltip';
 
-import Map from "@/components/Map.vue";
-import GlobalTooltip from "@/components/GlobalTooltip.vue";
+import Map from '@/components/Map.vue';
+import GlobalTooltip from '@/components/GlobalTooltip.vue';
+import BottomControl from '@/components/BottomControl.vue';
 
 export default {
   components: {
     Map,
-    GlobalTooltip
+    GlobalTooltip,
+    BottomControl
   },
   setup() {
     const { tooltip } = useTooltip();
@@ -63,25 +63,8 @@ body {
 
 #app {
   height: 100%;
-}
-
-.version {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-  opacity: 0.5;
-  pointer-events: none;
-  margin: 0;
-}
-
-.repo {
-  position: absolute;
-  bottom: 5px;
-  left: 5px;
-  opacity: 0.5;
-
-  &:hover {
-    opacity: 1;
-  }
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 </style>

@@ -65,6 +65,7 @@ export default {
 
     const { getMap, zoomLevel } = useLeaflet({
       bounds: bounds,
+      controlEnabled: true,
       refs: refs,
       initImageLayer: () => {
         const imageLayer = createImageLayer(props.path, bounds);
@@ -106,23 +107,5 @@ export default {
   height: 100%;
   overflow: hidden;
   background-color: rgba(239, 233, 207, 1);
-}
-
-.region {
-  fill: transparent;
-  fill-opacity: 0.5;
-
-  &:hover {
-    stroke: black;
-    stroke-width: 1;
-    fill-opacity: 0.6;
-  }
-
-  .transparent &:hover {
-    stroke: black;
-    stroke-width: 1;
-    fill-opacity: 0.2;
-    fill: grey;
-  }
 }
 </style>
