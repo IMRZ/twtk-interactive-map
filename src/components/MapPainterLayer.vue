@@ -6,7 +6,7 @@
       :key="region.key"
       :d="region.d"
 
-      v-on="painterTooltip(region)"
+      v-on="factionTooltip(region)"
       :style="style(region)"
       @click="paintRegion(region)"
     />
@@ -33,9 +33,9 @@ export default {
     });
 
     const { createTooltip } = useTooltip();
-    const painterTooltip = (region) => {
+    const factionTooltip = (region) => {
       const faction = computed(() => state.ownedRegions[region.key]);
-      return createTooltip('painter', faction);
+      return createTooltip('faction', faction);
     };
 
     const { selectedFaction } = useState();
@@ -44,7 +44,7 @@ export default {
     return {
       ...toRefs(state),
 
-      painterTooltip,
+      factionTooltip,
 
       style: (region) => {
         const owner = state.ownedRegions[region.key];

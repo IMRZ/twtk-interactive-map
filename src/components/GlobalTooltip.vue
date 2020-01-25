@@ -1,13 +1,13 @@
 <script>
 import GlobalTooltipDefault from '@/components/GlobalTooltipDefault';
-import GlobalTooltipPainter from '@/components/GlobalTooltipPainter';
+import GlobalTooltipFaction from '@/components/GlobalTooltipFaction';
 
 const OFFSET = 20;
 
 export default {
   components: {
     GlobalTooltipDefault,
-    GlobalTooltipPainter
+    GlobalTooltipFaction
   },
   props: {
     mouseEvent: MouseEvent,
@@ -45,13 +45,13 @@ export default {
     renderTooltip() {
       if (!this.tooltip) return null;
 
-      const [type, ref] = this.tooltip;
+      const [type, data] = this.tooltip;
 
       switch (type) {
-        case 'painter':
-          return <GlobalTooltipPainter tooltip={ref} />
+        case 'faction':
+          return <GlobalTooltipFaction tooltip={data} />
         default:
-          return <GlobalTooltipDefault tooltip={ref} />;
+          return <GlobalTooltipDefault tooltip={data} />;
       }
     }
   },
