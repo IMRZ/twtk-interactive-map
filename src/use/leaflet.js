@@ -36,7 +36,9 @@ export function useLeaflet(settings) {
     Object.values(overlays).forEach(overlay => map.addLayer(overlay));
 
     // control
-    Leaflet.control.layers(layers, overlays).addTo(map);
+    if (settings.controlEnabled) {
+      Leaflet.control.layers(layers, overlays).addTo(map);
+    }
 
     // listeners
     map.on('zoomend', (e) => {
