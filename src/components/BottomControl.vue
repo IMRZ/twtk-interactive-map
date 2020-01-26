@@ -2,11 +2,14 @@
   <div id="control">
 
     <div class="paint-options" v-if="mode === MODE.PAINTER">
-      <pre style="margin: 0;">Select a faction:</pre>
+      <span>Select a faction:</span>
       <select v-model="selectedFaction">
         <option v-bind:value="null">Abandoned</option>
         <option :key="faction.key"  v-for="faction in factionList" v-bind:value="faction">{{faction.name}}</option>
       </select>
+    </div>
+    <div class="startpos-info" v-else-if="mode === MODE.START_POS">
+      <span>Click on a marker!</span>
     </div>
     <div class="fill" v-else></div>
 
@@ -71,6 +74,16 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: monospace;
+}
+
+.startpos-info {
+  padding: 10px 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
 }
 
 .fill {

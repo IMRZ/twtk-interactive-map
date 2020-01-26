@@ -1,8 +1,8 @@
 <template>
   <div id="map">
     <MapContainer :path="objectUrl" v-if="objectUrl && mode === MODE.STRATEGIC" />
-    <MapPainter  :path="objectUrl" v-if="objectUrl && mode === MODE.PAINTER" />
-    <MapStartpos  :path="objectUrl" v-if="objectUrl && mode === MODE.START_POS" />
+    <MapPainter :path="objectUrl" v-if="objectUrl && mode === MODE.PAINTER" />
+    <MapStartpos :path="objectUrl" v-if="objectUrl && mode === MODE.START_POS" />
 
     <div id="loader" v-if="!objectUrl">
       <img src="favicon.ico" width="256" height="256" />

@@ -10,7 +10,10 @@ const state = reactive({
   mode: MODE.STRATEGIC,
 
   // painter
-  selectedFaction: null
+  selectedFaction: null,
+
+  // startpos
+  selectedStartpos: null,
 });
 
 export function useState() {

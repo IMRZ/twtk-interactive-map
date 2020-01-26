@@ -42,13 +42,24 @@ export async function getStartingPostions() {
       if (frontEndFaction) {
         const mapPin = getMapPin(startPosFaction._faction);
 
+        const relationships = db.frontendFactionMapRelationships
+          .filter(entry => entry._primaryFaction === startPosFaction._faction && entry._campaignKey === '3k_main_campaign_map')
+          .map((entry) => {
+            const { red, green, blue } = entry.relationshipColour;
+            return {
+              faction: entry._secondaryFaction,
+              color: `#${rgbToHexString({ r: red, g: green, b: blue })}`
+            };
+          });
+
         accumulator.push({
           faction: startPosFaction._faction,
           icon: getImagePath(startPosFaction.id),
+          relationships,
           pin: {
             x: Math.round(mapPin.locationX * (3840 / 1366)) + OFFSET,
             y: Math.round((1037 - mapPin.locationY) * (3024 / 1037)) + OFFSET
-          }
+          },
         });
       }
 
@@ -56,4 +67,11 @@ export async function getStartingPostions() {
     }, []);
 
   return result;
+}
+
+function rgbToHexString({ r, g, b }) {
+  function toHexString(value) {
+    return ("00" + Number(value).toString(16)).slice(-2).toUpperCase();
+  }
+  return `${toHexString(r)}${toHexString(g)}${toHexString(b)}`;
 }
