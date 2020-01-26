@@ -3,6 +3,7 @@ import * as path from 'path';
 
 import { getRegions } from './regions';
 import { getStartingRegions } from './starting_regions';
+import { getStartingPostions } from './starting_positions';
 
 // common
 import { getFactions } from './common/factions';
@@ -13,5 +14,6 @@ function outputJson(filePath: string, data: any) {
 
 getRegions().then(result => outputJson('../../src/data/regions.json', result));
 getStartingRegions().then(result => outputJson('../../src/data/starting_regions.json', result));
+getStartingPostions().then(result => outputJson('../../src/data/starting_positions.json', result));
 
 getFactions().then(result => outputJson('../../src/data/common/factions.json', result));

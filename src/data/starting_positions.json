@@ -1,0 +1,138 @@
+[
+  {
+    "faction": "3k_main_faction_cao_cao",
+    "icon": "3k_main_hero_special_earth_cao_cao",
+    "pin": {
+      "x": 2132,
+      "y": 1949
+    }
+  },
+  {
+    "faction": "3k_main_faction_liu_bei",
+    "icon": "3k_main_hero_special_earth_liu_bei",
+    "pin": {
+      "x": 2332,
+      "y": 2162
+    }
+  },
+  {
+    "faction": "3k_main_faction_dong_zhuo",
+    "icon": "3k_main_hero_special_fire_dong_zhuo",
+    "pin": {
+      "x": 1340,
+      "y": 2062
+    }
+  },
+  {
+    "faction": "3k_main_faction_gongsun_zan",
+    "icon": "3k_main_hero_special_fire_gongsun_zan",
+    "pin": {
+      "x": 2357,
+      "y": 2608
+    }
+  },
+  {
+    "faction": "3k_main_faction_sun_jian",
+    "icon": "3k_main_hero_special_metal_sun_jian",
+    "pin": {
+      "x": 1809,
+      "y": 1316
+    }
+  },
+  {
+    "faction": "3k_main_faction_yuan_shao",
+    "icon": "3k_main_hero_special_earth_yuan_shao",
+    "pin": {
+      "x": 2071,
+      "y": 2304
+    }
+  },
+  {
+    "faction": "3k_main_faction_kong_rong",
+    "icon": "3k_main_hero_special_water_kong_rong",
+    "pin": {
+      "x": 2478,
+      "y": 2296
+    }
+  },
+  {
+    "faction": "3k_main_faction_liu_biao",
+    "icon": "3k_main_hero_special_earth_liu_biao",
+    "pin": {
+      "x": 1708,
+      "y": 1800
+    }
+  },
+  {
+    "faction": "3k_main_faction_ma_teng",
+    "icon": "3k_main_hero_special_fire_ma_teng",
+    "pin": {
+      "x": 957,
+      "y": 2176
+    }
+  },
+  {
+    "faction": "3k_main_faction_tao_qian",
+    "icon": "3k_main_hero_special_water_tao_qian",
+    "pin": {
+      "x": 2475,
+      "y": 2024
+    }
+  },
+  {
+    "faction": "3k_main_faction_yuan_shu",
+    "icon": "3k_main_hero_special_earth_yuan_shu",
+    "pin": {
+      "x": 1764,
+      "y": 1928
+    }
+  },
+  {
+    "faction": "3k_main_faction_zhang_yan",
+    "icon": "3k_main_hero_special_wood_zhang_yan",
+    "pin": {
+      "x": 1694,
+      "y": 2552
+    }
+  },
+  {
+    "faction": "3k_main_faction_yellow_turban_rebels",
+    "icon": "3k_ytr_hero_special_healer_he_yi",
+    "pin": {
+      "x": 2045,
+      "y": 1707
+    }
+  },
+  {
+    "faction": "3k_dlc04_faction_prince_liu_chong",
+    "icon": "mh_hero_special_earth_liu_chong",
+    "pin": {
+      "x": 1966,
+      "y": 2004
+    }
+  },
+  {
+    "faction": "3k_main_faction_yellow_turban_anding",
+    "icon": "3k_ytr_hero_special_veteran_gong_du",
+    "pin": {
+      "x": 907,
+      "y": 1957
+    }
+  },
+  {
+    "faction": "3k_main_faction_zheng_jiang",
+    "icon": "3k_main_hero_special_wood_zheng_jiang",
+    "pin": {
+      "x": 1632,
+      "y": 2316
+    }
+  },
+  {
+    "faction": "3k_main_faction_yellow_turban_taishan",
+    "icon": "3k_ytr_hero_special_scholar_huang_shao",
+    "pin": {
+      "x": 2208,
+      "y": 2229
+    }
+  }
+]
