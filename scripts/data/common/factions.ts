@@ -13,6 +13,7 @@ export async function getFactions() {
     accumulator[faction.key] = {
       key: faction.key,
       name: faction.screenName,
+      adjective: faction.screenAdjective, // this is the startpos general name for now
       flagKey,
       primaryColour: rgbToHexString({ r: faction.primaryColourR, g: faction.primaryColourG, b: faction.primaryColourB })
     };

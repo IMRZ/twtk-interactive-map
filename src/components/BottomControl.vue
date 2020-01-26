@@ -13,7 +13,7 @@
     <div class="mode-select">
       <button :class="{ active: mode === MODE.STRATEGIC }" @click="mode = MODE.STRATEGIC;">strategic map</button>
       <button :class="{ active: mode === MODE.PAINTER }" @click="mode = MODE.PAINTER;">campaign planner</button>
-      <button disabled :class="{ active: mode === MODE.START_POS }" @click="mode = MODE.START_POS;">starting positions</button>
+      <button :class="{ active: mode === MODE.START_POS }" @click="mode = MODE.START_POS;">starting positions</button>
     </div>
   </div>
 </template>

@@ -1,13 +1,15 @@
 <script>
 import GlobalTooltipDefault from '@/components/GlobalTooltipDefault';
 import GlobalTooltipFaction from '@/components/GlobalTooltipFaction';
+import GlobalTooltipStartpos from '@/components/GlobalTooltipStartpos';
 
 const OFFSET = 20;
 
 export default {
   components: {
     GlobalTooltipDefault,
-    GlobalTooltipFaction
+    GlobalTooltipFaction,
+    GlobalTooltipStartpos
   },
   props: {
     mouseEvent: MouseEvent,
@@ -50,6 +52,8 @@ export default {
       switch (type) {
         case 'faction':
           return <GlobalTooltipFaction tooltip={data} />
+        case 'startpos':
+          return <GlobalTooltipStartpos tooltip={data} />
         default:
           return <GlobalTooltipDefault tooltip={data} />;
       }

@@ -2,6 +2,7 @@
   <div id="map">
     <MapContainer :path="objectUrl" v-if="objectUrl && mode === MODE.STRATEGIC" />
     <MapPainter  :path="objectUrl" v-if="objectUrl && mode === MODE.PAINTER" />
+    <MapStartpos  :path="objectUrl" v-if="objectUrl && mode === MODE.START_POS" />
 
     <div id="loader" v-if="!objectUrl">
       <img src="favicon.ico" width="256" height="256" />
@@ -22,13 +23,15 @@ import { loadImage } from '@/util';
 
 import MapContainer from '@/components/MapContainer.vue';
 import MapPainter from '@/components/MapPainter.vue';
+import MapStartpos from '@/components/MapStartpos.vue';
 
 const MAP_PATH = require('@/data/campaign_map_multiplayer.png');
 
 export default {
   components: {
     MapContainer,
-    MapPainter
+    MapPainter,
+    MapStartpos
   },
   props: {
     painter: Boolean
