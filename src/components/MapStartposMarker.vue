@@ -37,7 +37,7 @@ export default {
   width: 50px;
   height: 60px;
   margin-left: -25px;
-  margin-top: -30px;
+  margin-top: -60px;
 
   background-size: contain;
   background-image: url("~@/assets/ui/skins/default/ph_armyid_base.png");
