@@ -2,13 +2,14 @@
   <div
     class="marker leaflet-zoom-animated leaflet-interactive"
     v-on="tooltip"
+    @click="selectStartpos"
   >
     <img class="character" :src="characters[startpos.icon]" />
   </div>
 </template>
 
 <script>
-import {} from "@vue/composition-api";
+import { useState } from '@/use/state';
 import { useTooltip } from '@/use/tooltip';
 
 import characters from '@/assets/characters';
@@ -19,11 +20,15 @@ export default {
     startpos: Object
   },
   setup(props) {
+    const { selectedStartpos } = useState();
+
     const { createTooltip } = useTooltip();
     const tooltip = createTooltip('startpos', { faction: factions[props.startpos.faction] });
 
     return {
       tooltip,
+
+      selectStartpos: () => selectedStartpos.value = props.startpos,
 
       characters
     };
@@ -37,7 +42,7 @@ export default {
   width: 50px;
   height: 60px;
   margin-left: -25px;
-  margin-top: -30px;
+  margin-top: -60px;
 
   background-size: contain;
   background-image: url("~@/assets/ui/skins/default/ph_armyid_base.png");

@@ -11,9 +11,11 @@
       </div>
 
       <MapStartposLayer
-        ref="factionRelationshipLayer"
+        ref="regionsLayer"
         viewBox="0 0 3840 3024"
         :regions="regions"
+        :startingPositions="starting_positions"
+        :startingRegions="starting_regions"
       />
     </div>
   </div>
@@ -27,8 +29,9 @@ import { fadeIn } from '@/use/gsap';
 import MapStartposLayer from '@/components/MapStartposLayer';
 import MapStartposMarker from '@/components/MapStartposMarker.vue';
 
-import starting_positions from '@/data/starting_positions.json';
 import regions from '@/data/regions.json';
+import starting_positions from '@/data/starting_positions.json';
+import starting_regions from '@/data/starting_regions.json';
 
 export default {
   components: {
@@ -42,7 +45,7 @@ export default {
     const refs = reactive({
       map: null,
       markers: null,
-      factionRelationshipLayer: null
+      regionsLayer: null
     });
 
     const bounds = [[0, 0], [3024, 3840]];
@@ -58,7 +61,7 @@ export default {
         return imageLayer;
       },
       initLayers: () => ({
-        '_TODO': createSvgLayer(refs.factionRelationshipLayer.$el, bounds),
+        'Regions': createSvgLayer(refs.regionsLayer.$el, bounds),
       }),
       initOverlays: () => ({
         'Markers': createMarkerLayer(starting_positions, refs.markers.children, (data) => data.pin)
@@ -70,8 +73,9 @@ export default {
       ...toRefs(refs),
       zoomLevel,
 
+      regions,
       starting_positions,
-      regions
+      starting_regions
     };
   }
 };
