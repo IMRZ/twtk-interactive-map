@@ -1,0 +1,2816 @@
+{
+  "3k_dlc06_gu_pass": {
+    "key": "3k_dlc06_gu_pass",
+    "name": "Gu Pass",
+    "isCapital": true,
+    "icon": "gate_pass",
+    "province": {
+      "key": "3k_dlc06_gu_pass",
+      "name": "Gu Pass"
+    },
+    "settlement": {
+      "x": 1718,
+      "y": 2262
+    }
+  },
+  "3k_dlc06_hangu_pass": {
+    "key": "3k_dlc06_hangu_pass",
+    "name": "Hangu Pass",
+    "isCapital": true,
+    "icon": "gate_pass",
+    "province": {
+      "key": "3k_dlc06_hangu_pass",
+      "name": "Hangu Pass"
+    },
+    "settlement": {
+      "x": 1657,
+      "y": 2055
+    }
+  },
+  "3k_dlc06_hedong_resource_2": {
+    "key": "3k_dlc06_hedong_resource_2",
+    "name": "Pingyang",
+    "isCapital": false,
+    "icon": "iron",
+    "province": {
+      "key": "3k_main_hedong_capital",
+      "name": "Hedong"
+    },
+    "settlement": {
+      "x": 1601,
+      "y": 2227
+    }
+  },
+  "3k_dlc06_hulao_pass": {
+    "key": "3k_dlc06_hulao_pass",
+    "name": "Hulao Pass",
+    "isCapital": true,
+    "icon": "gate_pass",
+    "province": {
+      "key": "3k_dlc06_hulao_pass",
+      "name": "Hulao Pass"
+    },
+    "settlement": {
+      "x": 2019,
+      "y": 2081
+    }
+  },
+  "3k_dlc06_jiameng_pass": {
+    "key": "3k_dlc06_jiameng_pass",
+    "name": "Jiameng Pass",
+    "isCapital": true,
+    "icon": "gate_pass",
+    "province": {
+      "key": "3k_dlc06_jiameng_pass",
+      "name": "Jiameng Pass"
+    },
+    "settlement": {
+      "x": 1003,
+      "y": 1895
+    }
+  },
+  "3k_dlc06_jianning_resource_3": {
+    "key": "3k_dlc06_jianning_resource_3",
+    "name": "Dianchi",
+    "isCapital": false,
+    "icon": "copper",
+    "province": {
+      "key": "3k_main_jianning_capital",
+      "name": "Jianning"
+    },
+    "settlement": {
+      "x": 629,
+      "y": 1064
+    }
+  },
+  "3k_dlc06_jiaozhi_resource_3": {
+    "key": "3k_dlc06_jiaozhi_resource_3",
+    "name": "Wanwen",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_jiaozhi_capital",
+      "name": "Jiaozhi"
+    },
+    "settlement": {
+      "x": 977,
+      "y": 935
+    }
+  },
+  "3k_dlc06_jiuzhen_capital": {
+    "key": "3k_dlc06_jiuzhen_capital",
+    "name": "Xupu",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_dlc06_jiuzhen_capital",
+      "name": "Jiuzhen"
+    },
+    "settlement": {
+      "x": 990,
+      "y": 560
+    }
+  },
+  "3k_dlc06_jiuzhen_resource_1": {
+    "key": "3k_dlc06_jiuzhen_resource_1",
+    "name": "Rinan",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_dlc06_jiuzhen_capital",
+      "name": "Jiuzhen"
+    },
+    "settlement": {
+      "x": 999,
+      "y": 388
+    }
+  },
+  "3k_dlc06_kui_pass": {
+    "key": "3k_dlc06_kui_pass",
+    "name": "Kui Pass",
+    "isCapital": true,
+    "icon": "gate_pass",
+    "province": {
+      "key": "3k_dlc06_kui_pass",
+      "name": "Kui Pass"
+    },
+    "settlement": {
+      "x": 1498,
+      "y": 1706
+    }
+  },
+  "3k_dlc06_liaodong_capital": {
+    "key": "3k_dlc06_liaodong_capital",
+    "name": "Xiangping",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_dlc06_liaodong_capital",
+      "name": "Liaodong"
+    },
+    "settlement": {
+      "x": 2833,
+      "y": 2675
+    }
+  },
+  "3k_dlc06_liaodong_resource_1": {
+    "key": "3k_dlc06_liaodong_resource_1",
+    "name": "Xuantu",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_dlc06_liaodong_capital",
+      "name": "Liaodong"
+    },
+    "settlement": {
+      "x": 2742,
+      "y": 2774
+    }
+  },
+  "3k_dlc06_qi_pass": {
+    "key": "3k_dlc06_qi_pass",
+    "name": "Qi Pass",
+    "isCapital": true,
+    "icon": "gate_pass",
+    "province": {
+      "key": "3k_dlc06_qi_pass",
+      "name": "Qi Pass"
+    },
+    "settlement": {
+      "x": 1700,
+      "y": 2106
+    }
+  },
+  "3k_dlc06_san_pass": {
+    "key": "3k_dlc06_san_pass",
+    "name": "San Pass",
+    "isCapital": true,
+    "icon": "gate_pass",
+    "province": {
+      "key": "3k_dlc06_san_pass",
+      "name": "San Pass"
+    },
+    "settlement": {
+      "x": 1141,
+      "y": 2068
+    }
+  },
+  "3k_dlc06_shangdang_resource_2": {
+    "key": "3k_dlc06_shangdang_resource_2",
+    "name": "Zhixian",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_shangdang_capital",
+      "name": "Shangdang"
+    },
+    "settlement": {
+      "x": 1868,
+      "y": 2162
+    }
+  },
+  "3k_dlc06_tong_pass": {
+    "key": "3k_dlc06_tong_pass",
+    "name": "Tong Pass",
+    "isCapital": true,
+    "icon": "gate_pass",
+    "province": {
+      "key": "3k_dlc06_tong_pass",
+      "name": "Tong Pass"
+    },
+    "settlement": {
+      "x": 1481,
+      "y": 2055
+    }
+  },
+  "3k_dlc06_wu_pass": {
+    "key": "3k_dlc06_wu_pass",
+    "name": "Wu Pass",
+    "isCapital": true,
+    "icon": "gate_pass",
+    "province": {
+      "key": "3k_dlc06_wu_pass",
+      "name": "Wu Pass"
+    },
+    "settlement": {
+      "x": 1446,
+      "y": 2012
+    }
+  },
+  "3k_dlc06_xiapi_capital": {
+    "key": "3k_dlc06_xiapi_capital",
+    "name": "Xiapi",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_dlc06_xiapi_capital",
+      "name": "Xiapi"
+    },
+    "settlement": {
+      "x": 2394,
+      "y": 1951
+    }
+  },
+  "3k_dlc06_xiapi_resource_1": {
+    "key": "3k_dlc06_xiapi_resource_1",
+    "name": "Xuexian",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_dlc06_xiapi_capital",
+      "name": "Xiapi"
+    },
+    "settlement": {
+      "x": 2402,
+      "y": 2033
+    }
+  },
+  "3k_dlc06_yongchang_capital": {
+    "key": "3k_dlc06_yongchang_capital",
+    "name": "Buwei",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_dlc06_yongchang_capital",
+      "name": "Yongchang"
+    },
+    "settlement": {
+      "x": 293,
+      "y": 1077
+    }
+  },
+  "3k_dlc06_yongchang_resource_1": {
+    "key": "3k_dlc06_yongchang_resource_1",
+    "name": "Yongshou",
+    "isCapital": false,
+    "icon": "spice",
+    "province": {
+      "key": "3k_dlc06_yongchang_capital",
+      "name": "Yongchang"
+    },
+    "settlement": {
+      "x": 491,
+      "y": 986
+    }
+  },
+  "3k_dlc06_yunnan_capital": {
+    "key": "3k_dlc06_yunnan_capital",
+    "name": "Longdong",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_dlc06_yunnan_capital",
+      "name": "Yunnan"
+    },
+    "settlement": {
+      "x": 409,
+      "y": 1142
+    }
+  },
+  "3k_dlc06_yunnan_resource_1": {
+    "key": "3k_dlc06_yunnan_resource_1",
+    "name": "Qingling",
+    "isCapital": false,
+    "icon": "iron",
+    "province": {
+      "key": "3k_dlc06_yunnan_capital",
+      "name": "Yunnan"
+    },
+    "settlement": {
+      "x": 530,
+      "y": 1150
+    }
+  },
+  "3k_dlc06_yunnan_resource_2": {
+    "key": "3k_dlc06_yunnan_resource_2",
+    "name": "Yuexi",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_dlc06_yunnan_capital",
+      "name": "Yunnan"
+    },
+    "settlement": {
+      "x": 555,
+      "y": 1297
+    }
+  },
+  "3k_main_anding_capital": {
+    "key": "3k_main_anding_capital",
+    "name": "Linjing",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_anding_capital",
+      "name": "Anding"
+    },
+    "settlement": {
+      "x": 1184,
+      "y": 2227
+    }
+  },
+  "3k_main_anding_resource_1": {
+    "key": "3k_main_anding_resource_1",
+    "name": "Gaonu",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_anding_capital",
+      "name": "Anding"
+    },
+    "settlement": {
+      "x": 1378,
+      "y": 2300
+    }
+  },
+  "3k_main_anding_resource_2": {
+    "key": "3k_main_anding_resource_2",
+    "name": "Canluan",
+    "isCapital": false,
+    "icon": "tools",
+    "province": {
+      "key": "3k_main_anding_capital",
+      "name": "Anding"
+    },
+    "settlement": {
+      "x": 1197,
+      "y": 2309
+    }
+  },
+  "3k_main_anding_resource_3": {
+    "key": "3k_main_anding_resource_3",
+    "name": "Sanshui",
+    "isCapital": false,
+    "icon": "livestock",
+    "province": {
+      "key": "3k_main_anding_capital",
+      "name": "Anding"
+    },
+    "settlement": {
+      "x": 1037,
+      "y": 2374
+    }
+  },
+  "3k_main_anping_capital": {
+    "key": "3k_main_anping_capital",
+    "name": "Xindu",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_anping_capital",
+      "name": "Anping"
+    },
+    "settlement": {
+      "x": 2114,
+      "y": 2378
+    }
+  },
+  "3k_main_anping_resource_1": {
+    "key": "3k_main_anping_resource_1",
+    "name": "Julu",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_anping_capital",
+      "name": "Anping"
+    },
+    "settlement": {
+      "x": 1976,
+      "y": 2343
+    }
+  },
+  "3k_main_badong_capital": {
+    "key": "3k_main_badong_capital",
+    "name": "Yong'an",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_badong_capital",
+      "name": "Badong"
+    },
+    "settlement": {
+      "x": 1494,
+      "y": 1667
+    }
+  },
+  "3k_main_badong_resource_1": {
+    "key": "3k_main_badong_resource_1",
+    "name": "Quren",
+    "isCapital": false,
+    "icon": "iron",
+    "province": {
+      "key": "3k_main_badong_capital",
+      "name": "Badong"
+    },
+    "settlement": {
+      "x": 1339,
+      "y": 1594
+    }
+  },
+  "3k_main_badong_resource_2": {
+    "key": "3k_main_badong_resource_2",
+    "name": "Linyuan",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_badong_capital",
+      "name": "Badong"
+    },
+    "settlement": {
+      "x": 1640,
+      "y": 1465
+    }
+  },
+  "3k_main_bajun_capital": {
+    "key": "3k_main_bajun_capital",
+    "name": "Jiangzhou",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_bajun_capital",
+      "name": "Ba"
+    },
+    "settlement": {
+      "x": 1076,
+      "y": 1486
+    }
+  },
+  "3k_main_bajun_resource_1": {
+    "key": "3k_main_bajun_resource_1",
+    "name": "Danqu",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_bajun_capital",
+      "name": "Ba"
+    },
+    "settlement": {
+      "x": 1205,
+      "y": 1749
+    }
+  },
+  "3k_main_baxi_capital": {
+    "key": "3k_main_baxi_capital",
+    "name": "Langzhong",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_baxi_capital",
+      "name": "Baxi"
+    },
+    "settlement": {
+      "x": 1037,
+      "y": 1745
+    }
+  },
+  "3k_main_baxi_resource_1": {
+    "key": "3k_main_baxi_resource_1",
+    "name": "Hanchang",
+    "isCapital": false,
+    "icon": "tools",
+    "province": {
+      "key": "3k_main_baxi_capital",
+      "name": "Baxi"
+    },
+    "settlement": {
+      "x": 1162,
+      "y": 1848
+    }
+  },
+  "3k_main_baxi_resource_2": {
+    "key": "3k_main_baxi_resource_2",
+    "name": "Zitong",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_baxi_capital",
+      "name": "Baxi"
+    },
+    "settlement": {
+      "x": 861,
+      "y": 1770
+    }
+  },
+  "3k_main_beihai_capital": {
+    "key": "3k_main_beihai_capital",
+    "name": "Juxian",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_beihai_capital",
+      "name": "Beihai"
+    },
+    "settlement": {
+      "x": 2488,
+      "y": 2279
+    }
+  },
+  "3k_main_beihai_resource_1": {
+    "key": "3k_main_beihai_resource_1",
+    "name": "Jimo",
+    "isCapital": false,
+    "icon": "livestock",
+    "province": {
+      "key": "3k_main_beihai_capital",
+      "name": "Beihai"
+    },
+    "settlement": {
+      "x": 2592,
+      "y": 2257
+    }
+  },
+  "3k_main_bohai_capital": {
+    "key": "3k_main_bohai_capital",
+    "name": "Nanpi",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_bohai_capital",
+      "name": "Bohai"
+    },
+    "settlement": {
+      "x": 2204,
+      "y": 2455
+    }
+  },
+  "3k_main_bohai_resource_1": {
+    "key": "3k_main_bohai_resource_1",
+    "name": "Zhangwu",
+    "isCapital": false,
+    "icon": "fish",
+    "province": {
+      "key": "3k_main_bohai_capital",
+      "name": "Bohai"
+    },
+    "settlement": {
+      "x": 2303,
+      "y": 2481
+    }
+  },
+  "3k_main_cangwu_capital": {
+    "key": "3k_main_cangwu_capital",
+    "name": "Guangxin",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_cangwu_capital",
+      "name": "Cangwu"
+    },
+    "settlement": {
+      "x": 1675,
+      "y": 831
+    }
+  },
+  "3k_main_cangwu_resource_1": {
+    "key": "3k_main_cangwu_resource_1",
+    "name": "Fuchuan",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_cangwu_capital",
+      "name": "Cangwu"
+    },
+    "settlement": {
+      "x": 1653,
+      "y": 999
+    }
+  },
+  "3k_main_cangwu_resource_2": {
+    "key": "3k_main_cangwu_resource_2",
+    "name": "Mengling",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_cangwu_capital",
+      "name": "Cangwu"
+    },
+    "settlement": {
+      "x": 1541,
+      "y": 896
+    }
+  },
+  "3k_main_cangwu_resource_3": {
+    "key": "3k_main_cangwu_resource_3",
+    "name": "Dingzhou",
+    "isCapital": false,
+    "icon": "livestock",
+    "province": {
+      "key": "3k_main_cangwu_capital",
+      "name": "Cangwu"
+    },
+    "settlement": {
+      "x": 1399,
+      "y": 1051
+    }
+  },
+  "3k_main_changan_capital": {
+    "key": "3k_main_changan_capital",
+    "name": "Chang'an",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_changan_capital",
+      "name": "Jingzhao"
+    },
+    "settlement": {
+      "x": 1330,
+      "y": 2046
+    }
+  },
+  "3k_main_changan_resource_1": {
+    "key": "3k_main_changan_resource_1",
+    "name": "Lantian",
+    "isCapital": false,
+    "icon": "jade",
+    "province": {
+      "key": "3k_main_changan_capital",
+      "name": "Jingzhao"
+    },
+    "settlement": {
+      "x": 1352,
+      "y": 1977
+    }
+  },
+  "3k_main_changsha_capital": {
+    "key": "3k_main_changsha_capital",
+    "name": "Linxiang",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_changsha_capital",
+      "name": "Changsha"
+    },
+    "settlement": {
+      "x": 1808,
+      "y": 1318
+    }
+  },
+  "3k_main_changsha_resource_1": {
+    "key": "3k_main_changsha_resource_1",
+    "name": "Chibi",
+    "isCapital": false,
+    "icon": "trade_port",
+    "province": {
+      "key": "3k_main_changsha_capital",
+      "name": "Changsha"
+    },
+    "settlement": {
+      "x": 1881,
+      "y": 1439
+    }
+  },
+  "3k_main_changsha_resource_2": {
+    "key": "3k_main_changsha_resource_2",
+    "name": "Lingxian",
+    "isCapital": false,
+    "icon": "craftsmen_armour",
+    "province": {
+      "key": "3k_main_changsha_capital",
+      "name": "Changsha"
+    },
+    "settlement": {
+      "x": 1743,
+      "y": 1193
+    }
+  },
+  "3k_main_changsha_resource_3": {
+    "key": "3k_main_changsha_resource_3",
+    "name": "Chaling",
+    "isCapital": false,
+    "icon": "tea",
+    "province": {
+      "key": "3k_main_changsha_capital",
+      "name": "Changsha"
+    },
+    "settlement": {
+      "x": 1864,
+      "y": 1167
+    }
+  },
+  "3k_main_chengdu_capital": {
+    "key": "3k_main_chengdu_capital",
+    "name": "Chengdu",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_chengdu_capital",
+      "name": "Shu"
+    },
+    "settlement": {
+      "x": 749,
+      "y": 1615
+    }
+  },
+  "3k_main_chengdu_resource_1": {
+    "key": "3k_main_chengdu_resource_1",
+    "name": "Hanjia",
+    "isCapital": false,
+    "icon": "craftsmen_armour",
+    "province": {
+      "key": "3k_main_chengdu_capital",
+      "name": "Shu"
+    },
+    "settlement": {
+      "x": 629,
+      "y": 1572
+    }
+  },
+  "3k_main_chengdu_resource_2": {
+    "key": "3k_main_chengdu_resource_2",
+    "name": "Luocheng",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_chengdu_capital",
+      "name": "Shu"
+    },
+    "settlement": {
+      "x": 951,
+      "y": 1633
+    }
+  },
+  "3k_main_chengdu_resource_3": {
+    "key": "3k_main_chengdu_resource_3",
+    "name": "Zizhong",
+    "isCapital": false,
+    "icon": "salt",
+    "province": {
+      "key": "3k_main_chengdu_capital",
+      "name": "Shu"
+    },
+    "settlement": {
+      "x": 848,
+      "y": 1551
+    }
+  },
+  "3k_main_chenjun_capital": {
+    "key": "3k_main_chenjun_capital",
+    "name": "Suiyang",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_chenjun_capital",
+      "name": "Chen"
+    },
+    "settlement": {
+      "x": 2135,
+      "y": 1938
+    }
+  },
+  "3k_main_chenjun_resource_1": {
+    "key": "3k_main_chenjun_resource_1",
+    "name": "Peixian",
+    "isCapital": false,
+    "icon": "livestock",
+    "province": {
+      "key": "3k_main_chenjun_capital",
+      "name": "Chen"
+    },
+    "settlement": {
+      "x": 2234,
+      "y": 1878
+    }
+  },
+  "3k_main_chenjun_resource_2": {
+    "key": "3k_main_chenjun_resource_2",
+    "name": "Ruyang",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_chenjun_capital",
+      "name": "Chen"
+    },
+    "settlement": {
+      "x": 1989,
+      "y": 1848
+    }
+  },
+  "3k_main_chenjun_resource_3": {
+    "key": "3k_main_chenjun_resource_3",
+    "name": "Liangxian",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_luoyang_capital",
+      "name": "Luoyang"
+    },
+    "settlement": {
+      "x": 1782,
+      "y": 1999
+    }
+  },
+  "3k_main_daijun_capital": {
+    "key": "3k_main_daijun_capital",
+    "name": "Gaoliu",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_daijun_capital",
+      "name": "Dai"
+    },
+    "settlement": {
+      "x": 2036,
+      "y": 2593
+    }
+  },
+  "3k_main_daijun_resource_1": {
+    "key": "3k_main_daijun_resource_1",
+    "name": "Zhuo Lu",
+    "isCapital": false,
+    "icon": "horses",
+    "province": {
+      "key": "3k_main_daijun_capital",
+      "name": "Dai"
+    },
+    "settlement": {
+      "x": 2144,
+      "y": 2623
+    }
+  },
+  "3k_main_donghai_capital": {
+    "key": "3k_main_donghai_capital",
+    "name": "Tanxian",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_donghai_capital",
+      "name": "Donghai"
+    },
+    "settlement": {
+      "x": 2480,
+      "y": 2007
+    }
+  },
+  "3k_main_donghai_resource_1": {
+    "key": "3k_main_donghai_resource_1",
+    "name": "Haixi",
+    "isCapital": false,
+    "icon": "fish",
+    "province": {
+      "key": "3k_main_donghai_capital",
+      "name": "Donghai"
+    },
+    "settlement": {
+      "x": 2712,
+      "y": 1947
+    }
+  },
+  "3k_main_dongjun_capital": {
+    "key": "3k_main_dongjun_capital",
+    "name": "Puyang",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_dongjun_capital",
+      "name": "Dong"
+    },
+    "settlement": {
+      "x": 2213,
+      "y": 2214
+    }
+  },
+  "3k_main_dongjun_resource_1": {
+    "key": "3k_main_dongjun_resource_1",
+    "name": "Dongping",
+    "isCapital": false,
+    "icon": "iron",
+    "province": {
+      "key": "3k_main_dongjun_capital",
+      "name": "Dong"
+    },
+    "settlement": {
+      "x": 2381,
+      "y": 2167
+    }
+  },
+  "3k_main_donglai_capital": {
+    "key": "3k_main_donglai_capital",
+    "name": "Huangxian",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_donglai_capital",
+      "name": "Donglai"
+    },
+    "settlement": {
+      "x": 2652,
+      "y": 2369
+    }
+  },
+  "3k_main_donglai_resource_1": {
+    "key": "3k_main_donglai_resource_1",
+    "name": "Changyang",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_donglai_capital",
+      "name": "Donglai"
+    },
+    "settlement": {
+      "x": 2794,
+      "y": 2296
+    }
+  },
+  "3k_main_dongou_capital": {
+    "key": "3k_main_dongou_capital",
+    "name": "Yongning",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_dongou_capital",
+      "name": "Linhai"
+    },
+    "settlement": {
+      "x": 2777,
+      "y": 1232
+    }
+  },
+  "3k_main_dongou_resource_1": {
+    "key": "3k_main_dongou_resource_1",
+    "name": "Wenma",
+    "isCapital": false,
+    "icon": "salt",
+    "province": {
+      "key": "3k_main_dongou_capital",
+      "name": "Linhai"
+    },
+    "settlement": {
+      "x": 2682,
+      "y": 1116
+    }
+  },
+  "3k_main_fuling_capital": {
+    "key": "3k_main_fuling_capital",
+    "name": "Fuling",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_fuling_capital",
+      "name": "Fuling"
+    },
+    "settlement": {
+      "x": 1270,
+      "y": 1452
+    }
+  },
+  "3k_main_fuling_resource_1": {
+    "key": "3k_main_fuling_resource_1",
+    "name": "Jianwei",
+    "isCapital": false,
+    "icon": "livestock",
+    "province": {
+      "key": "3k_main_fuling_capital",
+      "name": "Fuling"
+    },
+    "settlement": {
+      "x": 1145,
+      "y": 1322
+    }
+  },
+  "3k_main_gaoliang_capital": {
+    "key": "3k_main_gaoliang_capital",
+    "name": "Siping",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_gaoliang_capital",
+      "name": "Gaoliang"
+    },
+    "settlement": {
+      "x": 1817,
+      "y": 706
+    }
+  },
+  "3k_main_gaoliang_resource_1": {
+    "key": "3k_main_gaoliang_resource_1",
+    "name": "Anning",
+    "isCapital": false,
+    "icon": "salt",
+    "province": {
+      "key": "3k_main_gaoliang_capital",
+      "name": "Gaoliang"
+    },
+    "settlement": {
+      "x": 1688,
+      "y": 668
+    }
+  },
+  "3k_main_guangling_capital": {
+    "key": "3k_main_guangling_capital",
+    "name": "Huaiyin",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_guangling_capital",
+      "name": "Guangling"
+    },
+    "settlement": {
+      "x": 2579,
+      "y": 1861
+    }
+  },
+  "3k_main_guangling_resource_1": {
+    "key": "3k_main_guangling_resource_1",
+    "name": "Gaoyou",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_guangling_capital",
+      "name": "Guangling"
+    },
+    "settlement": {
+      "x": 2682,
+      "y": 1801
+    }
+  },
+  "3k_main_guangling_resource_2": {
+    "key": "3k_main_guangling_resource_2",
+    "name": "Jiangdu",
+    "isCapital": false,
+    "icon": "trade_port",
+    "province": {
+      "key": "3k_main_guangling_capital",
+      "name": "Guangling"
+    },
+    "settlement": {
+      "x": 2716,
+      "y": 1723
+    }
+  },
+  "3k_main_hanzhong_capital": {
+    "key": "3k_main_hanzhong_capital",
+    "name": "Nanzheng",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_hanzhong_capital",
+      "name": "Hanzhong"
+    },
+    "settlement": {
+      "x": 1124,
+      "y": 1930
+    }
+  },
+  "3k_main_hanzhong_resource_1": {
+    "key": "3k_main_hanzhong_resource_1",
+    "name": "Meixian",
+    "isCapital": false,
+    "icon": "silk",
+    "province": {
+      "key": "3k_main_hanzhong_capital",
+      "name": "Hanzhong"
+    },
+    "settlement": {
+      "x": 1218,
+      "y": 2025
+    }
+  },
+  "3k_main_hedong_capital": {
+    "key": "3k_main_hedong_capital",
+    "name": "Anyi",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_hedong_capital",
+      "name": "Hedong"
+    },
+    "settlement": {
+      "x": 1554,
+      "y": 2150
+    }
+  },
+  "3k_main_hedong_resource_1": {
+    "key": "3k_main_hedong_resource_1",
+    "name": "Puzhou",
+    "isCapital": false,
+    "icon": "trade_port",
+    "province": {
+      "key": "3k_main_hedong_capital",
+      "name": "Hedong"
+    },
+    "settlement": {
+      "x": 1481,
+      "y": 2128
+    }
+  },
+  "3k_main_henei_capital": {
+    "key": "3k_main_henei_capital",
+    "name": "Huaixian",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_henei_capital",
+      "name": "Henei"
+    },
+    "settlement": {
+      "x": 2041,
+      "y": 2154
+    }
+  },
+  "3k_main_henei_resource_1": {
+    "key": "3k_main_henei_resource_1",
+    "name": "Zhaoge",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_henei_capital",
+      "name": "Henei"
+    },
+    "settlement": {
+      "x": 2152,
+      "y": 2244
+    }
+  },
+  "3k_main_hepu_capital": {
+    "key": "3k_main_hepu_capital",
+    "name": "Hepu",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_hepu_capital",
+      "name": "Hepu"
+    },
+    "settlement": {
+      "x": 1360,
+      "y": 659
+    }
+  },
+  "3k_main_hepu_resource_1": {
+    "key": "3k_main_hepu_resource_1",
+    "name": "Xuwen",
+    "isCapital": false,
+    "icon": "fish",
+    "province": {
+      "key": "3k_main_hepu_capital",
+      "name": "Hepu"
+    },
+    "settlement": {
+      "x": 1545,
+      "y": 607
+    }
+  },
+  "3k_main_hepu_resource_2": {
+    "key": "3k_main_hepu_resource_2",
+    "name": "Zhuya",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_hepu_capital",
+      "name": "Hepu"
+    },
+    "settlement": {
+      "x": 1537,
+      "y": 439
+    }
+  },
+  "3k_main_jianan_capital": {
+    "key": "3k_main_jianan_capital",
+    "name": "Jian'an",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_jianan_capital",
+      "name": "Northern Jian'an"
+    },
+    "settlement": {
+      "x": 2536,
+      "y": 1210
+    }
+  },
+  "3k_main_jianan_resource_1": {
+    "key": "3k_main_jianan_resource_1",
+    "name": "Jiangle",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_jianan_capital",
+      "name": "Northern Jian'an"
+    },
+    "settlement": {
+      "x": 2441,
+      "y": 1228
+    }
+  },
+  "3k_main_jianan_resource_2": {
+    "key": "3k_main_jianan_resource_2",
+    "name": "Jianping",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_jianan_capital",
+      "name": "Northern Jian'an"
+    },
+    "settlement": {
+      "x": 2583,
+      "y": 1340
+    }
+  },
+  "3k_main_jiangxia_capital": {
+    "key": "3k_main_jiangxia_capital",
+    "name": "Xiling",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_jiangxia_capital",
+      "name": "Jiangxia"
+    },
+    "settlement": {
+      "x": 1924,
+      "y": 1546
+    }
+  },
+  "3k_main_jiangxia_resource_1": {
+    "key": "3k_main_jiangxia_resource_1",
+    "name": "Xiyang",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_jiangxia_capital",
+      "name": "Jiangxia"
+    },
+    "settlement": {
+      "x": 2006,
+      "y": 1620
+    }
+  },
+  "3k_main_jiangyang_capital": {
+    "key": "3k_main_jiangyang_capital",
+    "name": "Jiangyang",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_jiangyang_capital",
+      "name": "Jiangyang"
+    },
+    "settlement": {
+      "x": 926,
+      "y": 1404
+    }
+  },
+  "3k_main_jiangyang_resource_1": {
+    "key": "3k_main_jiangyang_resource_1",
+    "name": "Wuyang",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_jiangyang_capital",
+      "name": "Jiangyang"
+    },
+    "settlement": {
+      "x": 728,
+      "y": 1490
+    }
+  },
+  "3k_main_jiangyang_resource_2": {
+    "key": "3k_main_jiangyang_resource_2",
+    "name": "Zhuti",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_jiangyang_capital",
+      "name": "Jiangyang"
+    },
+    "settlement": {
+      "x": 775,
+      "y": 1344
+    }
+  },
+  "3k_main_jiangyang_resource_3": {
+    "key": "3k_main_jiangyang_resource_3",
+    "name": "Pingyi",
+    "isCapital": false,
+    "icon": "copper",
+    "province": {
+      "key": "3k_main_jiangyang_capital",
+      "name": "Jiangyang"
+    },
+    "settlement": {
+      "x": 943,
+      "y": 1318
+    }
+  },
+  "3k_main_jianning_capital": {
+    "key": "3k_main_jianning_capital",
+    "name": "Weixian",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_jianning_capital",
+      "name": "Jianning"
+    },
+    "settlement": {
+      "x": 728,
+      "y": 1142
+    }
+  },
+  "3k_main_jianning_resource_1": {
+    "key": "3k_main_jianning_resource_1",
+    "name": "Tangao",
+    "isCapital": false,
+    "icon": "iron",
+    "province": {
+      "key": "3k_main_jianning_capital",
+      "name": "Jianning"
+    },
+    "settlement": {
+      "x": 822,
+      "y": 1159
+    }
+  },
+  "3k_main_jianning_resource_2": {
+    "key": "3k_main_jianning_resource_2",
+    "name": "Xiuyun",
+    "isCapital": false,
+    "icon": "spice",
+    "province": {
+      "key": "3k_main_jianning_capital",
+      "name": "Jianning"
+    },
+    "settlement": {
+      "x": 775,
+      "y": 956
+    }
+  },
+  "3k_main_jianye_capital": {
+    "key": "3k_main_jianye_capital",
+    "name": "Jianye",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_jianye_capital",
+      "name": "Danyang"
+    },
+    "settlement": {
+      "x": 2553,
+      "y": 1710
+    }
+  },
+  "3k_main_jianye_resource_1": {
+    "key": "3k_main_jianye_resource_1",
+    "name": "Wu",
+    "isCapital": false,
+    "icon": "salt",
+    "province": {
+      "key": "3k_main_jianye_capital",
+      "name": "Danyang"
+    },
+    "settlement": {
+      "x": 2794,
+      "y": 1637
+    }
+  },
+  "3k_main_jianye_resource_2": {
+    "key": "3k_main_jianye_resource_2",
+    "name": "Wanling",
+    "isCapital": false,
+    "icon": "copper",
+    "province": {
+      "key": "3k_main_jianye_capital",
+      "name": "Danyang"
+    },
+    "settlement": {
+      "x": 2600,
+      "y": 1611
+    }
+  },
+  "3k_main_jiaozhi_capital": {
+    "key": "3k_main_jiaozhi_capital",
+    "name": "Longbien",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_jiaozhi_capital",
+      "name": "Jiaozhi"
+    },
+    "settlement": {
+      "x": 1072,
+      "y": 689
+    }
+  },
+  "3k_main_jiaozhi_resource_1": {
+    "key": "3k_main_jiaozhi_resource_1",
+    "name": "Linchen",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_jiaozhi_capital",
+      "name": "Jiaozhi"
+    },
+    "settlement": {
+      "x": 1192,
+      "y": 745
+    }
+  },
+  "3k_main_jiaozhi_resource_2": {
+    "key": "3k_main_jiaozhi_resource_2",
+    "name": "Xisui",
+    "isCapital": false,
+    "icon": "tea",
+    "province": {
+      "key": "3k_main_jiaozhi_capital",
+      "name": "Jiaozhi"
+    },
+    "settlement": {
+      "x": 930,
+      "y": 836
+    }
+  },
+  "3k_main_jincheng_capital": {
+    "key": "3k_main_jincheng_capital",
+    "name": "Jincheng",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_jincheng_capital",
+      "name": "Jincheng"
+    },
+    "settlement": {
+      "x": 689,
+      "y": 2223
+    }
+  },
+  "3k_main_jincheng_resource_1": {
+    "key": "3k_main_jincheng_resource_1",
+    "name": "Zhanyin",
+    "isCapital": false,
+    "icon": "silk",
+    "province": {
+      "key": "3k_main_jincheng_capital",
+      "name": "Jincheng"
+    },
+    "settlement": {
+      "x": 887,
+      "y": 2309
+    }
+  },
+  "3k_main_jincheng_resource_2": {
+    "key": "3k_main_jincheng_resource_2",
+    "name": "Tianshui",
+    "isCapital": false,
+    "icon": "horses",
+    "province": {
+      "key": "3k_main_jincheng_capital",
+      "name": "Jincheng"
+    },
+    "settlement": {
+      "x": 943,
+      "y": 2162
+    }
+  },
+  "3k_main_jingzhou_capital": {
+    "key": "3k_main_jingzhou_capital",
+    "name": "Jiangling",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_jingzhou_capital",
+      "name": "Nan"
+    },
+    "settlement": {
+      "x": 1670,
+      "y": 1538
+    }
+  },
+  "3k_main_jingzhou_resource_1": {
+    "key": "3k_main_jingzhou_resource_1",
+    "name": "Huarong",
+    "isCapital": false,
+    "icon": "livestock",
+    "province": {
+      "key": "3k_main_jingzhou_capital",
+      "name": "Nan"
+    },
+    "settlement": {
+      "x": 1795,
+      "y": 1581
+    }
+  },
+  "3k_main_kuaiji_capital": {
+    "key": "3k_main_kuaiji_capital",
+    "name": "Shanyin",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_kuaiji_capital",
+      "name": "Kuaiji"
+    },
+    "settlement": {
+      "x": 2785,
+      "y": 1486
+    }
+  },
+  "3k_main_kuaiji_resource_1": {
+    "key": "3k_main_kuaiji_resource_1",
+    "name": "Linhai",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_kuaiji_capital",
+      "name": "Kuaiji"
+    },
+    "settlement": {
+      "x": 2811,
+      "y": 1357
+    }
+  },
+  "3k_main_kuaiji_resource_2": {
+    "key": "3k_main_kuaiji_resource_2",
+    "name": "Wushang",
+    "isCapital": false,
+    "icon": "livestock",
+    "province": {
+      "key": "3k_main_kuaiji_capital",
+      "name": "Kuaiji"
+    },
+    "settlement": {
+      "x": 2686,
+      "y": 1409
+    }
+  },
+  "3k_main_langye_capital": {
+    "key": "3k_main_langye_capital",
+    "name": "Dongwu",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_langye_capital",
+      "name": "Langya"
+    },
+    "settlement": {
+      "x": 2626,
+      "y": 2180
+    }
+  },
+  "3k_main_langye_resource_1": {
+    "key": "3k_main_langye_resource_1",
+    "name": "Kaiyang",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_langye_capital",
+      "name": "Langya"
+    },
+    "settlement": {
+      "x": 2493,
+      "y": 2111
+    }
+  },
+  "3k_main_langye_resource_2": {
+    "key": "3k_main_langye_resource_2",
+    "name": "Buji",
+    "isCapital": false,
+    "icon": "fish",
+    "province": {
+      "key": "3k_main_langye_capital",
+      "name": "Langya"
+    },
+    "settlement": {
+      "x": 2708,
+      "y": 2236
+    }
+  },
+  "3k_main_lingling_capital": {
+    "key": "3k_main_lingling_capital",
+    "name": "Quanling",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_lingling_capital",
+      "name": "Lingling"
+    },
+    "settlement": {
+      "x": 1657,
+      "y": 1094
+    }
+  },
+  "3k_main_lingling_resource_1": {
+    "key": "3k_main_lingling_resource_1",
+    "name": "Chenxian",
+    "isCapital": false,
+    "icon": "tools",
+    "province": {
+      "key": "3k_main_lingling_capital",
+      "name": "Lingling"
+    },
+    "settlement": {
+      "x": 1907,
+      "y": 1047
+    }
+  },
+  "3k_main_lingling_resource_2": {
+    "key": "3k_main_lingling_resource_2",
+    "name": "Nanping",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_lingling_capital",
+      "name": "Lingling"
+    },
+    "settlement": {
+      "x": 1795,
+      "y": 982
+    }
+  },
+  "3k_main_lujiang_capital": {
+    "key": "3k_main_lujiang_capital",
+    "name": "Hefei",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_lujiang_capital",
+      "name": "Lujiang"
+    },
+    "settlement": {
+      "x": 2247,
+      "y": 1628
+    }
+  },
+  "3k_main_lujiang_resource_1": {
+    "key": "3k_main_lujiang_resource_1",
+    "name": "Xunyang",
+    "isCapital": false,
+    "icon": "fish",
+    "province": {
+      "key": "3k_main_lujiang_capital",
+      "name": "Lujiang"
+    },
+    "settlement": {
+      "x": 2079,
+      "y": 1400
+    }
+  },
+  "3k_main_lujiang_resource_2": {
+    "key": "3k_main_lujiang_resource_2",
+    "name": "Shuxian",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_lujiang_capital",
+      "name": "Lujiang"
+    },
+    "settlement": {
+      "x": 2273,
+      "y": 1525
+    }
+  },
+  "3k_main_luling_capital": {
+    "key": "3k_main_luling_capital",
+    "name": "Yudu",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_luling_capital",
+      "name": "Luling"
+    },
+    "settlement": {
+      "x": 2075,
+      "y": 1055
+    }
+  },
+  "3k_main_luling_resource_1": {
+    "key": "3k_main_luling_resource_1",
+    "name": "Yangdu",
+    "isCapital": false,
+    "icon": "copper",
+    "province": {
+      "key": "3k_main_luling_capital",
+      "name": "Luling"
+    },
+    "settlement": {
+      "x": 2355,
+      "y": 1129
+    }
+  },
+  "3k_main_luoyang_capital": {
+    "key": "3k_main_luoyang_capital",
+    "name": "Luoyang",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_luoyang_capital",
+      "name": "Luoyang"
+    },
+    "settlement": {
+      "x": 1851,
+      "y": 2072
+    }
+  },
+  "3k_main_luoyang_resource_1": {
+    "key": "3k_main_luoyang_resource_1",
+    "name": "Hongnong",
+    "isCapital": false,
+    "icon": "trade_port",
+    "province": {
+      "key": "3k_main_luoyang_capital",
+      "name": "Luoyang"
+    },
+    "settlement": {
+      "x": 1541,
+      "y": 2072
+    }
+  },
+  "3k_main_nanhai_capital": {
+    "key": "3k_main_nanhai_capital",
+    "name": "Panyu",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_nanhai_capital",
+      "name": "Nanhai"
+    },
+    "settlement": {
+      "x": 1967,
+      "y": 750
+    }
+  },
+  "3k_main_nanhai_resource_1": {
+    "key": "3k_main_nanhai_resource_1",
+    "name": "Longchuan",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_nanhai_capital",
+      "name": "Nanhai"
+    },
+    "settlement": {
+      "x": 2058,
+      "y": 879
+    }
+  },
+  "3k_main_nanhai_resource_2": {
+    "key": "3k_main_nanhai_resource_2",
+    "name": "Jieyang",
+    "isCapital": false,
+    "icon": "trade_port",
+    "province": {
+      "key": "3k_main_nanhai_capital",
+      "name": "Nanhai"
+    },
+    "settlement": {
+      "x": 2320,
+      "y": 793
+    }
+  },
+  "3k_main_nanyang_capital": {
+    "key": "3k_main_nanyang_capital",
+    "name": "Wanxian",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_nanyang_capital",
+      "name": "Nanyang"
+    },
+    "settlement": {
+      "x": 1761,
+      "y": 1917
+    }
+  },
+  "3k_main_nanyang_resource_1": {
+    "key": "3k_main_nanyang_resource_1",
+    "name": "Xinye",
+    "isCapital": false,
+    "icon": "jade",
+    "province": {
+      "key": "3k_main_nanyang_capital",
+      "name": "Nanyang"
+    },
+    "settlement": {
+      "x": 1804,
+      "y": 1818
+    }
+  },
+  "3k_main_penchang_capital": {
+    "key": "3k_main_penchang_capital",
+    "name": "Pengcheng",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_penchang_capital",
+      "name": "Pengcheng"
+    },
+    "settlement": {
+      "x": 2277,
+      "y": 1934
+    }
+  },
+  "3k_main_penchang_resource_1": {
+    "key": "3k_main_penchang_resource_1",
+    "name": "Luxian",
+    "isCapital": false,
+    "icon": "temple",
+    "province": {
+      "key": "3k_main_penchang_capital",
+      "name": "Pengcheng"
+    },
+    "settlement": {
+      "x": 2286,
+      "y": 2042
+    }
+  },
+  "3k_main_pingyuan_capital": {
+    "key": "3k_main_pingyuan_capital",
+    "name": "Pingyuan",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_pingyuan_capital",
+      "name": "Pingyuan"
+    },
+    "settlement": {
+      "x": 2273,
+      "y": 2352
+    }
+  },
+  "3k_main_pingyuan_resource_1": {
+    "key": "3k_main_pingyuan_resource_1",
+    "name": "Leling",
+    "isCapital": false,
+    "icon": "salt",
+    "province": {
+      "key": "3k_main_pingyuan_capital",
+      "name": "Pingyuan"
+    },
+    "settlement": {
+      "x": 2376,
+      "y": 2386
+    }
+  },
+  "3k_main_poyang_capital": {
+    "key": "3k_main_poyang_capital",
+    "name": "Poyang",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_poyang_capital",
+      "name": "Poyang"
+    },
+    "settlement": {
+      "x": 2260,
+      "y": 1314
+    }
+  },
+  "3k_main_poyang_resource_1": {
+    "key": "3k_main_poyang_resource_1",
+    "name": "Haihun",
+    "isCapital": false,
+    "icon": "iron",
+    "province": {
+      "key": "3k_main_poyang_capital",
+      "name": "Poyang"
+    },
+    "settlement": {
+      "x": 2079,
+      "y": 1335
+    }
+  },
+  "3k_main_poyang_resource_2": {
+    "key": "3k_main_poyang_resource_2",
+    "name": "Guangchang",
+    "isCapital": false,
+    "icon": "copper",
+    "province": {
+      "key": "3k_main_poyang_capital",
+      "name": "Poyang"
+    },
+    "settlement": {
+      "x": 2303,
+      "y": 1426
+    }
+  },
+  "3k_main_poyang_resource_3": {
+    "key": "3k_main_poyang_resource_3",
+    "name": "Lean",
+    "isCapital": false,
+    "icon": "craftsmen_weapon",
+    "province": {
+      "key": "3k_main_poyang_capital",
+      "name": "Poyang"
+    },
+    "settlement": {
+      "x": 2419,
+      "y": 1387
+    }
+  },
+  "3k_main_runan_capital": {
+    "key": "3k_main_runan_capital",
+    "name": "Ruyin",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_runan_capital",
+      "name": "Runan"
+    },
+    "settlement": {
+      "x": 2049,
+      "y": 1702
+    }
+  },
+  "3k_main_runan_resource_1": {
+    "key": "3k_main_runan_resource_1",
+    "name": "Pingyu",
+    "isCapital": false,
+    "icon": "iron",
+    "province": {
+      "key": "3k_main_runan_capital",
+      "name": "Runan"
+    },
+    "settlement": {
+      "x": 1873,
+      "y": 1702
+    }
+  },
+  "3k_main_shangdang_capital": {
+    "key": "3k_main_shangdang_capital",
+    "name": "Zhangzi",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_shangdang_capital",
+      "name": "Shangdang"
+    },
+    "settlement": {
+      "x": 1731,
+      "y": 2180
+    }
+  },
+  "3k_main_shangdang_resource_1": {
+    "key": "3k_main_shangdang_resource_1",
+    "name": "Shexian",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_shangdang_capital",
+      "name": "Shangdang"
+    },
+    "settlement": {
+      "x": 1855,
+      "y": 2262
+    }
+  },
+  "3k_main_shangyong_capital": {
+    "key": "3k_main_shangyong_capital",
+    "name": "Shangyong",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_shangyong_capital",
+      "name": "Shangyong"
+    },
+    "settlement": {
+      "x": 1459,
+      "y": 1835
+    }
+  },
+  "3k_main_shangyong_resource_1": {
+    "key": "3k_main_shangyong_resource_1",
+    "name": "Xicheng",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_shangyong_capital",
+      "name": "Shangyong"
+    },
+    "settlement": {
+      "x": 1330,
+      "y": 1870
+    }
+  },
+  "3k_main_shangyong_resource_2": {
+    "key": "3k_main_shangyong_resource_2",
+    "name": "Shanglian",
+    "isCapital": false,
+    "icon": "craftsmen_weapon",
+    "province": {
+      "key": "3k_main_shangyong_capital",
+      "name": "Shangyong"
+    },
+    "settlement": {
+      "x": 1343,
+      "y": 1723
+    }
+  },
+  "3k_main_shoufang_capital": {
+    "key": "3k_main_shoufang_capital",
+    "name": "Heyin",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_shoufang_capital",
+      "name": "Shuofang"
+    },
+    "settlement": {
+      "x": 1339,
+      "y": 2654
+    }
+  },
+  "3k_main_shoufang_resource_1": {
+    "key": "3k_main_shoufang_resource_1",
+    "name": "Pingding",
+    "isCapital": false,
+    "icon": "horses",
+    "province": {
+      "key": "3k_main_shoufang_capital",
+      "name": "Shuofang"
+    },
+    "settlement": {
+      "x": 1369,
+      "y": 2494
+    }
+  },
+  "3k_main_shoufang_resource_2": {
+    "key": "3k_main_shoufang_resource_2",
+    "name": "Dacheng",
+    "isCapital": false,
+    "icon": "craftsmen_mounts",
+    "province": {
+      "key": "3k_main_shoufang_capital",
+      "name": "Shuofang"
+    },
+    "settlement": {
+      "x": 1192,
+      "y": 2572
+    }
+  },
+  "3k_main_shoufang_resource_3": {
+    "key": "3k_main_shoufang_resource_3",
+    "name": "Sheyan",
+    "isCapital": false,
+    "icon": "salt",
+    "province": {
+      "key": "3k_main_shoufang_capital",
+      "name": "Shuofang"
+    },
+    "settlement": {
+      "x": 1167,
+      "y": 2451
+    }
+  },
+  "3k_main_taishan_capital": {
+    "key": "3k_main_taishan_capital",
+    "name": "Dongpingling",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_taishan_capital",
+      "name": "Lean"
+    },
+    "settlement": {
+      "x": 2372,
+      "y": 2266
+    }
+  },
+  "3k_main_taishan_resource_1": {
+    "key": "3k_main_taishan_resource_1",
+    "name": "Lean",
+    "isCapital": false,
+    "icon": "trade_port",
+    "province": {
+      "key": "3k_main_taishan_capital",
+      "name": "Lean"
+    },
+    "settlement": {
+      "x": 2488,
+      "y": 2339
+    }
+  },
+  "3k_main_taiyuan_capital": {
+    "key": "3k_main_taiyuan_capital",
+    "name": "Jinyang",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_taiyuan_capital",
+      "name": "Taiyuan"
+    },
+    "settlement": {
+      "x": 1713,
+      "y": 2382
+    }
+  },
+  "3k_main_taiyuan_resource_1": {
+    "key": "3k_main_taiyuan_resource_1",
+    "name": "Jingxing",
+    "isCapital": false,
+    "icon": "iron",
+    "province": {
+      "key": "3k_main_taiyuan_capital",
+      "name": "Taiyuan"
+    },
+    "settlement": {
+      "x": 1821,
+      "y": 2378
+    }
+  },
+  "3k_main_taiyuan_resource_2": {
+    "key": "3k_main_taiyuan_resource_2",
+    "name": "Jiexiu",
+    "isCapital": false,
+    "icon": "tools",
+    "province": {
+      "key": "3k_main_taiyuan_capital",
+      "name": "Taiyuan"
+    },
+    "settlement": {
+      "x": 1679,
+      "y": 2287
+    }
+  },
+  "3k_main_tongan_capital": {
+    "key": "3k_main_tongan_capital",
+    "name": "Dong'an",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_tongan_capital",
+      "name": "Southern Jian'an"
+    },
+    "settlement": {
+      "x": 2488,
+      "y": 918
+    }
+  },
+  "3k_main_tongan_resource_1": {
+    "key": "3k_main_tongan_resource_1",
+    "name": "Shashu",
+    "isCapital": false,
+    "icon": "livestock",
+    "province": {
+      "key": "3k_main_tongan_capital",
+      "name": "Southern Jian'an"
+    },
+    "settlement": {
+      "x": 2488,
+      "y": 1081
+    }
+  },
+  "3k_main_weijun_capital": {
+    "key": "3k_main_weijun_capital",
+    "name": "Ye",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_weijun_capital",
+      "name": "Wei"
+    },
+    "settlement": {
+      "x": 2075,
+      "y": 2296
+    }
+  },
+  "3k_main_weijun_resource_1": {
+    "key": "3k_main_weijun_resource_1",
+    "name": "Gongcheng",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_weijun_capital",
+      "name": "Wei"
+    },
+    "settlement": {
+      "x": 1985,
+      "y": 2206
+    }
+  },
+  "3k_main_wudu_capital": {
+    "key": "3k_main_wudu_capital",
+    "name": "Xiabian",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_wudu_capital",
+      "name": "Wudu"
+    },
+    "settlement": {
+      "x": 977,
+      "y": 2016
+    }
+  },
+  "3k_main_wudu_resource_1": {
+    "key": "3k_main_wudu_resource_1",
+    "name": "Shanggui",
+    "isCapital": false,
+    "icon": "silk",
+    "province": {
+      "key": "3k_main_wudu_capital",
+      "name": "Wudu"
+    },
+    "settlement": {
+      "x": 1055,
+      "y": 2111
+    }
+  },
+  "3k_main_wudu_resource_2": {
+    "key": "3k_main_wudu_resource_2",
+    "name": "Yinping",
+    "isCapital": false,
+    "icon": "copper",
+    "province": {
+      "key": "3k_main_wudu_capital",
+      "name": "Wudu"
+    },
+    "settlement": {
+      "x": 891,
+      "y": 1951
+    }
+  },
+  "3k_main_wuling_capital": {
+    "key": "3k_main_wuling_capital",
+    "name": "Qianling",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_wuling_capital",
+      "name": "Wuling"
+    },
+    "settlement": {
+      "x": 1378,
+      "y": 1340
+    }
+  },
+  "3k_main_wuling_resource_1": {
+    "key": "3k_main_wuling_resource_1",
+    "name": "Chongxian",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_wuling_capital",
+      "name": "Wuling"
+    },
+    "settlement": {
+      "x": 1429,
+      "y": 1456
+    }
+  },
+  "3k_main_wuling_resource_2": {
+    "key": "3k_main_wuling_resource_2",
+    "name": "Chancheng",
+    "isCapital": false,
+    "icon": "tools",
+    "province": {
+      "key": "3k_main_wuling_capital",
+      "name": "Wuling"
+    },
+    "settlement": {
+      "x": 1395,
+      "y": 1172
+    }
+  },
+  "3k_main_wuwei_capital": {
+    "key": "3k_main_wuwei_capital",
+    "name": "Guzang",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_wuwei_capital",
+      "name": "Wuwei"
+    },
+    "settlement": {
+      "x": 581,
+      "y": 2425
+    }
+  },
+  "3k_main_wuwei_resource_1": {
+    "key": "3k_main_wuwei_resource_1",
+    "name": "Xiutu",
+    "isCapital": false,
+    "icon": "horses",
+    "province": {
+      "key": "3k_main_wuwei_capital",
+      "name": "Wuwei"
+    },
+    "settlement": {
+      "x": 779,
+      "y": 2447
+    }
+  },
+  "3k_main_wuwei_resource_2": {
+    "key": "3k_main_wuwei_resource_2",
+    "name": "Lingzhou",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_wuwei_capital",
+      "name": "Wuwei"
+    },
+    "settlement": {
+      "x": 973,
+      "y": 2511
+    }
+  },
+  "3k_main_xiangyang_capital": {
+    "key": "3k_main_xiangyang_capital",
+    "name": "Xiangyang",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_xiangyang_capital",
+      "name": "Xiangyang"
+    },
+    "settlement": {
+      "x": 1705,
+      "y": 1792
+    }
+  },
+  "3k_main_xiangyang_resource_1": {
+    "key": "3k_main_xiangyang_resource_1",
+    "name": "linju",
+    "isCapital": false,
+    "icon": "tools",
+    "province": {
+      "key": "3k_main_xiangyang_capital",
+      "name": "Xiangyang"
+    },
+    "settlement": {
+      "x": 1593,
+      "y": 1714
+    }
+  },
+  "3k_main_xihe_capital": {
+    "key": "3k_main_xihe_capital",
+    "name": "Lishi",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_xihe_capital",
+      "name": "Xihe"
+    },
+    "settlement": {
+      "x": 1537,
+      "y": 2404
+    }
+  },
+  "3k_main_xihe_resource_1": {
+    "key": "3k_main_xihe_resource_1",
+    "name": "Mengmen",
+    "isCapital": false,
+    "icon": "fish",
+    "province": {
+      "key": "3k_main_xihe_capital",
+      "name": "Xihe"
+    },
+    "settlement": {
+      "x": 1472,
+      "y": 2313
+    }
+  },
+  "3k_main_xindu_capital": {
+    "key": "3k_main_xindu_capital",
+    "name": "Shixin",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_xindu_capital",
+      "name": "Xindu"
+    },
+    "settlement": {
+      "x": 2544,
+      "y": 1490
+    }
+  },
+  "3k_main_xindu_resource_1": {
+    "key": "3k_main_xindu_resource_1",
+    "name": "Xin'an",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_xindu_capital",
+      "name": "Xindu"
+    },
+    "settlement": {
+      "x": 2510,
+      "y": 1426
+    }
+  },
+  "3k_main_xindu_resource_2": {
+    "key": "3k_main_xindu_resource_2",
+    "name": "Wuhu",
+    "isCapital": false,
+    "icon": "fish",
+    "province": {
+      "key": "3k_main_xindu_capital",
+      "name": "Xindu"
+    },
+    "settlement": {
+      "x": 2372,
+      "y": 1538
+    }
+  },
+  "3k_main_yangzhou_capital": {
+    "key": "3k_main_yangzhou_capital",
+    "name": "Shouchun",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_yangzhou_capital",
+      "name": "Huainan"
+    },
+    "settlement": {
+      "x": 2342,
+      "y": 1736
+    }
+  },
+  "3k_main_yangzhou_resource_1": {
+    "key": "3k_main_yangzhou_resource_1",
+    "name": "Fuli",
+    "isCapital": false,
+    "icon": "livestock",
+    "province": {
+      "key": "3k_main_yangzhou_capital",
+      "name": "Huainan"
+    },
+    "settlement": {
+      "x": 2329,
+      "y": 1826
+    }
+  },
+  "3k_main_yangzhou_resource_2": {
+    "key": "3k_main_yangzhou_resource_2",
+    "name": "Gushi",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_yangzhou_capital",
+      "name": "Huainan"
+    },
+    "settlement": {
+      "x": 2174,
+      "y": 1758
+    }
+  },
+  "3k_main_yangzhou_resource_3": {
+    "key": "3k_main_yangzhou_resource_3",
+    "name": "Juchao",
+    "isCapital": false,
+    "icon": "tools",
+    "province": {
+      "key": "3k_main_yangzhou_capital",
+      "name": "Huainan"
+    },
+    "settlement": {
+      "x": 2394,
+      "y": 1658
+    }
+  },
+  "3k_main_yanmen_capital": {
+    "key": "3k_main_yanmen_capital",
+    "name": "Yinguan",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_yanmen_capital",
+      "name": "Yanmen"
+    },
+    "settlement": {
+      "x": 1692,
+      "y": 2529
+    }
+  },
+  "3k_main_yanmen_resource_1": {
+    "key": "3k_main_yanmen_resource_1",
+    "name": "Fanzhi",
+    "isCapital": false,
+    "icon": "lumber",
+    "province": {
+      "key": "3k_main_yanmen_capital",
+      "name": "Yanmen"
+    },
+    "settlement": {
+      "x": 1911,
+      "y": 2554
+    }
+  },
+  "3k_main_yingchuan_capital": {
+    "key": "3k_main_yingchuan_capital",
+    "name": "Xuchang",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_yingchuan_capital",
+      "name": "Yingchuan"
+    },
+    "settlement": {
+      "x": 1980,
+      "y": 2007
+    }
+  },
+  "3k_main_yingchuan_resource_1": {
+    "key": "3k_main_yingchuan_resource_1",
+    "name": "Chenliu",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_yingchuan_capital",
+      "name": "Yingchuan"
+    },
+    "settlement": {
+      "x": 2071,
+      "y": 2098
+    }
+  },
+  "3k_main_yizhou_island_capital": {
+    "key": "3k_main_yizhou_island_capital",
+    "name": "Danshui",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_yizhou_island_capital",
+      "name": "Yizhou"
+    },
+    "settlement": {
+      "x": 2854,
+      "y": 905
+    }
+  },
+  "3k_main_yizhou_island_resource_1": {
+    "key": "3k_main_yizhou_island_resource_1",
+    "name": "Chiqian",
+    "isCapital": false,
+    "icon": "fish",
+    "province": {
+      "key": "3k_main_yizhou_island_capital",
+      "name": "Yizhou"
+    },
+    "settlement": {
+      "x": 2729,
+      "y": 681
+    }
+  },
+  "3k_main_youbeiping_capital": {
+    "key": "3k_main_youbeiping_capital",
+    "name": "Tuyin",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_youbeiping_capital",
+      "name": "Youbeiping"
+    },
+    "settlement": {
+      "x": 2368,
+      "y": 2589
+    }
+  },
+  "3k_main_youbeiping_resource_1": {
+    "key": "3k_main_youbeiping_resource_1",
+    "name": "Linyu",
+    "isCapital": false,
+    "icon": "trade_port",
+    "province": {
+      "key": "3k_main_youbeiping_capital",
+      "name": "Youbeiping"
+    },
+    "settlement": {
+      "x": 2536,
+      "y": 2628
+    }
+  },
+  "3k_main_youzhou_capital": {
+    "key": "3k_main_youzhou_capital",
+    "name": "Ji",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_youzhou_capital",
+      "name": "Guangyang"
+    },
+    "settlement": {
+      "x": 2230,
+      "y": 2615
+    }
+  },
+  "3k_main_youzhou_resource_1": {
+    "key": "3k_main_youzhou_resource_1",
+    "name": "Junmi",
+    "isCapital": false,
+    "icon": "iron",
+    "province": {
+      "key": "3k_main_youzhou_capital",
+      "name": "Guangyang"
+    },
+    "settlement": {
+      "x": 2376,
+      "y": 2662
+    }
+  },
+  "3k_main_yu_capital": {
+    "key": "3k_main_yu_capital",
+    "name": "Yangle",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_yu_capital",
+      "name": "Liaoxi"
+    },
+    "settlement": {
+      "x": 2622,
+      "y": 2757
+    }
+  },
+  "3k_main_yu_resource_1": {
+    "key": "3k_main_yu_resource_1",
+    "name": "Liucheng",
+    "isCapital": false,
+    "icon": "tools",
+    "province": {
+      "key": "3k_main_yu_capital",
+      "name": "Liaoxi"
+    },
+    "settlement": {
+      "x": 2505,
+      "y": 2714
+    }
+  },
+  "3k_main_yulin_capital": {
+    "key": "3k_main_yulin_capital",
+    "name": "Bushan",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_yulin_capital",
+      "name": "Yulin"
+    },
+    "settlement": {
+      "x": 1502,
+      "y": 750
+    }
+  },
+  "3k_main_yulin_resource_1": {
+    "key": "3k_main_yulin_resource_1",
+    "name": "Tanzhong",
+    "isCapital": false,
+    "icon": "trade_port",
+    "province": {
+      "key": "3k_main_yulin_capital",
+      "name": "Yulin"
+    },
+    "settlement": {
+      "x": 1429,
+      "y": 831
+    }
+  },
+  "3k_main_yulin_resource_2": {
+    "key": "3k_main_yulin_resource_2",
+    "name": "Guangyu",
+    "isCapital": false,
+    "icon": "spice",
+    "province": {
+      "key": "3k_main_yulin_capital",
+      "name": "Yulin"
+    },
+    "settlement": {
+      "x": 1317,
+      "y": 909
+    }
+  },
+  "3k_main_yuzhang_capital": {
+    "key": "3k_main_yuzhang_capital",
+    "name": "Nanchang",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_yuzhang_capital",
+      "name": "Yuzhang"
+    },
+    "settlement": {
+      "x": 2165,
+      "y": 1223
+    }
+  },
+  "3k_main_yuzhang_resource_1": {
+    "key": "3k_main_yuzhang_resource_1",
+    "name": "Jianchang",
+    "isCapital": false,
+    "icon": "farms",
+    "province": {
+      "key": "3k_main_yuzhang_capital",
+      "name": "Yuzhang"
+    },
+    "settlement": {
+      "x": 2049,
+      "y": 1206
+    }
+  },
+  "3k_main_yuzhang_resource_2": {
+    "key": "3k_main_yuzhang_resource_2",
+    "name": "Geyang",
+    "isCapital": false,
+    "icon": "livestock",
+    "province": {
+      "key": "3k_main_yuzhang_capital",
+      "name": "Yuzhang"
+    },
+    "settlement": {
+      "x": 2312,
+      "y": 1232
+    }
+  },
+  "3k_main_zangke_capital": {
+    "key": "3k_main_zangke_capital",
+    "name": "Julan",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_zangke_capital",
+      "name": "Zangke"
+    },
+    "settlement": {
+      "x": 1184,
+      "y": 1150
+    }
+  },
+  "3k_main_zangke_resource_1": {
+    "key": "3k_main_zangke_resource_1",
+    "name": "Yelang",
+    "isCapital": false,
+    "icon": "tea",
+    "province": {
+      "key": "3k_main_zangke_capital",
+      "name": "Zangke"
+    },
+    "settlement": {
+      "x": 990,
+      "y": 1167
+    }
+  },
+  "3k_main_zangke_resource_2": {
+    "key": "3k_main_zangke_resource_2",
+    "name": "Wulian",
+    "isCapital": false,
+    "icon": "trade_port",
+    "province": {
+      "key": "3k_main_zangke_capital",
+      "name": "Zangke"
+    },
+    "settlement": {
+      "x": 1180,
+      "y": 1055
+    }
+  },
+  "3k_main_zhongshan_capital": {
+    "key": "3k_main_zhongshan_capital",
+    "name": "Lunu",
+    "isCapital": true,
+    "icon": "city",
+    "province": {
+      "key": "3k_main_zhongshan_capital",
+      "name": "Zhongshan"
+    },
+    "settlement": {
+      "x": 2045,
+      "y": 2473
+    }
+  },
+  "3k_main_zhongshan_resource_1": {
+    "key": "3k_main_zhongshan_resource_1",
+    "name": "Changshan",
+    "isCapital": false,
+    "icon": "livestock",
+    "province": {
+      "key": "3k_main_zhongshan_capital",
+      "name": "Zhongshan"
+    },
+    "settlement": {
+      "x": 1916,
+      "y": 2464
+    }
+  }
+}
