@@ -27,6 +27,12 @@ const Maps = () => {
     }
   };
 
+  React.useEffect(() => {
+    if (isMobile === false && mobileDrawerOpen === true) {
+      setMobileDrawerOpen(false);
+    }
+  }, [isMobile, mobileDrawerOpen]);
+
   return (
     <MainScaffold
       drawerOpen={drawerOpen}

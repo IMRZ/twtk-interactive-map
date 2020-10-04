@@ -80,7 +80,9 @@ const MainScaffold = (props: MainScaffoldProps) => {
             ModalProps={{
               keepMounted: true,
             }}
-          ></Drawer>
+          >
+            {props.drawerContent}
+          </Drawer>
         </Hidden>
         <Hidden smDown implementation="css">
           <Drawer
@@ -90,6 +92,7 @@ const MainScaffold = (props: MainScaffoldProps) => {
             anchor="right"
           >
             <Toolbar />
+            {props.drawerContent}
           </Drawer>
         </Hidden>
       </nav>
