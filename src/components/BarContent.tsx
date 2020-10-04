@@ -3,7 +3,7 @@ import { useHistory } from 'react-router';
 import { makeStyles } from '@material-ui/core/styles';
 import { IconButton, Typography, Toolbar } from '@material-ui/core';
 import { Tune, GitHub } from '@material-ui/icons';
-
+import { useTranslation } from '../i18n';
 import assets from '../assets';
 
 import Search from './search/Search';
@@ -38,6 +38,7 @@ function BarContent(props: BarContentProps) {
   const { toggleDrawer } = props;
   const classes = useStyles();
   const history = useHistory();
+  const { t } = useTranslation();
 
   return (
     <Toolbar>
@@ -49,10 +50,10 @@ function BarContent(props: BarContentProps) {
       />
       <div className={classes.title}>
         <Typography variant="h6" noWrap>
-          Total War: THREE KINGDOMS
+          {t('app.title')}
         </Typography>
         <Typography variant="subtitle2" color="textSecondary" noWrap>
-          Interactive Map
+          {t('app.subtitle')}
         </Typography>
       </div>
       <Search />

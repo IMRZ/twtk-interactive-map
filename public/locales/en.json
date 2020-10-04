@@ -7,7 +7,7 @@
     "markers": "Map markers"
   },
   "markers": {
-    "city": "Settlement",
+    "city": "City",
     "copper": "Copper",
     "craftsmen_armour": "Master Armourer",
     "craftsmen_mounts": "Master Animal Tamer",
