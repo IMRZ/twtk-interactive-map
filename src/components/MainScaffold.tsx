@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-type AppLayoutProps = {
+type MainScaffoldProps = {
   drawerOpen: boolean;
   toggleDrawer: () => void;
   barContent: React.ReactElement;
@@ -40,7 +40,7 @@ type AppLayoutProps = {
   drawerContent: React.ReactElement;
 };
 
-const AppLayout = (props: AppLayoutProps) => {
+const MainScaffold = (props: MainScaffoldProps) => {
   const { drawerOpen, toggleDrawer } = props;
   const classes = useStyles();
 
@@ -88,4 +88,4 @@ const AppLayout = (props: AppLayoutProps) => {
   );
 };
 
-export default AppLayout;
+export default MainScaffold;
