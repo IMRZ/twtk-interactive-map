@@ -24,7 +24,7 @@ const MarkerFilters = () => {
   };
 
   return (
-    <List subheader={<ListSubheader disableSticky>{t('controls.markers')}</ListSubheader>}>
+    <List subheader={<ListSubheader disableSticky>{t('strategic.markerSectionTitle')}</ListSubheader>}>
       {Object.values(overlays).sort((a, b) => b.count - a.count).map((overlay) => (
         <ListItem key={overlay.key} dense>
           <ListItemIcon>
