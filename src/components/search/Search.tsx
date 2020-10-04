@@ -3,7 +3,7 @@ import { TextField, Typography, makeStyles } from '@material-ui/core';
 import { Autocomplete } from '@material-ui/lab';
 
 import { useAppDispatch, useAppSelector } from '../../store';
-import { regionSelected } from '../map/strategic/reducer';
+import { regionSelected } from '../map-strategic/reducer';
 
 import { useSearch } from './useSearch';
 

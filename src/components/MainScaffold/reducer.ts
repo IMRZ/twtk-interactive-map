@@ -1,19 +1,23 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 const initialState = {
-  drawerOpen: true,
+  appDrawerOpen: true,
+  mobileDrawerOpen: false,
 };
 
 const scaffoldSlice = createSlice({
   name: 'scaffold',
   initialState,
   reducers: {
-    drawerOpenChanged: (state, action: PayloadAction<boolean>) => {
-      state.drawerOpen = action.payload;
+    appDrawerOpenToggled: (state, action: PayloadAction<boolean>) => {
+      state.appDrawerOpen = action.payload;
+    },
+    mobileDrawerOpenToggled: (state, action: PayloadAction<boolean>) => {
+      state.mobileDrawerOpen = action.payload;
     },
   },
 });
 
-export const { drawerOpenChanged } = scaffoldSlice.actions;
+export const { appDrawerOpenToggled, mobileDrawerOpenToggled } = scaffoldSlice.actions;
 
 export default scaffoldSlice.reducer;

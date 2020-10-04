@@ -1,41 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import MainScaffold from '../MainScaffold';
 import BarContent from '../BarContent';
 import DrawerContent from '../DrawerContent';
 
-import MapStrategic from '../map/strategic/MapStrategic';
+import MapStrategic from '../map-strategic/MapStrategic';
 
-import { useTheme, useMediaQuery } from '@material-ui/core';
-import { useAppDispatch } from '../../store';
-import { drawerOpenChanged } from '../MainScaffold/reducer';
+import { useMainScaffold } from '../MainScaffold/useMainScaffold';
 
 const Maps = () => {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const [drawerOpen, setDrawerOpen] = useState(true);
-  const [mobileDrawerOpen, setMobileDrawerOpen] = React.useState(false);
-  const dispatch = useAppDispatch();
-
-  const toggleDrawer = () => {
-    if (isMobile) {
-      setMobileDrawerOpen(!mobileDrawerOpen);
-    } else {
-      const open = !drawerOpen;
-      setDrawerOpen(open);
-      dispatch(drawerOpenChanged(open));
-    }
-  };
-
-  React.useEffect(() => {
-    if (isMobile === false && mobileDrawerOpen === true) {
-      setMobileDrawerOpen(false);
-    }
-  }, [isMobile, mobileDrawerOpen]);
+  const { appDrawerOpen, mobileDrawerOpen, toggleDrawer } = useMainScaffold();
 
   return (
     <MainScaffold
-      drawerOpen={drawerOpen}
+      drawerOpen={appDrawerOpen}
       mobileDrawerOpen={mobileDrawerOpen}
       toggleDrawer={toggleDrawer}
       barContent={<BarContent toggleDrawer={toggleDrawer} />}

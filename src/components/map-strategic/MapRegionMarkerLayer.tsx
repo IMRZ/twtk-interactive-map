@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import L from 'leaflet';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
-import { useMapContext } from '../context';
+import { useMapContext } from '../map/context';
 
-import { useAppSelector } from '../../../store';
+import { useAppSelector } from '../../store';
 
-import { regions } from '../../../data/common';
+import { regions } from '../../data/common';
 
-import assets from '../../../assets';
+import assets from '../../assets';
 
 const useStyles = makeStyles((theme) => ({
   marker: {
