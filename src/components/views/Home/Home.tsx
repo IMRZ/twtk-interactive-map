@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { Button, Typography } from '@material-ui/core';
-import BackgroundVideo from '../BackgroundVideo';
+import BackgroundVideo from './BackgroundVideo';
 
-import assets from '../../assets';
+import assets from '../../../assets';
 
 const useStyles = makeStyles((theme) => ({
   root: {

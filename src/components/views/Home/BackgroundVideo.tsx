@@ -1,26 +1,27 @@
 import React, { useState } from 'react';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
-// @ts-ignore
-import Parallax from 'parallax-js';
-import assets from '../assets';
+import assets from '../../../assets';
+
+const Parallax = require('parallax-js');
 
 const useStyles = makeStyles((theme) => ({
   root: {
     position: 'fixed',
-    top: '-5%',
-    right: '-5%',
-    bottom: '-5%',
-    left: '-5%',
+    top: '-2%',
+    right: '-2%',
+    bottom: '-2%',
+    left: '-2%',
     zIndex: -1,
-    [theme.breakpoints.down('md')]: {
-      display: 'none',
-    },
   },
   video: {
     width: '100%',
     opacity: 0,
     transition: 'opacity 2s',
+    [theme.breakpoints.down('md')]: {
+      width: 'auto',
+      height: '100%',
+    },
   },
   loaded: {
     opacity: 1,
