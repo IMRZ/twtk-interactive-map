@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   },
   nav: {
     width: '20%',
-    padding: theme.spacing(20, 0),
+    paddingTop: theme.spacing(20),
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-end',
