@@ -6,6 +6,10 @@
   "controls": {
     "markers": "Map markers"
   },
+  "strategic": {
+    "search": "Search",
+    "searchPlaceholder": "Search by region, province or resource..."
+  },
   "markers": {
     "city": "City",
     "copper": "Copper",
