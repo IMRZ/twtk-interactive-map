@@ -11,18 +11,18 @@ import assets from '../../assets';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: 380,
-    margin: theme.spacing(0, 2),
-    [theme.breakpoints.down('md')]: {
-      width: '100%',
-      margin: theme.spacing(0, 1),
+    width: '100%',
+    margin: theme.spacing(0, 1),
+    [theme.breakpoints.up('md')]: {
+      width: 380,
+      margin: theme.spacing(0, 2),
     },
   },
   optionIcon: {
     width: 32,
     height: 32,
     marginRight: theme.spacing(2),
-  }
+  },
 }));
 
 const Search = () => {

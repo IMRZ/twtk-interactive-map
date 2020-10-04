@@ -3,10 +3,12 @@ import { TypedUseSelectorHook, useSelector, useDispatch } from 'react-redux';
 
 import mapReducer from '../components/map/reducer';
 import strategicReducer from '../components/map/strategic/reducer';
+import scaffoldReducer from '../components/MainScaffold/reducer';
 
 const rootReducer = combineReducers({
   map: mapReducer,
   strategic: strategicReducer,
+  scaffold: scaffoldReducer,
 });
 
 const store = configureStore({

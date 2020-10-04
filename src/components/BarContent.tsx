@@ -19,24 +19,14 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   title: {
-    display: 'flex',
-    flexDirection: 'column',
-    [theme.breakpoints.down('md')]: {
-      display: 'none',
-    },
-  },
-  github: {
+    display: 'none',
     [theme.breakpoints.up('md')]: {
-      marginRight: theme.spacing(-2),
+      display: 'flex',
+      flexDirection: 'column',
     },
   },
   fillSpace: {
     flexGrow: 1,
-  },
-  toggleButton: {
-    [theme.breakpoints.up('md')]: {
-      display: 'none',
-    },
   },
 }));
 
@@ -68,7 +58,6 @@ function BarContent(props: BarContentProps) {
       <Search />
       <span className={classes.fillSpace}></span>
       <IconButton
-        className={classes.github}
         color="inherit"
         component="a"
         href="https://github.com/IMRZ/twtk-interactive-map"
@@ -78,7 +67,6 @@ function BarContent(props: BarContentProps) {
         <GitHub />
       </IconButton>
       <IconButton
-        className={classes.toggleButton}
         color="inherit"
         edge="end"
         onClick={toggleDrawer}
