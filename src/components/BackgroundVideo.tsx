@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
-
+// @ts-ignore
+import Parallax from 'parallax-js';
 import assets from '../assets';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     position: 'fixed',
-    width: '100%',
-    height: '100%',
+    top: '-5%',
+    right: '-5%',
+    bottom: '-5%',
+    left: '-5%',
     zIndex: -1,
     [theme.breakpoints.down('md')]: {
       display: 'none',
@@ -30,9 +33,16 @@ const BackgroundVideo = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
   const onCanPlay = () => setVideoLoaded(true);
 
+  React.useEffect(() => {
+    const scene = document.getElementById('bgvid');
+    const instance = new Parallax(scene);
+    return () => instance.destroy();
+  }, []);
+
   return (
-    <div className={classes.root}>
+    <div id="bgvid" className={classes.root}>
       <video
+        data-depth="0.1"
         className={clsx(classes.video, { [classes.loaded]: videoLoaded })}
         onCanPlay={onCanPlay}
         muted
