@@ -1,10 +1,17 @@
 {
   "app": {
     "title": "Total War: THREE KINGDOMS",
-    "subtitle": "Interactive Map"
+    "subtitle": "Interactive Maps"
   },
-  "controls": {
-    "markers": "Map markers"
+  "maps": {
+    "strategic": "Strategic",
+    "painter": "Painter",
+    "startpos": "Starting positions"
+  },
+  "strategic": {
+    "search": "Search",
+    "searchPlaceholder": "Search by region, province or resource...",
+    "markerSectionTitle": "Map markers"
   },
   "markers": {
     "city": "City",

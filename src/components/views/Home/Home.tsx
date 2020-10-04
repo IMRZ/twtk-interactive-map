@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { Button, Typography } from '@material-ui/core';
 import BackgroundVideo from './BackgroundVideo';
-
+import { useTranslation } from '../../../i18n';
 import assets from '../../../assets';
 
 const useStyles = makeStyles((theme) => ({
@@ -28,6 +28,10 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     alignItems: 'center',
   },
+  subtitle: {
+    textTransform: 'uppercase',
+    fontWeight: 'bolder',
+  },
   links: {
     margin: theme.spacing(2, 0),
     display: 'flex',
@@ -44,6 +48,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Home = () => {
   const classes = useStyles();
+  const { t } = useTranslation();
 
   return (
     <div className={classes.root}>
@@ -51,12 +56,12 @@ const Home = () => {
       <div className={classes.nav}>
         <div className={classes.title}>
           <img className={classes.image} src={assets['images/icon']} alt="" />
-          <Typography style={{ fontWeight: 'bolder' }} variant="h5">INTERACTIVE MAPS</Typography>
+          <Typography className={classes.subtitle} variant="h5">{t('app.subtitle')}</Typography>
         </div>
         <div className={classes.links}>
-          <Button size="large" component={Link} to="/maps/strategic">Strategic</Button>
-          <Button disabled size="large" component={Link} to="/maps/strategic">Painter</Button>
-          <Button disabled size="large" component={Link} to="/maps/strategic">Starting Positions</Button>
+          <Button size="large" component={Link} to="/maps/strategic">{t('maps.strategic')}</Button>
+          <Button disabled size="large" component={Link} to="/maps/painter">{t('maps.painter')}</Button>
+          <Button disabled size="large" component={Link} to="/maps/startpos">{t('maps.startpos')}</Button>
         </div>
       </div>
     </div>

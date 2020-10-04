@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextField, Typography, makeStyles } from '@material-ui/core';
 import { Autocomplete } from '@material-ui/lab';
-
+import { useTranslation } from '../../../i18n';
 import { useAppDispatch, useAppSelector } from '../../../store';
 import { regionSelected } from '../reducer';
 
@@ -25,8 +25,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Search = () => {
+const MapRegionSearch = () => {
   const classes = useStyles();
+  const { t } = useTranslation();
 
   const dispatch = useAppDispatch();
   const selectedRegion = useAppSelector((state) => state.strategic.selectedRegion);
@@ -40,6 +41,7 @@ const Search = () => {
       size="small"
       clearOnBlur
       clearOnEscape
+      blurOnSelect
       className={classes.root}
       options={options}
       filterOptions={(e) => e}
@@ -48,17 +50,18 @@ const Search = () => {
       onChange={onChange}
       onInputChange={onInputChange}
       getOptionLabel={(option: any) => option.name}
+      groupBy={(option) => option.province.name}
       renderOption={(option) => (
         <>
           <img className={classes.optionIcon} src={assets[`icons/${option.icon}`]} alt="" />
-          <Typography noWrap>{`${option.province.name}, ${option.name}`}</Typography>
+          <Typography noWrap>{option.name}</Typography>
         </>
       )}
       renderInput={(params) => (
         <TextField
           {...params}
-          label="Search"
-          placeholder="Search by region, province or resource..."
+          label={t('strategic.search')}
+          placeholder={t('strategic.searchPlaceholder')}
           variant="outlined"
         />
       )}
@@ -66,4 +69,4 @@ const Search = () => {
   );
 };
 
-export default Search;
+export default MapRegionSearch;
