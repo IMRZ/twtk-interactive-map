@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import AppLayout from '../AppLayout';
+import MainScaffold from '../MainScaffold';
 import BarContent from '../BarContent';
 import DrawerContent from '../DrawerContent';
 
@@ -11,7 +11,7 @@ const Maps = () => {
   const toggleDrawer = () => setDrawerOpen(!drawerOpen);
 
   return (
-    <AppLayout
+    <MainScaffold
       drawerOpen={drawerOpen}
       toggleDrawer={toggleDrawer}
       barContent={<BarContent toggleDrawer={toggleDrawer} />}
