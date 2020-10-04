@@ -1,6 +1,6 @@
 import type { RouteConfig } from 'react-router-config';
 
-import Home from '../components/views/Home';
+import Home from '../components/views/Home/Home';
 import Maps from '../components/views/Maps';
 
 const routes: RouteConfig[] = [

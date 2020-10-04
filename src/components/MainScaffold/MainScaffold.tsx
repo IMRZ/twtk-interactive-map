@@ -42,6 +42,18 @@ const useStyles = makeStyles((theme) => ({
       marginRight: 0,
     },
   },
+  scroller: {
+    height: '100%',
+    overflowY: 'scroll',
+    '&::-webkit-scrollbar': {
+      width: 6,
+      backgroundColor: 'rgba(0, 0, 0, 0.12)',
+    },
+    '&::-webkit-scrollbar-thumb:vertical': {
+      width: 6,
+      backgroundColor: 'rgba(0, 0, 0, 0.12)',
+    },
+  }
 }));
 
 type MainScaffoldProps = {
@@ -81,7 +93,9 @@ const MainScaffold = (props: MainScaffoldProps) => {
               keepMounted: true,
             }}
           >
-            {props.drawerContent}
+            <div className={classes.scroller}>
+              {props.drawerContent}
+            </div>
           </Drawer>
         </Hidden>
         <Hidden smDown implementation="css">
@@ -92,7 +106,9 @@ const MainScaffold = (props: MainScaffoldProps) => {
             anchor="right"
           >
             <Toolbar />
-            {props.drawerContent}
+            <div className={classes.scroller}>
+              {props.drawerContent}
+            </div>
           </Drawer>
         </Hidden>
       </nav>

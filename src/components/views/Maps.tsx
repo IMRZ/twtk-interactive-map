@@ -2,10 +2,9 @@ import React from 'react';
 
 import MainScaffold from '../MainScaffold';
 import BarContent from '../BarContent';
-import DrawerContent from '../DrawerContent';
 
 import MapStrategic from '../map-strategic/MapStrategic';
-
+import Filters from '../control/Filters';
 import { useMainScaffold } from '../MainScaffold/useMainScaffold';
 
 const Maps = () => {
@@ -18,7 +17,7 @@ const Maps = () => {
       toggleDrawer={toggleDrawer}
       barContent={<BarContent toggleDrawer={toggleDrawer} />}
       mainContent={<MapStrategic />}
-      drawerContent={<DrawerContent toggleDrawer={toggleDrawer} />}
+      drawerContent={<Filters />}
     />
   );
 };
