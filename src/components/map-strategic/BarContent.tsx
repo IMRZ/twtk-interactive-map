@@ -3,10 +3,10 @@ import { useHistory } from 'react-router';
 import { makeStyles } from '@material-ui/core/styles';
 import { IconButton, Typography, Toolbar } from '@material-ui/core';
 import { Tune, GitHub } from '@material-ui/icons';
+import { useTranslation } from '../../i18n';
+import assets from '../../assets';
 
-import assets from '../assets';
-
-import Search from './search/Search';
+import MapRegionSearch from './MapRegionSearch';
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -19,24 +19,14 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   title: {
-    display: 'flex',
-    flexDirection: 'column',
-    [theme.breakpoints.down('md')]: {
-      display: 'none',
-    },
-  },
-  github: {
+    display: 'none',
     [theme.breakpoints.up('md')]: {
-      marginRight: theme.spacing(-2),
+      display: 'flex',
+      flexDirection: 'column',
     },
   },
   fillSpace: {
     flexGrow: 1,
-  },
-  toggleButton: {
-    [theme.breakpoints.up('md')]: {
-      display: 'none',
-    },
   },
 }));
 
@@ -48,6 +38,7 @@ function BarContent(props: BarContentProps) {
   const { toggleDrawer } = props;
   const classes = useStyles();
   const history = useHistory();
+  const { t } = useTranslation();
 
   return (
     <Toolbar>
@@ -59,16 +50,15 @@ function BarContent(props: BarContentProps) {
       />
       <div className={classes.title}>
         <Typography variant="h6" noWrap>
-          Total War: THREE KINGDOMS
+          {t('app.title')}
         </Typography>
         <Typography variant="subtitle2" color="textSecondary" noWrap>
-          Interactive Map
+          {t('app.subtitle')}
         </Typography>
       </div>
-      <Search />
+      <MapRegionSearch />
       <span className={classes.fillSpace}></span>
       <IconButton
-        className={classes.github}
         color="inherit"
         component="a"
         href="https://github.com/IMRZ/twtk-interactive-map"
@@ -78,7 +68,6 @@ function BarContent(props: BarContentProps) {
         <GitHub />
       </IconButton>
       <IconButton
-        className={classes.toggleButton}
         color="inherit"
         edge="end"
         onClick={toggleDrawer}

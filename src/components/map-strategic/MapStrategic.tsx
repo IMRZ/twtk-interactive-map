@@ -1,14 +1,14 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
-import Preloader from '../Preloader';
-import Map from '../Map';
-import MapImageLayer from '../base/MapImageLayer';
+import Preloader from '../map-base/Preloader';
+import Map from '../map/Map';
+import MapImageLayer from '../map-base/MapImageLayer';
 import MapEventListener from './MapEventListener';
-import MapCenterButton from '../base/MapCenterButton';
+import MapCenterButton from '../map-base/MapCenterButton';
 import MapRegionMarkerLayer from './MapRegionMarkerLayer';
 
-import config from '../../../data/config';
+import config from '../../data/config';
 
 const useStyles = makeStyles(() => ({
   map: {

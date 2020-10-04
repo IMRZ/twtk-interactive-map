@@ -1,22 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import MainScaffold from '../MainScaffold';
-import BarContent from '../BarContent';
-import DrawerContent from '../DrawerContent';
+import BarContent from '../map-strategic/BarContent';
 
-import MapStrategic from '../map/strategic/MapStrategic';
+import MapStrategic from '../map-strategic/MapStrategic';
+import MapRegionMarkerFilterSection from '../map-strategic/MapRegionMarkerFilterSection';
+import { useMainScaffold } from '../MainScaffold/useMainScaffold';
 
 const Maps = () => {
-  const [drawerOpen, setDrawerOpen] = useState(false);
-  const toggleDrawer = () => setDrawerOpen(!drawerOpen);
+  const { appDrawerOpen, mobileDrawerOpen, toggleDrawer } = useMainScaffold();
 
   return (
     <MainScaffold
-      drawerOpen={drawerOpen}
+      drawerOpen={appDrawerOpen}
+      mobileDrawerOpen={mobileDrawerOpen}
       toggleDrawer={toggleDrawer}
-      barContent={<BarContent toggleDrawer={toggleDrawer} />}
+      barContent={<BarContent toggleDrawer={toggleDrawer} />} // TODO: fix me?
       mainContent={<MapStrategic />}
-      drawerContent={<DrawerContent toggleDrawer={toggleDrawer} />}
+      drawerContent={<MapRegionMarkerFilterSection />}
     />
   );
 };

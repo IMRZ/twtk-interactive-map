@@ -1,6 +1,6 @@
 import React from 'react';
 import L from 'leaflet';
-import { useMapContext } from '../context';
+import { useMapContext } from '../map/context';
 
 type MapImageLayerProps = {
   image: string;

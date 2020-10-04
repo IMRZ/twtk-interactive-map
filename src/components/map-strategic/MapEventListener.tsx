@@ -1,8 +1,8 @@
 import React from 'react';
-import { useAppSelector, useAppDispatch } from '../../../store';
-import { useMapContext } from '../context';
-import { zoomChanged } from '../reducer';
-import { regions } from '../../../data/common';
+import { useAppSelector, useAppDispatch } from '../../store';
+import { useMapContext } from '../map/context';
+import { zoomChanged } from '../map/reducer';
+import { regions } from '../../data/common';
 
 const MapEventListener = () => {
   const context = useMapContext();
@@ -12,6 +12,7 @@ const MapEventListener = () => {
 
   const overlays = useAppSelector((state) => state.map.overlays);
   const selectedRegion = useAppSelector((state) => state.strategic.selectedRegion);
+  const appDrawerOpen = useAppSelector((state) => state.scaffold.appDrawerOpen);
 
   React.useEffect(() => {
     const { map, layers } = context;
@@ -43,6 +44,15 @@ const MapEventListener = () => {
       }
     }
   }, [selectedRegion]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  React.useEffect(() => {
+    const { map } = context;
+    const isLeafletMapReady = map.getZoom() !== undefined;
+
+    if (isLeafletMapReady) {
+      setTimeout(() => map.invalidateSize(), 250);
+    }
+  }, [appDrawerOpen]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return null;
 };
