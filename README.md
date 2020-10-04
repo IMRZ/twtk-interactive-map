@@ -17,7 +17,7 @@ Total War THREE KINGDOMS Interactive Map.
 sudo apt install git-lfs
 
 # Clone the repo
-git clone git@github.com:IMRZ/tww2-map-painter.git
+git clone git@github.com:IMRZ/tww2-twtk-interactive-map.git
 
 # Install dependencies
 npm install
