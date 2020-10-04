@@ -2,12 +2,12 @@ import React from 'react';
 import { TextField, Typography, makeStyles } from '@material-ui/core';
 import { Autocomplete } from '@material-ui/lab';
 
-import { useAppDispatch, useAppSelector } from '../../store';
-import { regionSelected } from '../map-strategic/reducer';
+import { useAppDispatch, useAppSelector } from '../../../store';
+import { regionSelected } from '../reducer';
 
-import { useSearch } from './useSearch';
+import { useSearch } from './useMapRegionSearch';
 
-import assets from '../../assets';
+import assets from '../../../assets';
 
 const useStyles = makeStyles((theme) => ({
   root: {

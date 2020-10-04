@@ -1,10 +1,10 @@
 import React from 'react';
 
 import MainScaffold from '../MainScaffold';
-import BarContent from '../BarContent';
+import BarContent from '../map-strategic/BarContent';
 
 import MapStrategic from '../map-strategic/MapStrategic';
-import Filters from '../control/Filters';
+import MapRegionMarkerFilterSection from '../map-strategic/MapRegionMarkerFilterSection';
 import { useMainScaffold } from '../MainScaffold/useMainScaffold';
 
 const Maps = () => {
@@ -15,9 +15,9 @@ const Maps = () => {
       drawerOpen={appDrawerOpen}
       mobileDrawerOpen={mobileDrawerOpen}
       toggleDrawer={toggleDrawer}
-      barContent={<BarContent toggleDrawer={toggleDrawer} />}
+      barContent={<BarContent toggleDrawer={toggleDrawer} />} // TODO: fix me?
       mainContent={<MapStrategic />}
-      drawerContent={<Filters />}
+      drawerContent={<MapRegionMarkerFilterSection />}
     />
   );
 };

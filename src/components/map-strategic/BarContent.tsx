@@ -3,10 +3,10 @@ import { useHistory } from 'react-router';
 import { makeStyles } from '@material-ui/core/styles';
 import { IconButton, Typography, Toolbar } from '@material-ui/core';
 import { Tune, GitHub } from '@material-ui/icons';
-import { useTranslation } from '../i18n';
-import assets from '../assets';
+import { useTranslation } from '../../i18n';
+import assets from '../../assets';
 
-import Search from './search/Search';
+import MapRegionSearch from './MapRegionSearch';
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -56,7 +56,7 @@ function BarContent(props: BarContentProps) {
           {t('app.subtitle')}
         </Typography>
       </div>
-      <Search />
+      <MapRegionSearch />
       <span className={classes.fillSpace}></span>
       <IconButton
         color="inherit"

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import FlexSearch from 'flexsearch';
 
-import { regions } from '../../data/common';
+import { regions } from '../../../data/common';
 
 const values = Object.values(regions).sort((a, b) => a.province.name.localeCompare(b.province.name));
 

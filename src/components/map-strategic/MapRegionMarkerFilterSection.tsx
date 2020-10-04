@@ -13,7 +13,7 @@ import { useTranslation } from '../../i18n';
 import { useAppDispatch, useAppSelector } from '../../store';
 import { overlayChanged } from '../map/reducer';
 
-const Filters = () => {
+const MarkerFilters = () => {
   const { t } = useTranslation();
 
   const overlays = useAppSelector((state) => state.map.overlays);
@@ -45,4 +45,4 @@ const Filters = () => {
   );
 };
 
-export default Filters;
+export default MarkerFilters;
