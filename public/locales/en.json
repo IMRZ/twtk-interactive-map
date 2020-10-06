@@ -14,6 +14,10 @@
     "markerSectionTitle": "Map markers"
   },
   "markers": {
+    "3k_dlc04_start_pos": "Mandate of Heaven",
+    "3k_dlc05_start_pos": "A World Betrayed",
+    "3k_main_campaign_map": "Rise of the Warlords",
+    "8p_start_pos": "Eight Princes",
     "city": "City",
     "copper": "Copper",
     "craftsmen_armour": "Master Armourer",

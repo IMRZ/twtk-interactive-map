@@ -7,6 +7,8 @@ import MapStrategic from '../map-strategic/MapStrategic';
 import MapRegionMarkerFilterSection from '../map-strategic/MapRegionMarkerFilterSection';
 import { useMainScaffold } from '../MainScaffold/useMainScaffold';
 
+import MapStartpos from '../map-startpos/MapStartpos';
+
 const Maps = () => {
   const { appDrawerOpen, mobileDrawerOpen, toggleDrawer } = useMainScaffold();
 
@@ -16,7 +18,7 @@ const Maps = () => {
       mobileDrawerOpen={mobileDrawerOpen}
       toggleDrawer={toggleDrawer}
       barContent={<BarContent toggleDrawer={toggleDrawer} />} // TODO: fix me?
-      mainContent={<MapStrategic />}
+      mainContent={<MapStartpos />}
       drawerContent={<MapRegionMarkerFilterSection />}
     />
   );
