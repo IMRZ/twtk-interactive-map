@@ -5,6 +5,9 @@ import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import { useMapContext } from '../map/context';
 
+import { useAppSelector, useAppDispatch } from '../../store';
+import { startposSelected } from './reducer';
+
 import startpos from '../../data/startpos';
 
 import assets from '../../assets';
@@ -50,8 +53,6 @@ const MapStartposMarkerLayer = () => {
     const { map } = context;
     const entries: [HTMLElement, any][] = [];
 
-    console.log(startpos);
-
     const groups = Object.entries(startpos).reduce((accumulator: any, [campaign, items]) => {
       Object.values(items).forEach((startpos: any) => {
         const { x, y } = startpos.pin;
@@ -75,10 +76,11 @@ const MapStartposMarkerLayer = () => {
     }, {});
     setElems(entries);
 
-    Object.entries(groups).forEach(([key, markers]: [string, any]) => {
+    Object.entries(groups).forEach(([key, markers]: [string, any], index) => {
       const layer = L.layerGroup(markers);
       map.addLayer(layer);
-      context.addOverlay(`markers.${key}`, layer, markers.length);
+      const isVisible = index === 0;
+      context.addOverlay(`markers.${key}`, layer, isVisible, markers.length);
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -108,18 +110,33 @@ function createPortalMarker(options: any) {
 const Marker = ({ startpos }: any) => {
   const classes = useStyles();
 
-  const [selected, setSelected] = React.useState(false);
+  const {
+    isSelected,
+    onSelect
+  } = useMarker(startpos);
 
   const mini = assets[`characters/${startpos.icon}/mini`];
   const bobble = assets[`characters/${startpos.icon}/bobble`];
 
   return (
     <>
-      <img onClick={() => setSelected(!selected)} className={clsx([ classes.base, { [classes.selected]: selected } ])} src={base} alt="" />
-      <img className={clsx([ classes.bobble, { [classes.visible]: selected } ])} src={bobble} alt="" />
-      <img className={clsx([ classes.mini, { [classes.visible]: !selected } ])} src={mini} alt="" />
+      <img onClick={onSelect} className={clsx([ classes.base, { [classes.selected]: isSelected } ])} src={base} alt="" />
+      <img className={clsx([ classes.bobble, { [classes.visible]: isSelected } ])} src={bobble} alt="" />
+      <img className={clsx([ classes.mini, { [classes.visible]: !isSelected } ])} src={mini} alt="" />
     </>
   )
 };
+
+function useMarker(startpos: any) {
+  const dispatch = useAppDispatch();
+
+  const isSelected = useAppSelector((state) => state.startpos.selectedCampaign === startpos.campaign && state.startpos.selectedStartpos === startpos.key);
+  const onSelect = () => dispatch(startposSelected([startpos.campaign, startpos.key]));
+
+  return {
+    isSelected,
+    onSelect
+  }
+}
 
 export default MapStartposMarkerLayer;

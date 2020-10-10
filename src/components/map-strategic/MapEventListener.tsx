@@ -16,9 +16,9 @@ const MapEventListener = () => {
 
   React.useEffect(() => {
     const { map, layers } = context;
-    const isLeafletMapReady = map.getZoom() !== undefined;
+    const isLeafletMapReady = map?.getZoom() !== undefined;
 
-    if (isLeafletMapReady) {
+    if (map && isLeafletMapReady) {
       Object.values(overlays).forEach((overlay) => {
         const layer = layers[overlay.key];
         if (overlay.visible) {

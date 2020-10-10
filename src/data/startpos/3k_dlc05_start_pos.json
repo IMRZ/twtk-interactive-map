@@ -1,6 +1,7 @@
 {
   "3k_dlc05_faction_sun_ce": {
     "key": "3k_dlc05_faction_sun_ce",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Sun Ce",
     "subtitle": "Little Conqueror",
     "description": "The legacy of his family spurs Sun Ce ever onward – the hopes of his father lifting him to ever-greater deeds. Since his father's death, Sun Ce has searched for a way to emulate that same bravery and power. It is in the service of Yuan Shu that he may have found this power. However, as the machinations of Yuan Shu become ever-more nefarious, and the lure of a new land in the south becomes stronger, Sun Ce has to ask once again how he might best serve his people.",
@@ -12,6 +13,7 @@
   },
   "3k_dlc05_faction_white_tiger_yan": {
     "key": "3k_dlc05_faction_white_tiger_yan",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Yan Baihu",
     "subtitle": "The White Tiger",
     "description": "Yan Baihu has spent his life building a home in the south; an existence he will now defend against invaders with steel and rage. As a supposed descendant of the Shanyue tribe, Yan Baihu has a vested interest in the life and freedom of the southlands. As Sun Ce and others begin to look with greed upon his territory, he has resolved that he will take up arms against them all, using his network of bandits and outcasts to find his way to victory!",
@@ -23,6 +25,7 @@
   },
   "3k_dlc06_faction_nanman_king_meng_huo": {
     "key": "3k_dlc06_faction_nanman_king_meng_huo",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Meng Huo",
     "subtitle": "King of the Man",
     "description": "Meng Huo shows his friends every generosity, and his enemies an unending, merciless rage. Whilst some may identify this as a true loyalty, it belies another, deeper tendency towards rage, one which can erupt at the smallest slight, easily rising to become an all-consuming blaze. This tempestuous energy has led Meng Huo to dissatisfaction with his lot – he looks now beyond the valleys of his home to greater things – uniting the tribes, and destroying his enemies!",
@@ -34,6 +37,7 @@
   },
   "3k_dlc06_faction_nanman_king_mulu": {
     "key": "3k_dlc06_faction_nanman_king_mulu",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Mulu",
     "subtitle": "Chief of Bana Ravine",
     "description": "The world of men is barely a footnote to King Mulu – nature is his calling, and defending it against those who threaten such ancient orders. Mulu is indifferent to the ways of people, regarded as aloof and distant, yet this seeming disinterest hides a keen insight into the peoples he encounters. Should he perceive threats, Mulu is incensed, and charges into battle with both loyal man and beast at his call!",
@@ -45,6 +49,7 @@
   },
   "3k_dlc06_faction_nanman_king_shamoke": {
     "key": "3k_dlc06_faction_nanman_king_shamoke",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Shamoke",
     "subtitle": "Ruler of the Five Valleys",
     "description": "Where the valleys converge, there too is King Shamoke, straddling the border between nations; the tumbling waters of the confluence as precarious as his future. To his north, east and south lie the Han, a persistent thorn in the side of those who would call themselves independent. Yet Shamoke must appease this unstable empire, lest he invite their wrath. At the same time, however, he is respected by the tribes of the south, and so cannot concede too much, or risk shattering the fragile ground beneath his feet.",
@@ -56,6 +61,7 @@
   },
   "3k_dlc06_faction_nanman_lady_zhurong": {
     "key": "3k_dlc06_faction_nanman_lady_zhurong",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Zhurong",
     "subtitle": "Goddess of Fire",
     "description": "Lady Zhurong believes that only through her might – inherited, they say, from the goddess of fire herself – will her people succeed where others have floundered. The pride of her lineage weighs heavily upon her, but Zhurong does not let such responsibilities overwhelm her. She sees the languorous and bloated valley kings, and vows not to grow as indolent. Her followers – loyal to the death – combined with her own skill, will protect her lands and her people against the very gods, if need be!",
@@ -67,6 +73,7 @@
   },
   "3k_main_faction_cao_cao": {
     "key": "3k_main_faction_cao_cao",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Cao Cao",
     "subtitle": "Strategic Mastermind",
     "description": "Cao Cao watches dynasties fall and tyrants rise. He has seen power slip into the hands of the undeserving, and through the chaos plots a path back to order by his hand. Regarded as a strategic genius, Cao Cao pursues victory at any cost, assured that the ends always justify the means. Though some call him ruthless, he is nevertheless mindful and considerate, maintaining agricultural garrisons to protect both his supplies and the populace during inhospitable times.",
@@ -78,6 +85,7 @@
   },
   "3k_main_faction_gongsun_zan": {
     "key": "3k_main_faction_gongsun_zan",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Gongsun Zan",
     "subtitle": "The Iron Fist General",
     "description": "In the cacophony of rising chaos, Gongsun Zan is heard like a clarion call above the fray. He stands firm in his beliefs and is unafraid to do what he feels is right. A childhood friend of Liu Bei, Gongsun Zan earned a reputation as a fierce warrior, defending the empire against foreign foes beyond the border. Gongsun Zan rules his lands with the same martial mindset with which he governs his forces – on the dangerous fringes of the empire, military precision in all things must be observed.",
@@ -89,6 +97,7 @@
   },
   "3k_main_faction_kong_rong": {
     "key": "3k_main_faction_kong_rong",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Kong Rong",
     "subtitle": "Master Scholar",
     "description": "The bureaucracy of China can only succeed through the support of education; this is what Kong Rong earnestly believes. He is focused on wisdom and learning, that it might better the people, and the economy – in Qing Province he is establishing schools to rehabilitate the population in the wake of the devastating Yellow Turban rebellions. Now, as chaos consumes China once more, Kong Rong knows that only through knowledge and insight will prosperity prevail once more.",
@@ -100,6 +109,7 @@
   },
   "3k_main_faction_liu_bei": {
     "key": "3k_main_faction_liu_bei",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Liu Bei",
     "subtitle": "Virtuous Idealist",
     "description": "Liu Bei has struggled from nothing to become a warlord of increasing renown - and with the tyrant dead, he sees perhaps his greatest chance to liberate the emperor from evil clutches! His family – the Liu family – is only nominally attached to the Han, yet there are still those who urge Liu Bei to redeem China from madness and restore the crumbling dynasty. Humble, virtuous and kind, Liu Bei is an inspiring presence, summoning strength from unlikely places, and forging unshakeable bonds with those who follow him.",
@@ -111,6 +121,7 @@
   },
   "3k_main_faction_liu_biao": {
     "key": "3k_main_faction_liu_biao",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Liu Biao",
     "subtitle": "Gentleman of the Han",
     "description": "Though the Han crumbles, its spirit and legacy endures through its many branches and descendants. Liu Biao holds this lineage closely, serving with unwavering sense of duty. An accomplished administrator, and ever the traditionalist, he wishes to preserve the status quo, earnestly hoping that the chaos will abate and reason will prevail. Yet times are changing, and Liu Biao must find his place, or fade forever into the mists of the forgotten...",
@@ -122,6 +133,7 @@
   },
   "3k_main_faction_lu_bu": {
     "key": "3k_main_faction_lu_bu",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Lü Bu",
     "subtitle": "Warrior Without Equal",
     "description": "Lü Bu is overlooked and insulted by those undeserving of his skill; a prodigious talent stung by the constant arrows of indignity. Although he undoubtedly did the land a service by ridding it of the tyrant Dong Zhuo, Lü Bu has felt nothing but the cold hand of derision from all those he has come to serve. Now, as Cao Cao's eyes are elsewhere, he has chosen to take matters into his own hands, rebelling against his liege's rule to forge a kingdom of his own.",
@@ -133,6 +145,7 @@
   },
   "3k_main_faction_ma_teng": {
     "key": "3k_main_faction_ma_teng",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Ma Teng",
     "subtitle": "Protector of the West",
     "description": "Ma Teng had thought the emperor safe, but with Dong Zhuo dead, he sees the chaos coming, and hopes he is prepared for the storm. Though many say the dynasty is finished, Ma Teng remains loyal to the Han, prosecuting the enemies of the emperor above all else. On the western fringes of the empire, he has long defended China's most valuable trade routes, holding back hostile interlopers, and will continue to charge into battle in the emperor's name.",
@@ -144,6 +157,7 @@
   },
   "3k_main_faction_shi_xie": {
     "key": "3k_main_faction_shi_xie",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Shi Xie",
     "subtitle": "Governor Shi",
     "description": "Shi Xie has wisely, and insidiously, kindled the favour of the Han, for he is cunning of mind and a barrier against threats from distant lands. His rise was won through the strength of his family's deep and noble lineage, and not-insignificant personal favours to the powerful. Shi Xie benevolently welcomes the needy and the destitute to his lands, all-the-while planting his own family members into positions of power. For as surely as Shi Xie gives generously, he also takes advantageously...",
@@ -155,6 +169,7 @@
   },
   "3k_main_faction_yuan_shao": {
     "key": "3k_main_faction_yuan_shao",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Yuan Shao",
     "subtitle": "Preeminent Commander",
     "description": "Yuan Shao is the Han's loyal defender, and will follow the dynasty to whatever end. It was he who stormed Luoyang to liberate the emperor, personally slaughtering the traitorous eunuchs in his lord's defence. Descended from power and prestige, Yuan Shao was chosen – because of his reputation and wealth – to lead the coalition against Dong Zhuo's tyrannical reign. Although the coalition now stagnates, the Dragon of the Yuan stands proud; although he may lack substance, let none doubt his ostentatious style...",
@@ -166,6 +181,7 @@
   },
   "3k_main_faction_yuan_shu": {
     "key": "3k_main_faction_yuan_shu",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Yuan Shu",
     "subtitle": "Ambitious Powermonger",
     "description": "Yuan Shu can feel his time is coming; with every new sentence written in history's ledger, he knows his time is approaching, and draws his schemes accordingly. He hails from the prestigious and wealthy Yuan family, which weighs upon his shoulders, as does the braggish blustering of his half-brother, Yuan Shao. Only through demonstrating his legitimacy to others can Yuan Shu prove his right to rule.",
@@ -177,6 +193,7 @@
   },
   "3k_main_faction_zhang_yan": {
     "key": "3k_main_faction_zhang_yan",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Zhang Yan",
     "subtitle": "King of Black Mountain",
     "description": "Zhang Yan and his bandits exist as neither fully Han or outlaw, and as the land slips into ever greater chaos, they know their best hope is to navigate the space between. To attack the Black Mountain bandits is to invite deception and ambush, as they have mastered the art of war unseen. Yet all the same, Zhang Yan will form alliances and friendships with any who will serve his interests – be they high-born or mud-stained...",
@@ -188,6 +205,7 @@
   },
   "3k_main_faction_zheng_jiang": {
     "key": "3k_main_faction_zheng_jiang",
+    "campaign": "3k_dlc05_start_pos",
     "name": "Zheng Jiang",
     "subtitle": "Bandit Queen",
     "description": "Dynasties and nobility mean nothing to Zheng Jiang; she prefers to seize glory in her own way. As the Han burns, she sees at last the crumbling of an institution she deeply despises. What have they ever known of hunger? What fear have they ever felt for corrupt and avaricious officials? Zheng Jiang has never known the ease of a noble upbringing, nor the expectation of 'civilised' society. Instead, she is resolved to earn fame and prestige for herself through merciless fury and unrelenting strength!",

@@ -7,6 +7,7 @@ import { useTranslation } from '../../i18n';
 import assets from '../../assets';
 
 import MapRegionSearch from './MapRegionSearch';
+import { useMainScaffold } from '../MainScaffold/useMainScaffold';
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -30,12 +31,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-type BarContentProps = {
-  toggleDrawer: () => void;
-};
-
-function BarContent(props: BarContentProps) {
-  const { toggleDrawer } = props;
+function TopbarStrategic() {
+  const { toggleDrawer } = useMainScaffold();
   const classes = useStyles();
   const history = useHistory();
   const { t } = useTranslation();
@@ -67,15 +64,11 @@ function BarContent(props: BarContentProps) {
       >
         <GitHub />
       </IconButton>
-      <IconButton
-        color="inherit"
-        edge="end"
-        onClick={toggleDrawer}
-      >
+      <IconButton color="inherit" edge="end" onClick={toggleDrawer}>
         <Tune />
       </IconButton>
     </Toolbar>
   );
 }
 
-export default BarContent;
+export default TopbarStrategic;

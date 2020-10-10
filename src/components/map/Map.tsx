@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import { useDispatch } from 'react-redux';
 import L from 'leaflet';
 import { MapContext } from './context';
-import { zoomChanged } from './reducer';
+import { zoomChanged, reset } from './reducer';
 
 const style = {
   height: '100%',
@@ -79,6 +79,7 @@ const Map = (props: MapProps) => {
     });
 
     return () => {
+      dispatch(reset());
       map.remove();
     };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps

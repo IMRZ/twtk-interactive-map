@@ -4,11 +4,8 @@ import L from 'leaflet';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import { useMapContext } from '../map/context';
-
 import { useAppSelector } from '../../store';
-
 import { regions } from '../../data/common';
-
 import assets from '../../assets';
 
 const useStyles = makeStyles((theme) => ({
@@ -49,7 +46,7 @@ const MapRegionMarkerLayer = () => {
     const { map } = context;
     const elements: [HTMLElement, any, any][] = [];
 
-    const allMarkers = Object.values(regions).map((region: any) => {
+    Object.values(regions).map((region: any) => {
       const { x, y } = region.settlement;
       const el = document.createElement('div');
       el.setAttribute(
@@ -63,12 +60,8 @@ const MapRegionMarkerLayer = () => {
     });
     setElems(elements);
 
-    // const layer = L.layerGroup(allMarkers);
-    // map.addLayer(layer);
-    // context.addOverlay('markers-all', `${allMarkers.length}_all`, layer);
-
     const groups = elements.reduce((accumulator: any, entry) => {
-      const [el, region, marker] = entry;
+      const [el, region, marker] = entry; // eslint-disable-line @typescript-eslint/no-unused-vars
 
       if (accumulator[region.icon] === undefined) {
         accumulator[region.icon] = [];
@@ -82,7 +75,7 @@ const MapRegionMarkerLayer = () => {
     Object.entries(groups).forEach(([key, markers]: [string, any]) => {
       const layer = L.layerGroup(markers);
       map.addLayer(layer);
-      context.addOverlay(`markers.${key}`, layer, markers.length);
+      context.addOverlay(`markers.${key}`, layer, true, markers.length);
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 

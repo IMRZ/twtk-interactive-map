@@ -1,8 +1,13 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-const initialState = {
-  selectedCampaign: null as string | null,
-  selectedStartpos: null as string | null,
+type StartposState = {
+  selectedCampaign: string | null;
+  selectedStartpos: string | null;
+}
+
+const initialState: StartposState = {
+  selectedCampaign: null,
+  selectedStartpos: null,
 };
 
 const startposSlice = createSlice({
@@ -11,8 +16,14 @@ const startposSlice = createSlice({
   reducers: {
     startposSelected: (state, action: PayloadAction<[string, string]>) => {
       const [campaign, startpos] = action.payload;
-      state.selectedCampaign = campaign;
-      state.selectedStartpos = startpos;
+
+      if (state.selectedCampaign === campaign && state.selectedStartpos === startpos) {
+        state.selectedCampaign = null;
+        state.selectedStartpos = null;
+      } else {
+        state.selectedCampaign = campaign;
+        state.selectedStartpos = startpos;
+      }
     },
   },
 });

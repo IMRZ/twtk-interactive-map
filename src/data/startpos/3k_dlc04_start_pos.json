@@ -1,6 +1,7 @@
 {
   "3k_dlc04_faction_empress_he": {
     "key": "3k_dlc04_faction_empress_he",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Liu Hong",
     "subtitle": "Inconstant Emperor",
     "description": "The emperor is the steward of the Han dynasty, burdened with the heaven-sent responsibility of guiding the disparate realms of China under one rule. Yet despite his celestial duty, the dynasty over which he presides is racked by turmoil - this is his opportunity to right the madness consuming the land. \\n\\n To succeed, he must reconcile and balance the competing powers in his court; the relatively newly-crowned empress tries to stem the flow of corruption, yet the ever-more powerful eunuch attendants continue to whisper their desires, honeyed and tempting, into his ears.",
@@ -12,6 +13,7 @@
   },
   "3k_dlc04_faction_lu_zhi": {
     "key": "3k_dlc04_faction_lu_zhi",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Lu Zhi",
     "subtitle": "Respected Mentor",
     "description": "Lu Zhi is as wise as he imposing, a scholar whose writing often carries portends that, if unheeded, predict dark tidings for the future of the land. Although known also as a powerful general in his own right, Lu Zhi is one of the foremost historians and scholars of the time, aiding in the writing of the history of the Eastern Han. He was also the mentor to Liu Bei, whose compassion and wisdom brings honour to the teacher that clearly taught him so well.",
@@ -23,6 +25,7 @@
   },
   "3k_dlc04_faction_prince_liu_chong": {
     "key": "3k_dlc04_faction_prince_liu_chong",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Liu Chong",
     "subtitle": "Prince of Chen",
     "description": "Prince Liu Chong is a warrior whose dedication to his people is matched only by his formidable skill in battle. Whilst other imperial princes choose not to actively govern, Liu Chong gladly rules over his territory, and through his energetic nature and genuine concern, is beloved.\\n\\n As trouble now brews in the imperial court and in the provinces, Liu Chong knows his primary concern is for his people. A prestigious warrior, unafraid of a fight, he readies himself for whatever may come with confidence and zeal!",
@@ -34,6 +37,7 @@
   },
   "3k_dlc04_faction_zhang_bao": {
     "key": "3k_dlc04_faction_zhang_bao",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Zhang Bao",
     "subtitle": "General of the Land",
     "description": "Zhang Bao hurls himself into the fray, brave and bold, in pursuit of a better future for all. Although a fearsome warrior in his own right, Zhang Bao knows that only through union with his brothers, and with the people, will China be freed from the yoke of corruption and tyranny. \\n\\n Legend has it that their redemption of China was prophesised; that together, with an army behind them, the Azure Sky would fall and the Yellow Sky finally rise!",
@@ -45,6 +49,7 @@
   },
   "3k_dlc04_faction_zhang_jue": {
     "key": "3k_dlc04_faction_zhang_jue",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Zhang Jue",
     "subtitle": "General of Heaven",
     "description": "Zhang Jue has heard his future told; he is destined to tear down the corrupt dynasty and lead the people to a better future! Known as a healer in his native Julu Commandery, Zhang Jue and his brothers were well liked by the people. Yet his discovery of the Scriptures of Great Peace, detailing the connection between heaven and earth, set him on a path to raising a righteous rebellion against the Han. With his brothers in-tow, he will topple the corrupt government and begin the world anew!",
@@ -56,6 +61,7 @@
   },
   "3k_dlc04_faction_zhang_liang": {
     "key": "3k_dlc04_faction_zhang_liang",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Zhang Liang",
     "subtitle": "General of the People",
     "description": "Zhang Liang is the watchful giant, a sentinel who will hold the line, and his beliefs, against any and all enemies. He, along with his brothers, set to easing the pain of a suffering people by preaching a better way, then mobilising them into a force capable of toppling the corrupt regime. \\n\\n Although an imposing figure, Zhang Liang knows that only together that they will be able to strike the fatal blow that will tear down the Azure Sky forever and lead to a greater future for China.",
@@ -67,6 +73,7 @@
   },
   "3k_main_faction_cao_cao": {
     "key": "3k_main_faction_cao_cao",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Cao Cao",
     "subtitle": "Strategic Mastermind",
     "description": "Cao Cao is not ignorant to the failings of the Han, yet he will fight all the same to see its survival. Despite his loyalty, he has nevertheless experienced first-hand the capricious nature of the imperial court. The emperor, split between corrupt eunuchs and the resistant empress, proffers generosity to Cao Cao with one hand, yet cruelty with the other.\\n\\nRecalled now to fight the emperor's enemies, Cao Cao will proliferate the imperial message to all, whether with conjured rhetoric or remorseless steel.",
@@ -78,6 +85,7 @@
   },
   "3k_main_faction_dong_zhuo": {
     "key": "3k_main_faction_dong_zhuo",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Dong Zhuo",
     "subtitle": "Cruel Tyrant",
     "description": "Although he swears fealty to the emperor, Dong Zhuo sees the fire fading from the Han. His mind sours, beginning to imagine life beyond the dynasty. His career has been marked by success, yet as the government becomes corrupt, his victories fade to nothing before his failures.\\n\\nAlthough known for brutality, Dong Zhuo is loved by his troops, who enjoy his generosity. Yet as his bitterness increases, so too does his cruelty. In his quest for satisfaction, there is no knowing how Dong Zhuo will act...",
@@ -89,6 +97,7 @@
   },
   "3k_main_faction_liu_bei": {
     "key": "3k_main_faction_liu_bei",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Liu Bei",
     "subtitle": "Virtuous Idealist",
     "description": "Liu Bei has come from nothing, has nothing, but in him lies the potential to be something far greater. Born with nominal attachment to the ruling Han dynasty, Liu Bei grew up with ambitious dreams and lofty ideals, yet this ardour has faded as his life, shaken by tragedy, and become more mundane out of necessity. However, though dimmed, his passion has never fully died. Loved by all those who know him, Liu Bei still has the desire to aid the world; he just does not yet know how...",
@@ -100,6 +109,7 @@
   },
   "3k_main_faction_liu_biao": {
     "key": "3k_main_faction_liu_biao",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Liu Biao",
     "subtitle": "Gentleman of the Han",
     "description": "Liu Biao has served the Han faithfully and wisely, yet for his efforts he has found nothing but condemnation. A well-respected and high-ranking academic in the imperial capital, Luoyang, Liu Biao was vocal and outspoken in his criticisms of the corruption affecting the empire. The eunuchs, displeased by his defamations, found ways to strip him of his titles and all-but exile him. \\n\\n Liu Biao has now found himself far from the capital, a fervent loyalty for the Han and a burning hatred of the eunuchs still beating in his breast...",
@@ -111,6 +121,7 @@
   },
   "3k_main_faction_sun_jian": {
     "key": "3k_main_faction_sun_jian",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Sun Jian",
     "subtitle": "Tiger of Jiangdong",
     "description": "Sun Jian is bold and brave - some may say reckless - yet everything he does, he does for his family. He is no stranger to throwing himself head-first into the action, regardless of the consequences. Famed for single-handedly defeating a group of pirates, he tricked them into fleeing without ever raising his blade. \\n\\n As a storm of discord rolls across China, Sun Jian knows that whatever action he takes, it will be in defence not only of China, but his homeland and his family.",
@@ -122,6 +133,7 @@
   },
   "3k_main_faction_tao_qian": {
     "key": "3k_main_faction_tao_qian",
+    "campaign": "3k_dlc04_start_pos",
     "name": "Tao Qian",
     "subtitle": "Benevolent Arbiter",
     "description": "Tao Qian is possessed of a quiet resolve that has carried him through decades of service and strengthens him against the coming storm. In his youth, he was famed for his knowledge, his dedication to his studies, and his honesty. As an administrator, he is benevolent and beloved, offering shelter to those weary wanderers with noble ideals and nowhere to turn. With chaos rising across the land, Tao Qian will bring his considerable talent to bear to see such dark clouds dispersed!",

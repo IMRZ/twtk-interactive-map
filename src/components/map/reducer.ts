@@ -15,20 +15,27 @@ const mapSlice = createSlice({
   name: 'map',
   initialState,
   reducers: {
-    overlayCreated: (state, action: PayloadAction<[string, number]>) => {
-      const [key, count = 1] = action.payload;
-      state.overlays[key] = { key, visible: true, count };
+    overlayCreated: (state, action: PayloadAction<[string, boolean, number]>) => {
+      const [key, visible = true, count = 1] = action.payload;
+      state.overlays[key] = { key, visible, count };
     },
     overlayChanged: (state, action: PayloadAction<[string, boolean]>) => {
       const [key, visible] = action.payload;
       state.overlays[key].visible = visible;
     },
+    overlaySelected: (state, action: PayloadAction<string>) => {
+      const key = action.payload;
+      Object.keys(state.overlays).forEach((overlayKey) => {
+        state.overlays[overlayKey].visible = key === overlayKey;
+      });
+    },
+    reset: () => initialState,
     zoomChanged: (state, action: PayloadAction<string>) => {
       state.zoom = action.payload;
     },
   },
 });
 
-export const { overlayCreated, overlayChanged, zoomChanged } = mapSlice.actions;
+export const { overlayCreated, overlayChanged, overlaySelected, reset, zoomChanged } = mapSlice.actions;
 
 export default mapSlice.reducer;
