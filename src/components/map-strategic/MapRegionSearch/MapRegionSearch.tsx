@@ -1,10 +1,11 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
+import qs from 'qs';
 import { TextField, Typography, makeStyles } from '@material-ui/core';
 import { Autocomplete } from '@material-ui/lab';
 import { useTranslation } from '../../../i18n';
 import { useSearch } from './useMapRegionSearch';
 import assets from '../../../assets';
-import { useStoreState, useStoreActions } from '../../../store';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,9 +27,19 @@ const MapRegionSearch = () => {
   const classes = useStyles();
   const { t } = useTranslation();
 
-  const selectedRegion = useStoreState((state) => state.strategic.region);
-  const selectRegion = useStoreActions((actions) => actions.strategic.selectRegion);
-  const onChange = (e: any, value: any) => selectRegion(value ? value.key : null);
+  const [selectedRegion, setSelectedRegion] = React.useState<any>(null);
+
+  const history = useHistory();
+  const onChange = (e: any, value: any) => {
+    if (value) {
+      const search = qs.stringify({ x: value.settlement.x, y: value.settlement.y });
+      history.push({ search });
+      setSelectedRegion(value.key);
+    } else {
+      history.push({ search: '' });
+      setSelectedRegion(null);
+    }
+  };
 
   const { options, inputValue, onInputChange, regions } = useSearch();
   const value = selectedRegion ? regions[selectedRegion] : null;
