@@ -72,8 +72,8 @@ const MapStartposMarkerLayer = () => {
 
     Object.entries(groups).forEach(([key, markers]: [string, any], index) => {
       const layer = L.layerGroup(markers);
-      map.addLayer(layer);
       const isVisible = key === '3k_main_campaign_map';
+      if (isVisible ) map.addLayer(layer);
       context.addOverlay(`markers.${key}`, layer, isVisible, markers.length);
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps

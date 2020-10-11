@@ -6,7 +6,7 @@ import { Tune, GitHub } from '@material-ui/icons';
 import { useTranslation } from '../../i18n';
 import assets from '../../assets';
 
-import MapRegionSearch from './MapRegionSearch';
+import GlobalSearch from './GlobalSearch';
 import { useMainScaffold } from '../MainScaffold/useMainScaffold';
 
 const useStyles = makeStyles((theme) => ({
@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function TopbarStrategic() {
+function TopBar() {
   const { toggleDrawer } = useMainScaffold();
   const classes = useStyles();
   const history = useHistory();
@@ -53,7 +53,7 @@ function TopbarStrategic() {
           {t('app.subtitle')}
         </Typography>
       </div>
-      <MapRegionSearch />
+      <GlobalSearch />
       <span className={classes.fillSpace}></span>
       <IconButton
         color="inherit"
@@ -71,4 +71,4 @@ function TopbarStrategic() {
   );
 }
 
-export default TopbarStrategic;
+export default TopBar;

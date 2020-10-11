@@ -25,7 +25,7 @@ const map: MapModel = {
   overlays: {},
 
   createOverlay: action((state, payload) => {
-    const [key, visible = true, count = 1] = payload;
+    const [key, visible, count = 1] = payload;
     state.overlays[key] = { key, visible, count };
   }),
   setOverlayVisible: action((state, payload) => {

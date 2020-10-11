@@ -2,6 +2,9 @@ import React from 'react';
 import { useMapContext } from '../map/context';
 import { useStoreState } from '../../store';
 
+import { useLocation } from 'react-router-dom';
+import qs from 'qs';
+
 const MapEventListener = () => {
   const context = useMapContext();
 
@@ -22,7 +25,7 @@ const MapEventListener = () => {
         }
       });
     }
-  }, [mapOverlays]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [mapLoaded, mapOverlays]); // eslint-disable-line react-hooks/exhaustive-deps
 
   React.useEffect(() => {
     const { map } = context;
@@ -31,6 +34,21 @@ const MapEventListener = () => {
       setTimeout(() => map.invalidateSize(), 250);
     }
   }, [appDrawerOpen]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const location = useLocation();
+
+  React.useEffect(() => {
+    const { map } = context;
+
+    if (mapLoaded) {
+      const query = qs.parse(location.search, { ignoreQueryPrefix: true });
+      if (query.x && query.y) {
+        const x = Number(query.x);
+        const y = Number(query.y);
+        map.flyTo([y, x], 1);
+      }
+    }
+  }, [mapLoaded, location]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return null;
 };

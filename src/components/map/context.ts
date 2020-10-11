@@ -31,7 +31,7 @@ export function useMapContext() {
       get bounds(): L.LatLngBoundsLiteral {
         return context?.current.bounds!;
       },
-      addOverlay: (key: string, layer: L.Layer, visible = true, count = 1) => {
+      addOverlay: (key: string, layer: L.Layer, visible: boolean, count = 1) => {
         context!.current.layers[key] = layer;
         createOverlay([key, visible, count]);
       },
