@@ -10,18 +10,13 @@ import {
 } from '@material-ui/core';
 import { Layers } from '@material-ui/icons';
 import { useTranslation } from '../../i18n';
-import { useAppDispatch, useAppSelector } from '../../store';
-import { overlaySelected } from '../map/reducer';
+import { useStoreState, useStoreActions } from '../../store';
 
 const CampaignSelect = () => {
   const { t } = useTranslation();
 
-  const overlays = useAppSelector((state) => state.map.overlays);
-
-  const dispatch = useAppDispatch();
-  const selectOverlay = (overlayKey: string) => {
-    dispatch(overlaySelected(overlayKey));
-  };
+  const overlays = useStoreState((state) => state.map.overlays);
+  const selectOverlay = useStoreActions((actions) => actions.map.selectOverlay);
 
   return (
     <List subheader={<ListSubheader disableSticky>{t('startpos.campaigns')}</ListSubheader>}>

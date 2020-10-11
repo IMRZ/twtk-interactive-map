@@ -2,12 +2,9 @@ import React from 'react';
 import { TextField, Typography, makeStyles } from '@material-ui/core';
 import { Autocomplete } from '@material-ui/lab';
 import { useTranslation } from '../../../i18n';
-import { useAppDispatch, useAppSelector } from '../../../store';
-import { regionSelected } from '../reducer';
-
 import { useSearch } from './useMapRegionSearch';
-
 import assets from '../../../assets';
+import { useStoreState, useStoreActions } from '../../../store';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,12 +26,12 @@ const MapRegionSearch = () => {
   const classes = useStyles();
   const { t } = useTranslation();
 
-  const dispatch = useAppDispatch();
-  const selectedRegion = useAppSelector((state) => state.strategic.selectedRegion);
-  const onChange = (e: any, value: any) => dispatch(regionSelected(value ? value.key : null));
+  const selectedRegion = useStoreState((state) => state.strategic.region);
+  const selectRegion = useStoreActions((actions) => actions.strategic.selectRegion);
+  const onChange = (e: any, value: any) => selectRegion(value ? value.key : null);
 
   const { options, inputValue, onInputChange, regions } = useSearch();
-  const value = regions[selectedRegion] || null;
+  const value = selectedRegion ? regions[selectedRegion] : null;
 
   return (
     <Autocomplete

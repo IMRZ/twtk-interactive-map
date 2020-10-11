@@ -4,13 +4,11 @@ import L from 'leaflet';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import { useMapContext } from '../map/context';
-
-import { useAppSelector, useAppDispatch } from '../../store';
-import { startposSelected } from './reducer';
-
+import { useStoreState, useStoreActions } from '../../store';
 import startpos from '../../data/startpos';
-
 import assets from '../../assets';
+import { createPortalIcon } from '../map/util';
+
 const base = assets['images/ph_armyid_base'];
 
 const useStyles = makeStyles((theme) => ({
@@ -56,12 +54,8 @@ const MapStartposMarkerLayer = () => {
     const groups = Object.entries(startpos).reduce((accumulator: any, [campaign, items]) => {
       Object.values(items).forEach((startpos: any) => {
         const { x, y } = startpos.pin;
-        const el = document.createElement('div');
-        el.setAttribute(
-          'style',
-          'display: flex; height: 0; width: 0; align-items: center; justify-content: center; position: relative;'
-        );
-        const icon = createPortalMarker({ element: el });
+        const icon = createPortalIcon();
+        const el = icon.getElement();
         const marker = L.marker([y, x], { icon });
         entries.push([el, startpos]);
 
@@ -79,7 +73,7 @@ const MapStartposMarkerLayer = () => {
     Object.entries(groups).forEach(([key, markers]: [string, any], index) => {
       const layer = L.layerGroup(markers);
       map.addLayer(layer);
-      const isVisible = index === 0;
+      const isVisible = key === '3k_main_campaign_map';
       context.addOverlay(`markers.${key}`, layer, isVisible, markers.length);
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
@@ -92,20 +86,6 @@ const MapStartposMarkerLayer = () => {
     </>
   );
 };
-
-const PortalMarker = L.DivIcon.extend({
-  options: {
-    element: null,
-  },
-  createIcon() {
-    return this.options.element;
-  },
-});
-
-function createPortalMarker(options: any) {
-  // @ts-ignore
-  return new PortalMarker(options);
-}
 
 const Marker = ({ startpos }: any) => {
   const classes = useStyles();
@@ -128,14 +108,14 @@ const Marker = ({ startpos }: any) => {
 };
 
 function useMarker(startpos: any) {
-  const dispatch = useAppDispatch();
-
-  const isSelected = useAppSelector((state) => state.startpos.selectedCampaign === startpos.campaign && state.startpos.selectedStartpos === startpos.key);
-  const onSelect = () => dispatch(startposSelected([startpos.campaign, startpos.key]));
+  const { campaign, key } = startpos;
+  const selectedCampaign = useStoreState((state) => state.startpos.campaign);
+  const selectedStartpos = useStoreState((state) => state.startpos.startpos);
+  const selectStartpos = useStoreActions((actions) => actions.startpos.selectStartpos);
 
   return {
-    isSelected,
-    onSelect
+    isSelected: selectedCampaign === campaign && selectedStartpos === key,
+    onSelect: () => selectStartpos([startpos.campaign, startpos.key]),
   }
 }
 

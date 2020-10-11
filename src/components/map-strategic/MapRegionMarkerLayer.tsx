@@ -4,9 +4,10 @@ import L from 'leaflet';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import { useMapContext } from '../map/context';
-import { useAppSelector } from '../../store';
 import { regions } from '../../data/common';
 import assets from '../../assets';
+import { useStoreState } from '../../store';
+import { createPortalIcon } from '../map/util';
 
 const useStyles = makeStyles((theme) => ({
   marker: {
@@ -40,25 +41,18 @@ const useStyles = makeStyles((theme) => ({
 // TODO: cleanup #useEffect....
 const MapRegionMarkerLayer = () => {
   const context = useMapContext();
-  const [elems, setElems] = React.useState<[HTMLElement, any, any][]>([]);
+  const [entries, setEntries] = React.useState<any>([]);
 
   React.useEffect(() => {
     const { map } = context;
-    const elements: [HTMLElement, any, any][] = [];
-
-    Object.values(regions).map((region: any) => {
+    const elements = Object.values(regions).map((region: any) => {
       const { x, y } = region.settlement;
-      const el = document.createElement('div');
-      el.setAttribute(
-        'style',
-        'display: flex; height: 0; width: 0; align-items: center; justify-content: center; position: relative;'
-      );
-      const icon = createPortalMarker({ element: el });
+      const icon = createPortalIcon();
+      const el = icon.getElement();
       const marker = L.marker([y, x], { icon });
-      elements.push([el, region, marker]);
-      return marker;
+      return [el, region, marker];
     });
-    setElems(elements);
+    setEntries(elements);
 
     const groups = elements.reduce((accumulator: any, entry) => {
       const [el, region, marker] = entry; // eslint-disable-line @typescript-eslint/no-unused-vars
@@ -81,32 +75,18 @@ const MapRegionMarkerLayer = () => {
 
   return (
     <>
-      {elems.map(([e, region]) =>
+      {entries.map(([e, region]: any) =>
         ReactDOM.createPortal(<RegionMarker regionKey={region.key} />, e)
       )}
     </>
   );
 };
 
-const PortalMarker = L.DivIcon.extend({
-  options: {
-    element: null,
-  },
-  createIcon() {
-    return this.options.element;
-  },
-});
-
-function createPortalMarker(options: any) {
-  // @ts-ignore
-  return new PortalMarker(options);
-}
-
 const RegionMarker = (props: { regionKey: string }) => {
   const { regionKey } = props;
   const classes = useStyles();
 
-  const zoom = useAppSelector((state) => state.map.zoom);
+  const zoom = useStoreState((state) => state.map.zoom);
 
   const region = regions[regionKey];
 

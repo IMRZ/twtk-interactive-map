@@ -1,10 +1,7 @@
 import React, { useCallback } from 'react';
-import { Fab } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, Fab } from '@material-ui/core';
 import { FilterCenterFocus } from '@material-ui/icons';
-import { useAppDispatch } from '../../store';
 import { useMapContext } from '../map/context';
-import { zoomChanged } from '../map/reducer';
 
 const useStyles = makeStyles((theme) => ({
   fab: {
@@ -19,12 +16,8 @@ const MapCenterButton = () => {
   const classes = useStyles();
   const context = useMapContext();
 
-  const dispatch = useAppDispatch();
-  const resetZoom = () => dispatch(zoomChanged('mid'));
-
   const onClick = useCallback(() => {
     const { map, bounds } = context;
-    resetZoom();
     map.flyToBounds(bounds);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 

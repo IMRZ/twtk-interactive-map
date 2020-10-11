@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import { ThemeProvider, CssBaseline } from '@material-ui/core';
 import theme from './config/theme';
 
-import { Provider } from 'react-redux';
+import { StoreProvider } from 'easy-peasy';
 import store from './store';
 
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -19,7 +19,7 @@ import { I18nProvider } from './i18n';
 ReactDOM.render(
   <ThemeProvider theme={theme}>
     <CssBaseline />
-    <Provider store={store}>
+    <StoreProvider store={store}>
       <Suspense fallback="loading...">
         <I18nProvider>
           <Router basename={process.env.PUBLIC_URL}>
@@ -27,7 +27,7 @@ ReactDOM.render(
           </Router>
         </I18nProvider>
       </Suspense>
-    </Provider>
+    </StoreProvider>
   </ThemeProvider>,
   document.getElementById('root')
 );

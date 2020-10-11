@@ -1,19 +1,19 @@
 import React from 'react';
-import { useAppSelector } from '../../store';
 import { useMapContext } from '../map/context';
+import { useStoreState } from '../../store';
 
 const MapEventListener = () => {
   const context = useMapContext();
 
-  const overlays = useAppSelector((state) => state.map.overlays);
-  const appDrawerOpen = useAppSelector((state) => state.scaffold.appDrawerOpen);
+  const mapLoaded = useStoreState((state) => state.map.loaded);
+  const mapOverlays = useStoreState((state) => state.map.overlays);
+  const appDrawerOpen = useStoreState((state) => state.scaffold.appDrawerOpen);
 
   React.useEffect(() => {
     const { map, layers } = context;
-    const isLeafletMapReady = map?.getZoom() !== undefined;
 
-    if (map && isLeafletMapReady) {
-      Object.values(overlays).forEach((overlay) => {
+    if (mapLoaded) {
+      Object.values(mapOverlays).forEach((overlay) => {
         const layer = layers[overlay.key];
         if (overlay.visible) {
           map.addLayer(layer);
@@ -22,13 +22,12 @@ const MapEventListener = () => {
         }
       });
     }
-  }, [overlays]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [mapOverlays]); // eslint-disable-line react-hooks/exhaustive-deps
 
   React.useEffect(() => {
     const { map } = context;
-    const isLeafletMapReady = map.getZoom() !== undefined;
 
-    if (isLeafletMapReady) {
+    if (mapLoaded) {
       setTimeout(() => map.invalidateSize(), 250);
     }
   }, [appDrawerOpen]); // eslint-disable-line react-hooks/exhaustive-deps

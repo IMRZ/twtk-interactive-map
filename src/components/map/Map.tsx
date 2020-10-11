@@ -1,14 +1,7 @@
 import React, { useCallback } from 'react';
-import { useDispatch } from 'react-redux';
 import L from 'leaflet';
 import { MapContext } from './context';
-import { zoomChanged, reset } from './reducer';
-
-const style = {
-  height: '100%',
-  transition: 'opacity 1s',
-  opacity: 0,
-};
+import { useStoreActions } from '../../store';
 
 type MapProps = {
   children: React.ReactNode;
@@ -20,7 +13,10 @@ type MapProps = {
 
 const Map = (props: MapProps) => {
   const { children, config } = props;
-  const dispatch = useDispatch();
+
+  const reset = useStoreActions((actions) => actions.map.reset);
+  const setZoom = useStoreActions((actions) => actions.map.setZoom);
+  const setLoaded = useStoreActions((actions) => actions.map.setLoaded);
 
   const bounds = [
     [0, 0],
@@ -34,11 +30,11 @@ const Map = (props: MapProps) => {
     bounds,
   });
 
-  const [loaded, setLoaded] = React.useState(false);
+  const [mapLoaded, setMapLoaded] = React.useState(false);
 
   const mapContainer = useCallback((el) => {
     if (el !== null) {
-      const leafletMap = L.map(el, {
+      const map = L.map(el, {
         crs: L.CRS.Simple,
         minZoom: -2,
         maxZoom: 2,
@@ -54,17 +50,17 @@ const Map = (props: MapProps) => {
         wheelPxPerZoomLevel: 60,
       });
 
-      leafletMap.on('zoomend', (e) => {
+      map.on('zoomend', (e) => {
         if (e.target._zoom === -2) {
-          dispatch(zoomChanged('high'));
+          setZoom('high');
         } else if (e.target._zoom >= 0) {
-          dispatch(zoomChanged('low'));
+          setZoom('low');
         } else {
-          dispatch(zoomChanged('mid'));
+          setZoom('mid');
         }
       });
 
-      contextState.current.map = leafletMap;
+      contextState.current.map = map;
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -75,17 +71,25 @@ const Map = (props: MapProps) => {
     map.fitBounds(bounds);
 
     Promise.all(waitFor).then(() => {
-      setLoaded(true);
+      setLoaded();
+      setMapLoaded(true);
     });
 
     return () => {
-      dispatch(reset());
+      reset();
       map.remove();
     };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
+  const style: any = {
+    height: '100%',
+    transition: 'opacity 1s',
+    opacity: mapLoaded ? 1 : 0,
+    pointerEvents: mapLoaded ? 'auto' : 'none',
+  };
+
   return (
-    <div style={{ ...style, opacity: loaded ? 1 : 0 }}>
+    <div style={style}>
       <div ref={mapContainer} style={{ height: '100%', backgroundColor: 'transparent' }}>
         <MapContext.Provider value={contextState}>{children}</MapContext.Provider>
       </div>
