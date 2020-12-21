@@ -1,0 +1,98 @@
+{
+  "ep_faction_prince_of_changsha": {
+    "key": "ep_faction_prince_of_changsha",
+    "campaign": "8p_start_pos",
+    "name": "Sima Ai",
+    "subtitle": "Principled Administrator",
+    "description": "Of all the princes vying for control of the fledgling emperor, Sima Ai stands alone as worthy of victory. Widely praised for his noble ideals and filial piety, Sima Ai defended the emperor - his brother - when it became clear that the empress dowager harboured dark designs. \\n\\n Yet now, with the empress dowager gone, and Empress Jia ascendant, Sima Ai must decide where his loyalties lie, and how he might best serve the emperor as his kin descend into civil war...",
+    "pin": {
+      "x": 1791,
+      "y": 1167
+    },
+    "icon": "ep_hero_special_wood_sima_ai"
+  },
+  "ep_faction_prince_of_chengdu": {
+    "key": "ep_faction_prince_of_chengdu",
+    "campaign": "8p_start_pos",
+    "name": "Sima Ying",
+    "subtitle": "Beloved Governor",
+    "description": "Even as his opinion at court deteriorates, Sima Ying has earned the love of his people, developing a reputation for respect, leniency and consideration. Possessed of handsome looks but low intelligence, Sima Ying has acted in as forthright a manner as he knows how, all whilst viewing the imperial court with distrust. \\n\\n As the Jin descend into civil war, he must choose carefully who to fight and who to defend, and who might best serve the people.",
+    "pin": {
+      "x": 964,
+      "y": 1710
+    },
+    "icon": "ep_hero_special_water_sima_ying"
+  },
+  "ep_faction_prince_of_chu": {
+    "key": "ep_faction_prince_of_chu",
+    "campaign": "8p_start_pos",
+    "name": "Sima Wei",
+    "subtitle": "Tempestuous General",
+    "description": "Sima Wei is as a volatile storm, directing his furious energy at those who would threaten or attempt to undermine the Jin dynasty. Long known as an excellent general, his career is defined by positions of military authority. After the death of Emperor Wu, however, Sima Wei participated in a coup, orchestrated by Empress Jia, to overthrow the new emperor's regents. \\n\\n Despite his participation, the empress still views Sima Wei with suspicion, so he must move to defend both himself and then the dynasty he serves.",
+    "pin": {
+      "x": 1593,
+      "y": 2085
+    },
+    "icon": "ep_hero_special_metal_sima_wei"
+  },
+  "ep_faction_prince_of_donghai": {
+    "key": "ep_faction_prince_of_donghai",
+    "campaign": "8p_start_pos",
+    "name": "Sima Yue",
+    "subtitle": "Imperial Overseer",
+    "description": "Sima Yue acts in the name of the dynasty, working tirelessly to ensure the bureaucracy of the realm continues, even as civil war looms. Equal parts principled and pragmatic, Sima Yue acts in defence of the realm, yet when faced with defeat he will not put his principles before his own survival. \\n\\n As his kin turn on one another, Sima Yue is faced with a choice between aiding those seeking to usurp the emperor or those wishing to defend him...",
+    "pin": {
+      "x": 2458,
+      "y": 2012
+    },
+    "icon": "ep_hero_special_metal_sima_yue"
+  },
+  "ep_faction_prince_of_hejian": {
+    "key": "ep_faction_prince_of_hejian",
+    "campaign": "8p_start_pos",
+    "name": "Sima Yong",
+    "subtitle": "Shrewd Defender",
+    "description": "Sima Yong has an eye for ability; he values those he can use, and those who might help advance his ambitions. He is not a man who believes allegiance has to be a fixed thing, and his opinions - and allies - will shift depending on what best suits him. \\n\\n As China descends once more into the chaos of civil war, Sima Yong watches the pieces on the board move and considers carefully what moves to make...",
+    "pin": {
+      "x": 2316,
+      "y": 2356
+    },
+    "icon": "ep_hero_special_fire_sima_yong"
+  },
+  "ep_faction_prince_of_qi": {
+    "key": "ep_faction_prince_of_qi",
+    "campaign": "8p_start_pos",
+    "name": "Sima Jiong",
+    "subtitle": "Imperious Regent",
+    "description": "Sima Jiong has suffered great indignities at the hands of the Jin emperors, yet despite it all he has forged a place of power within the turmoil. His father, Sima You, was so qualified that many believed he should be heir. As a result, he was jealously exiled from the capital by the emperor. Since then, Sima Jiong has carved a position of relative strength, and watches Luoyang with a burning desire to correct the injustices of the past...",
+    "pin": {
+      "x": 2518,
+      "y": 2266
+    },
+    "icon": "ep_hero_special_wood_sima_jiong"
+  },
+  "ep_faction_prince_of_runan": {
+    "key": "ep_faction_prince_of_runan",
+    "campaign": "8p_start_pos",
+    "name": "Sima Liang",
+    "subtitle": "Rightful Regent",
+    "description": "Sima Liang has lived long enough to see the Wei fall and the Jin rise, and wonders now if he will survive long enough to see the flame of yet another great dynasty extinguished. He has enjoyed a long and illustrious life serving as both military commander and senior advisor to the emperor. With the death of Emperor Wu, however, his regency has been stripped and his loyalty questioned. Even now, Empress Jia demands his arrest, and Sima Wei marches on the son of Sima Yi to do her bidding...",
+    "pin": {
+      "x": 1886,
+      "y": 1671
+    },
+    "icon": "ep_hero_special_wood_sima_liang"
+  },
+  "ep_faction_prince_of_zhao": {
+    "key": "ep_faction_prince_of_zhao",
+    "campaign": "8p_start_pos",
+    "name": "Sima Lun",
+    "subtitle": "Usurper Prince",
+    "description": "Sima Lun sees the truth of a leaderless dynasty, and is bold - or brazen - enough to stake his own claim upon the throne. His ambition is unquestioned, even if his style of governance is not yet proven; his early administrations were marked by accusations of corruption and, later, rebellions against his rule. \\n\\n However, Sima Lun has the favour of the empress, an advantage for one so untested yet so ambitious. Such ruthless desire for power is a dangerous weapon, and Sima Lun will wield it without mercy.",
+    "pin": {
+      "x": 1769,
+      "y": 2240
+    },
+    "icon": "ep_hero_special_earth_sima_lun"
+  }
+}

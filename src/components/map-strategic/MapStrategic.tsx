@@ -8,7 +8,7 @@ import MapEventListener from './MapEventListener';
 import MapCenterButton from '../map-base/MapCenterButton';
 import MapRegionMarkerLayer from './MapRegionMarkerLayer';
 
-import config from '../../data/config';
+import mapConfig from '../../data/config';
 
 const useStyles = makeStyles(() => ({
   map: {
@@ -22,9 +22,9 @@ const MapStrategic = () => {
 
   return (
     <div className={classes.map}>
-      <Preloader assets={[config.map.image]}>
-        <Map config={config.map}>
-          <MapImageLayer image={config.map.image} />
+      <Preloader assets={[mapConfig.image]}>
+        <Map config={mapConfig}>
+          <MapImageLayer image={mapConfig.image} />
           <MapRegionMarkerLayer />
           <MapCenterButton />
           <MapEventListener />

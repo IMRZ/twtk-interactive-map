@@ -9,9 +9,8 @@ import {
   Switch,
 } from '@material-ui/core';
 import { useTranslation } from '../../i18n';
-import { useAppDispatch, useAppSelector } from '../../store';
-import { overlayChanged } from '../map/reducer';
 import assets from '../../assets';
+import { useStoreState, useStoreActions } from '../../store';
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -25,12 +24,8 @@ const MapRegionMarkerFilterSection = () => {
   const classes = useStyles();
   const { t } = useTranslation();
 
-  const overlays = useAppSelector((state) => state.map.overlays);
-
-  const dispatch = useAppDispatch();
-  const setOverlayVisible = (overlayKey: string, visible: boolean) => {
-    dispatch(overlayChanged([overlayKey, visible]));
-  };
+  const overlays = useStoreState((state) => state.map.overlays);
+  const setOverlayVisible = useStoreActions((actions) => actions.map.setOverlayVisible);
 
   return (
     <List
@@ -50,7 +45,7 @@ const MapRegionMarkerFilterSection = () => {
               <Switch
                 edge="end"
                 color="primary"
-                onChange={(e, checked) => setOverlayVisible(overlay.key, checked)}
+                onChange={(e, checked) => setOverlayVisible([overlay.key, checked])}
                 checked={overlay.visible}
               />
             </ListItemSecondaryAction>

@@ -1,24 +1,11 @@
-import { configureStore, combineReducers } from '@reduxjs/toolkit';
-import { TypedUseSelectorHook, useSelector, useDispatch } from 'react-redux';
+import { createStore, createTypedHooks } from 'easy-peasy';
+import { storeModel, StoreModel } from './models';
 
-import mapReducer from '../components/map/reducer';
-import strategicReducer from '../components/map-strategic/reducer';
-import scaffoldReducer from '../components/MainScaffold/reducer';
+const store = createStore(storeModel);
 
-const rootReducer = combineReducers({
-  map: mapReducer,
-  strategic: strategicReducer,
-  scaffold: scaffoldReducer,
-});
-
-const store = configureStore({
-  reducer: rootReducer,
-});
-
-export type RootState = ReturnType<typeof store.getState>;
-export type AppDispatch = typeof store.dispatch;
-
-export const useAppDispatch = () => useDispatch<AppDispatch>();
-export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;
+const typedHooks = createTypedHooks<StoreModel>();
+export const useStoreActions = typedHooks.useStoreActions;
+export const useStoreDispatch = typedHooks.useStoreDispatch;
+export const useStoreState = typedHooks.useStoreState;
 
 export default store;

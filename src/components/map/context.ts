@@ -1,7 +1,6 @@
 import { createContext, useContext, useMemo } from 'react';
-import { useDispatch } from 'react-redux';
 import L from 'leaflet';
-import { overlayCreated } from './reducer';
+import { useStoreActions } from '../../store';
 
 type MapLayerLookup = { [key: string]: L.Layer };
 
@@ -16,7 +15,7 @@ export const MapContext = createContext<MapContextState | null>(null);
 
 export function useMapContext() {
   const context = useContext(MapContext);
-  const dispatch = useDispatch();
+  const createOverlay = useStoreActions((actions) => actions.map.createOverlay);
 
   const state = useMemo(() => {
     return {
@@ -32,12 +31,12 @@ export function useMapContext() {
       get bounds(): L.LatLngBoundsLiteral {
         return context?.current.bounds!;
       },
-      addOverlay: (key: string, layer: L.Layer, count = 1) => {
+      addOverlay: (key: string, layer: L.Layer, visible: boolean, count = 1) => {
         context!.current.layers[key] = layer;
-        dispatch(overlayCreated([key, count]));
+        createOverlay([key, visible, count]);
       },
     };
-  }, [context, dispatch]);
+  }, [context, createOverlay]);
 
   return state;
 }
