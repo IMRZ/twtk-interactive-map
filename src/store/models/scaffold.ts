@@ -5,6 +5,9 @@ interface ScaffoldModel {
   mobileDrawerOpen: boolean;
   setAppDrawerOpen: Action<ScaffoldModel, boolean>;
   setMobileDrawerOpen: Action<ScaffoldModel, boolean>;
+
+  tooltip: React.ReactElement | null;
+  setTooltip: Action<ScaffoldModel, React.ReactElement | null>;
 }
 
 const scaffold: ScaffoldModel = {
@@ -15,6 +18,11 @@ const scaffold: ScaffoldModel = {
   }),
   setMobileDrawerOpen: action((state, payload) => {
     state.mobileDrawerOpen = payload;
+  }),
+
+  tooltip: null,
+  setTooltip: action((state, payload) => {
+    state.tooltip = payload;
   }),
 };
 
