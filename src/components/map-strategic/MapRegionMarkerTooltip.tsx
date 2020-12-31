@@ -8,7 +8,7 @@ const tooltip_bg = assets['images/tooltip_bg'];
 
 const useStyles = makeStyles(() => ({
   tooltip: {
-    maxWwidth: 500,
+    maxWidth: 500,
     color: 'white',
     borderImageSlice: '18 18 18 18 fill',
     borderImageWidth: '18px 18px 18px 18px',

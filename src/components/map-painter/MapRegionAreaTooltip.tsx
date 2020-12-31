@@ -1,25 +1,43 @@
 import React from 'react';
-import { makeStyles, Typography } from '@material-ui/core';
+import { makeStyles, Typography, Divider } from '@material-ui/core';
 import GlobalTooltipWrapper from '../GlobalTooltip/GlobalTooltipWrapper';
 import assets from '../../assets';
 
 const tooltip_bg = assets['images/tooltip_bg'];
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
   tooltip: {
-    maxWidth: 500,
-    color: 'white',
+    minWidth: 200,
+    color: '#ECECEC',
     borderImageSlice: '18 18 18 18 fill',
     borderImageWidth: '18px 18px 18px 18px',
     borderImageRepeat: 'repeat',
     borderImageSource: `url("${tooltip_bg}")`,
-    padding: 10,
+    padding: theme.spacing(1, 2),
+  },
+  regionName: {
+    fontWeight: 'bolder',
+    fontSize: '1.3em',
+  },
+  owner: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  flag: {
+    marginRight: theme.spacing(1),
+    height: 48,
+    margin: theme.spacing(-1, 0),
+  },
+  divider: {
+    backgroundColor: '#ECECEC',
+    margin: theme.spacing(1, 0),
   },
 }));
 
 type MapRegionAreaTooltipProps = {
   region: any;
-  faction: any;
+  faction?: any;
   children: React.ReactElement;
 };
 
@@ -28,8 +46,17 @@ const MapRegionAreaTooltip = (props: MapRegionAreaTooltipProps) => {
 
   const tooltip = (
     <div className={classes.tooltip}>
-      <Typography variant="subtitle2">{`${props.region.province.name}, ${props.region.name}`}</Typography>
-      <Typography variant="caption">Owner: {props.faction.name}</Typography>
+      <Typography className={classes.regionName}>{props.region.name}</Typography>
+      {props.faction ? (
+        <div className={classes.owner}>
+          <img className={classes.flag} src={assets[`flags/${props.faction.icon}/mon_64`]} alt="" />
+          <Typography variant="overline">{props.faction.name}</Typography>
+        </div>
+      ): (
+        <Typography variant="overline">Abandoned</Typography>
+      )}
+      <Divider className={classes.divider} />
+      <Typography variant="caption">Commandery: {props.region.province.name}</Typography>
     </div>
   );
 

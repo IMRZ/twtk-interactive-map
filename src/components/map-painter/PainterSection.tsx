@@ -1,5 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import { makeStyles, FormControl, InputLabel, Select, MenuItem, List, ListSubheader, ListItem, ListItemText, Divider } from '@material-ui/core';
+import {
+  makeStyles,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem,
+  List,
+  ListSubheader,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  ListItemSecondaryAction,
+  Divider,
+  Radio,
+} from '@material-ui/core';
+import { Layers } from '@material-ui/icons';
 import FactionAutocomplete from './FactionAutocomplete';
 import { useStoreState, useStoreActions } from '../../store';
 
@@ -34,7 +49,9 @@ const PainterSection = () => {
   const setOwnership = useStoreActions((actions) => actions.painter.setOwnership);
 
   const allowedFactions = (campaignFactions as any)[selectedCampaign];
-  const factionOptions = Object.values(factions).filter((entry) => allowedFactions.includes(entry.key));
+  const factionOptions = Object.values(factions).filter((entry) =>
+    allowedFactions.includes(entry.key)
+  );
 
   useEffect(() => {
     setSelectedFaction(null);
@@ -52,7 +69,9 @@ const PainterSection = () => {
             onChange={(e) => setSelectedCampaign(e.target.value as string)}
           >
             {campaigns.map((campaign) => (
-              <MenuItem key={campaign.key} value={campaign.key}>{campaign.name}</MenuItem>
+              <MenuItem key={campaign.key} value={campaign.key}>
+                {campaign.name}
+              </MenuItem>
             ))}
           </Select>
         </FormControl>
@@ -67,18 +86,10 @@ const PainterSection = () => {
       </div>
       <Divider />
       <List subheader={<ListSubheader disableSticky>Actions</ListSubheader>}>
-        <ListItem
-          dense
-          button
-          onClick={() => setOwnership(presets['clear'])}
-        >
+        <ListItem dense button onClick={() => setOwnership(presets['clear'])}>
           <ListItemText primary={'Clear map'} />
         </ListItem>
-        <ListItem
-          dense
-          button
-          onClick={() => setOwnership(presets[selectedCampaign])}
-        >
+        <ListItem dense button onClick={() => setOwnership(presets[selectedCampaign])}>
           <ListItemText primary={'Reset map'} />
         </ListItem>
       </List>
@@ -124,6 +135,21 @@ const PainterSection = () => {
         </ListItem>
       </List>
       <Divider />
+      <List subheader={<ListSubheader disableSticky>Layers</ListSubheader>}>
+        <ListItem dense button onClick={() => {}}>
+          <ListItemIcon>
+            <Layers />
+          </ListItemIcon>
+          <ListItemText primary={'City markers'} />
+          <ListItemSecondaryAction>
+            <Radio
+              color="primary"
+              checked={true}
+              onChange={() => {}}
+            />
+          </ListItemSecondaryAction>
+        </ListItem>
+      </List>
     </div>
   );
 };

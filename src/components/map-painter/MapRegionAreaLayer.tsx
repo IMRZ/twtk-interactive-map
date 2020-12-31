@@ -56,7 +56,7 @@ const RegionPath = (props: { region: any }) => {
       <path
         className={clsx('leaflet-interactive', classes.path)}
         d={region.d}
-        fill={owningFaction.color}
+        fill={owningFaction?.color ?? 'transparent'}
         onClick={() => paintRegion(region.key)}
       />
     </MapRegionAreaTooltip>
@@ -65,7 +65,7 @@ const RegionPath = (props: { region: any }) => {
 
 function useOwnership(region: string) {
   const regionOwner = useStoreState((state) => state.painter.ownership[region]);
-  const owningFaction = (factions as any)[regionOwner] ?? { name: 'Abandoned', color: 'transparent' };
+  const owningFaction = (factions as any)[regionOwner] ?? null;
   return owningFaction;
 }
 
