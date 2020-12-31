@@ -6,7 +6,7 @@ import assets from '../../assets';
 const tooltip_bg = assets['images/tooltip_bg'];
 
 const useStyles = makeStyles(() => ({
-  root: {
+  tooltip: {
     maxWwidth: 500,
     color: 'white',
     borderImageSlice: '18 18 18 18 fill',
@@ -25,15 +25,15 @@ type MapStartposMarkerTooltipProps = {
 const MapStartposMarkerTooltip = (props: MapStartposMarkerTooltipProps) => {
   const classes = useStyles();
 
-  const textComponent = (
-    <div className={classes.root}>
+  const tooltip = (
+    <div className={classes.tooltip}>
       <Typography variant="subtitle2">{props.startpos.name}</Typography>
       <Typography variant="caption">{props.startpos.subtitle}</Typography>
     </div>
   );
 
   return (
-    <GlobalTooltipWrapper tooltip={textComponent}>
+    <GlobalTooltipWrapper tooltip={tooltip}>
       {props.children}
     </GlobalTooltipWrapper>
   )

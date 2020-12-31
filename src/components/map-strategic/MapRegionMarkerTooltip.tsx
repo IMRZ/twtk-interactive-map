@@ -7,7 +7,7 @@ import assets from '../../assets';
 const tooltip_bg = assets['images/tooltip_bg'];
 
 const useStyles = makeStyles(() => ({
-  root: {
+  tooltip: {
     maxWwidth: 500,
     color: 'white',
     borderImageSlice: '18 18 18 18 fill',
@@ -27,15 +27,15 @@ const MapRegionMarkerTooltip = (props: MapRegionMarkerTooltipProps) => {
   const classes = useStyles();
   const { t } = useTranslation();
 
-  const textComponent = (
-    <div className={classes.root}>
+  const tooltip = (
+    <div className={classes.tooltip}>
       <Typography variant="subtitle2">{`${props.region.province.name}, ${props.region.name}`}</Typography>
       <Typography variant="caption">{t(`markers.${props.region.icon}`)}</Typography>
     </div>
   );
 
   return (
-    <GlobalTooltipWrapper tooltip={textComponent}>
+    <GlobalTooltipWrapper tooltip={tooltip}>
       {props.children}
     </GlobalTooltipWrapper>
   )

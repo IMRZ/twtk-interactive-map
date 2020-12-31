@@ -8,6 +8,7 @@ interface ScaffoldModel {
 
   tooltip: React.ReactElement | null;
   setTooltip: Action<ScaffoldModel, React.ReactElement | null>;
+  updateTooltip: Action<ScaffoldModel, React.ReactElement>;
 }
 
 const scaffold: ScaffoldModel = {
@@ -23,6 +24,11 @@ const scaffold: ScaffoldModel = {
   tooltip: null,
   setTooltip: action((state, payload) => {
     state.tooltip = payload;
+  }),
+  updateTooltip: action((state, payload) => {
+    if (state.tooltip) {
+      state.tooltip = payload;
+    }
   }),
 };
 

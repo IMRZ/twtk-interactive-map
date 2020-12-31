@@ -6,8 +6,8 @@ import assets from '../../assets';
 const tooltip_bg = assets['images/tooltip_bg'];
 
 const useStyles = makeStyles(() => ({
-  root: {
-    maxWwidth: 500,
+  tooltip: {
+    maxWidth: 500,
     color: 'white',
     borderImageSlice: '18 18 18 18 fill',
     borderImageWidth: '18px 18px 18px 18px',
@@ -26,15 +26,15 @@ type MapRegionAreaTooltipProps = {
 const MapRegionAreaTooltip = (props: MapRegionAreaTooltipProps) => {
   const classes = useStyles();
 
-  const textComponent = (
-    <div className={classes.root}>
+  const tooltip = (
+    <div className={classes.tooltip}>
       <Typography variant="subtitle2">{`${props.region.province.name}, ${props.region.name}`}</Typography>
       <Typography variant="caption">Owner: {props.faction.name}</Typography>
     </div>
   );
 
   return (
-    <GlobalTooltipWrapper tooltip={textComponent}>
+    <GlobalTooltipWrapper tooltip={tooltip}>
       {props.children}
     </GlobalTooltipWrapper>
   )
