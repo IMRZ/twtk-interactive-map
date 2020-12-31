@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
 const PainterSection = () => {
   const classes = useStyles();
 
-  const [selectedCampaign, setSelectedCampaign] = useState('3k_dlc05_start_pos');
+  const [selectedCampaign, setSelectedCampaign] = useState('3k_main_campaign_map');
   const selectedFaction = useStoreState((state) => state.painter.selectedFaction);
   const setSelectedFaction = useStoreActions((actions) => actions.painter.setSelectedFaction);
 

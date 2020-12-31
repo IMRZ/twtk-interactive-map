@@ -25,13 +25,13 @@
   },
   "3k_dlc04_faction_ba": {
     "key": "3k_dlc04_faction_ba",
-    "name": "Ba",
+    "name": "Ba Commandery",
     "color": "#226A7B",
     "icon": "3k_main_faction_ba"
   },
   "3k_dlc04_faction_ba_separatists": {
     "key": "3k_dlc04_faction_ba_separatists",
-    "name": "Ba Separatists",
+    "name": "Ba Commandery Separatists",
     "color": "#3F5943",
     "icon": "3k_main_faction_ba_separatists"
   },
@@ -169,7 +169,7 @@
   },
   "3k_dlc04_faction_chengdu": {
     "key": "3k_dlc04_faction_chengdu",
-    "name": "Shu",
+    "name": "Shu Commandery",
     "color": "#552000",
     "icon": "3k_main_faction_chengdu"
   },
@@ -193,7 +193,7 @@
   },
   "3k_dlc04_faction_dai": {
     "key": "3k_dlc04_faction_dai",
-    "name": "Daijun",
+    "name": "Daijun Commandery",
     "color": "#202F0D",
     "icon": "3k_main_faction_daijun"
   },
@@ -265,7 +265,7 @@
   },
   "3k_dlc04_faction_dongou": {
     "key": "3k_dlc04_faction_dongou",
-    "name": "Linhai",
+    "name": "Linhai Commandery",
     "color": "#42403B",
     "icon": "3k_main_faction_dongou"
   },
@@ -409,7 +409,7 @@
   },
   "3k_dlc04_faction_jianan": {
     "key": "3k_dlc04_faction_jianan",
-    "name": "Northern Jian'an",
+    "name": "Northern Jian'an Commandery",
     "color": "#46423D",
     "icon": "3k_main_faction_jianan"
   },
@@ -457,7 +457,7 @@
   },
   "3k_dlc04_faction_jianye": {
     "key": "3k_dlc04_faction_jianye",
-    "name": "Danyang",
+    "name": "Danyang Commandery",
     "color": "#49453F",
     "icon": "3k_main_faction_jianye"
   },
@@ -493,13 +493,13 @@
   },
   "3k_dlc04_faction_jingzhou": {
     "key": "3k_dlc04_faction_jingzhou",
-    "name": "Nan",
+    "name": "Nan Commandery",
     "color": "#5C4E2C",
     "icon": "3k_main_faction_jingzhou"
   },
   "3k_dlc04_faction_jingzhou_separatists": {
     "key": "3k_dlc04_faction_jingzhou_separatists",
-    "name": "Nan Separatists",
+    "name": "Nan Commandery Separatists",
     "color": "#3D4551",
     "icon": "3k_main_faction_jingzhou_separatists"
   },
@@ -823,13 +823,13 @@
   },
   "3k_dlc04_faction_taishan": {
     "key": "3k_dlc04_faction_taishan",
-    "name": "Lean",
+    "name": "Lean Commandery",
     "color": "#463E2A",
     "icon": "3k_main_faction_taishan"
   },
   "3k_dlc04_faction_taishan_separatists": {
     "key": "3k_dlc04_faction_taishan_separatists",
-    "name": "Lean Separatists",
+    "name": "Lean Commandery Separatists",
     "color": "#93979E",
     "icon": "3k_main_faction_taishan_separatists"
   },
@@ -847,7 +847,7 @@
   },
   "3k_dlc04_faction_tao_qian": {
     "key": "3k_dlc04_faction_tao_qian",
-    "name": "Lu",
+    "name": "Tao Qian",
     "color": "#2B3A6C",
     "icon": "3k_main_faction_tao_qian"
   },
@@ -859,13 +859,13 @@
   },
   "3k_dlc04_faction_tongan": {
     "key": "3k_dlc04_faction_tongan",
-    "name": "Southern Jian'an",
+    "name": "Southern Jian'an Commandery",
     "color": "#6C8635",
     "icon": "3k_main_faction_tong'an"
   },
   "3k_dlc04_faction_tongan_separatists": {
     "key": "3k_dlc04_faction_tongan_separatists",
-    "name": "Southern Jian'an Separatists",
+    "name": "Southern Jian'an Commandery Separatists",
     "color": "#333D4D",
     "icon": "3k_main_faction_tong'an_separatists"
   },
@@ -877,7 +877,7 @@
   },
   "3k_dlc04_faction_wang_rui_separatists": {
     "key": "3k_dlc04_faction_wang_rui_separatists",
-    "name": "Wang Separatists",
+    "name": "Wang Rui Separatists",
     "color": "#46442A",
     "icon": "3k_dlc04_faction_wang_rui_separatists"
   },
@@ -979,13 +979,13 @@
   },
   "3k_dlc04_faction_yangzhou": {
     "key": "3k_dlc04_faction_yangzhou",
-    "name": "Huainan",
+    "name": "Huainan Commandery",
     "color": "#2D3652",
     "icon": "3k_main_faction_yangzhou"
   },
   "3k_dlc04_faction_yangzhou_separatists": {
     "key": "3k_dlc04_faction_yangzhou_separatists",
-    "name": "Huainan Separatists",
+    "name": "Huainan Commandery Separatists",
     "color": "#617E67",
     "icon": "3k_main_faction_yangzhou_separatists"
   },
@@ -1075,13 +1075,13 @@
   },
   "3k_dlc04_faction_youzhou": {
     "key": "3k_dlc04_faction_youzhou",
-    "name": "Guangyang",
+    "name": "Guangyang Commandery",
     "color": "#814407",
     "icon": "3k_main_faction_youzhou"
   },
   "3k_dlc04_faction_youzhou_separatists": {
     "key": "3k_dlc04_faction_youzhou_separatists",
-    "name": "Guangyang Separatists",
+    "name": "Guangyang Commandery Separatists",
     "color": "#49655D",
     "icon": "3k_main_faction_youzhou_separatists"
   },
@@ -1207,7 +1207,7 @@
   },
   "3k_dlc05_faction_hua_xin": {
     "key": "3k_dlc05_faction_hua_xin",
-    "name": "Hua",
+    "name": "Hua Xin",
     "color": "#232945",
     "icon": "3k_dlc05_faction_hua_xin"
   },
@@ -1219,7 +1219,7 @@
   },
   "3k_dlc05_faction_lu_bu_separatists": {
     "key": "3k_dlc05_faction_lu_bu_separatists",
-    "name": "Lü Bu Separatists",
+    "name": "Lü Bu",
     "color": "#DFD5B2",
     "icon": "3k_dlc05_faction_lu_bu_separatists"
   },
@@ -1237,7 +1237,7 @@
   },
   "3k_dlc05_faction_shi_huang": {
     "key": "3k_dlc05_faction_shi_huang",
-    "name": "Shi",
+    "name": "Shi Wei",
     "color": "#B58357",
     "icon": "3k_dlc05_faction_shi_huang"
   },
@@ -1249,7 +1249,7 @@
   },
   "3k_dlc05_faction_shi_wu": {
     "key": "3k_dlc05_faction_shi_wu",
-    "name": "Shi",
+    "name": "Shi Wu",
     "color": "#DE744F",
     "icon": "3k_dlc05_faction_shi_wu"
   },
@@ -1261,7 +1261,7 @@
   },
   "3k_dlc05_faction_shi_yi": {
     "key": "3k_dlc05_faction_shi_yi",
-    "name": "Shi",
+    "name": "Shi Yi",
     "color": "#692F67",
     "icon": "3k_dlc05_faction_shi_yi"
   },
@@ -1273,19 +1273,19 @@
   },
   "3k_dlc05_faction_sun_ce": {
     "key": "3k_dlc05_faction_sun_ce",
-    "name": "Wu",
+    "name": "Sun Ce",
     "color": "#9B2421",
     "icon": "3k_main_faction_sun_jian"
   },
   "3k_dlc05_faction_sun_ce_separatists": {
     "key": "3k_dlc05_faction_sun_ce_separatists",
-    "name": "Wu Separatists",
+    "name": "Sun Jian Separatists",
     "color": "#735661",
     "icon": "3k_main_faction_sun_separatists"
   },
   "3k_dlc05_faction_tian_kai": {
     "key": "3k_dlc05_faction_tian_kai",
-    "name": "Tian",
+    "name": "Tian Kai",
     "color": "#E0D7A7",
     "icon": "3k_dlc05_faction_tian_kai"
   },
@@ -1297,31 +1297,31 @@
   },
   "3k_dlc05_faction_white_tiger_yan": {
     "key": "3k_dlc05_faction_white_tiger_yan",
-    "name": "Eastern Wu",
+    "name": "White Tiger Yan",
     "color": "#947EA5",
     "icon": "3k_dlc05_faction_white_tiger_yan"
   },
   "3k_dlc05_faction_white_tiger_yan_separatists": {
     "key": "3k_dlc05_faction_white_tiger_yan_separatists",
-    "name": "Eastern Wu Separatists",
+    "name": "White Tiger Yan",
     "color": "#564B47",
     "icon": "3k_dlc05_faction_white_tiger_yan_separatists"
   },
   "3k_dlc05_faction_wu_jing": {
     "key": "3k_dlc05_faction_wu_jing",
-    "name": "Northern Wu",
+    "name": "Wu Jing",
     "color": "#845541",
     "icon": "3k_dlc05_faction_wu_jing"
   },
   "3k_dlc05_faction_wu_jing_separatists": {
     "key": "3k_dlc05_faction_wu_jing_separatists",
-    "name": "Northern Wu Separatists",
+    "name": "Wu Jing Separatists",
     "color": "#2F292A",
     "icon": "3k_dlc05_faction_wu_jing_separatists"
   },
   "3k_dlc05_faction_xu_gong": {
     "key": "3k_dlc05_faction_xu_gong",
-    "name": "Xu",
+    "name": "Xu Gong",
     "color": "#61262B",
     "icon": "3k_dlc05_faction_xu_gong"
   },
@@ -1333,7 +1333,7 @@
   },
   "3k_dlc05_faction_xu_zhao": {
     "key": "3k_dlc05_faction_xu_zhao",
-    "name": "Xu",
+    "name": "Xu Zhao",
     "color": "#CEA730",
     "icon": "3k_dlc05_faction_xu_zhao"
   },
@@ -1345,7 +1345,7 @@
   },
   "3k_dlc05_faction_xue_li": {
     "key": "3k_dlc05_faction_xue_li",
-    "name": "Xue",
+    "name": "Xue Li",
     "color": "#5F2F55",
     "icon": "3k_dlc05_faction_xue_li"
   },
@@ -1357,7 +1357,7 @@
   },
   "3k_dlc05_faction_yang_feng": {
     "key": "3k_dlc05_faction_yang_feng",
-    "name": "Yang",
+    "name": "Yang Feng",
     "color": "#6FAC90",
     "icon": "3k_dlc05_faction_yang_feng"
   },
@@ -1369,7 +1369,7 @@
   },
   "3k_dlc05_faction_yuan_tan": {
     "key": "3k_dlc05_faction_yuan_tan",
-    "name": "Yuan",
+    "name": "Yuan Tan",
     "color": "#CCB275",
     "icon": "3k_dlc05_faction_yuan_tan"
   },
@@ -1381,7 +1381,7 @@
   },
   "3k_dlc05_faction_zang_ba": {
     "key": "3k_dlc05_faction_zang_ba",
-    "name": "Zang",
+    "name": "Zang Ba",
     "color": "#506C51",
     "icon": "3k_dlc05_faction_zang_ba"
   },
@@ -1393,7 +1393,7 @@
   },
   "3k_dlc05_faction_zhu_fu": {
     "key": "3k_dlc05_faction_zhu_fu",
-    "name": "Zhu",
+    "name": "Zhu Fu",
     "color": "#7BBFBE",
     "icon": "3k_dlc05_faction_zhu_fu"
   },
@@ -1405,13 +1405,13 @@
   },
   "3k_dlc06_faction_jiuzhen": {
     "key": "3k_dlc06_faction_jiuzhen",
-    "name": "Jiuzhen",
+    "name": "Jiuzhen Commandery",
     "color": "#795E48",
     "icon": "3k_dlc06_faction_jiuzhen"
   },
   "3k_dlc06_faction_jiuzhen_separatists": {
     "key": "3k_dlc06_faction_jiuzhen_separatists",
-    "name": "Jiuzhen Separatists",
+    "name": "Jiuzhen Commandery Separatists",
     "color": "#42634C",
     "icon": "3k_dlc06_faction_jiuzhen_separatists"
   },
@@ -1675,31 +1675,31 @@
   },
   "3k_dlc06_faction_yongchang": {
     "key": "3k_dlc06_faction_yongchang",
-    "name": "Yongchang",
+    "name": "Yongchang Commandery",
     "color": "#7B5D2B",
     "icon": "3k_dlc06_faction_yongchang"
   },
   "3k_dlc06_faction_yongchang_separatists": {
     "key": "3k_dlc06_faction_yongchang_separatists",
-    "name": "Yongchang Separatists",
+    "name": "Yongchang Commandery Separatists",
     "color": "#704B4E",
     "icon": "3k_dlc06_faction_yongchang_separatists"
   },
   "3k_dlc06_faction_yunnan": {
     "key": "3k_dlc06_faction_yunnan",
-    "name": "Yunnan",
+    "name": "Yunnan Commandery",
     "color": "#5A7F8B",
     "icon": "3k_dlc06_faction_yunnan"
   },
   "3k_dlc06_faction_yunnan_separatists": {
     "key": "3k_dlc06_faction_yunnan_separatists",
-    "name": "Yunnan Separatists",
+    "name": "Yunnan Commandery Separatists",
     "color": "#5A7F8B",
     "icon": "3k_dlc06_faction_yunnan_separatists"
   },
   "3k_main_faction_anding": {
     "key": "3k_main_faction_anding",
-    "name": "Anding",
+    "name": "Anding Commandery",
     "color": "#501500",
     "icon": "3k_main_faction_anding"
   },
@@ -1711,31 +1711,31 @@
   },
   "3k_main_faction_anping": {
     "key": "3k_main_faction_anping",
-    "name": "Anping",
+    "name": "Anping Commandery",
     "color": "#8B680B",
     "icon": "3k_main_faction_anping"
   },
   "3k_main_faction_anping_separatists": {
     "key": "3k_main_faction_anping_separatists",
-    "name": "Anping Separatists",
+    "name": "Anping Commandery Separatists",
     "color": "#314157",
     "icon": "3k_main_faction_anping_separatists"
   },
   "3k_main_faction_ba": {
     "key": "3k_main_faction_ba",
-    "name": "Ba",
+    "name": "Ba Commandery",
     "color": "#226A7B",
     "icon": "3k_main_faction_ba"
   },
   "3k_main_faction_ba_separatists": {
     "key": "3k_main_faction_ba_separatists",
-    "name": "Ba Separatists",
+    "name": "Ba Commandery Separatists",
     "color": "#3F5943",
     "icon": "3k_main_faction_ba_separatists"
   },
   "3k_main_faction_badong": {
     "key": "3k_main_faction_badong",
-    "name": "Badong",
+    "name": "Badong Commandery",
     "color": "#05524F",
     "icon": "3k_main_faction_badong"
   },
@@ -1747,7 +1747,7 @@
   },
   "3k_main_faction_baxi": {
     "key": "3k_main_faction_baxi",
-    "name": "Baxi",
+    "name": "Baxi Commandery",
     "color": "#541E00",
     "icon": "3k_main_faction_baxi"
   },
@@ -1759,19 +1759,19 @@
   },
   "3k_main_faction_beihai": {
     "key": "3k_main_faction_beihai",
-    "name": "Beihai",
+    "name": "Beihai Commandery",
     "color": "#948D84",
     "icon": "3k_main_faction_beihai"
   },
   "3k_main_faction_beihai_separatists": {
     "key": "3k_main_faction_beihai_separatists",
-    "name": "Beihai Separatists",
+    "name": "Beihai Commandery Separatists",
     "color": "#755B67",
     "icon": "3k_main_faction_beihai_separatists"
   },
   "3k_main_faction_bohai": {
     "key": "3k_main_faction_bohai",
-    "name": "Bohai",
+    "name": "Bohai Commandery",
     "color": "#2F4114",
     "icon": "3k_main_faction_bohai"
   },
@@ -1783,43 +1783,43 @@
   },
   "3k_main_faction_cai_mao": {
     "key": "3k_main_faction_cai_mao",
-    "name": "Cai",
+    "name": "Cai Mao",
     "color": "#BE698A",
     "icon": "3k_main_faction_cai_mao"
   },
   "3k_main_faction_cai_mao_separatists": {
     "key": "3k_main_faction_cai_mao_separatists",
-    "name": "Cai Separatists",
+    "name": "Cai Mao",
     "color": "#F5EDEA",
     "icon": "3k_main_faction_cai_mao_separatists"
   },
   "3k_main_faction_cangwu": {
     "key": "3k_main_faction_cangwu",
-    "name": "Cangwu",
+    "name": "Cangwu Commandery",
     "color": "#262525",
     "icon": "3k_main_faction_cangwu"
   },
   "3k_main_faction_cangwu_separatists": {
     "key": "3k_main_faction_cangwu_separatists",
-    "name": "Cangwu Separatists",
+    "name": "Cangwu Commandery Separatists",
     "color": "#444B28",
     "icon": "3k_main_faction_cangwu_separatists"
   },
   "3k_main_faction_cao_cao": {
     "key": "3k_main_faction_cao_cao",
-    "name": "Wei",
+    "name": "Cao Cao",
     "color": "#303B75",
     "icon": "3k_main_faction_cao_cao"
   },
   "3k_main_faction_cao_separatists": {
     "key": "3k_main_faction_cao_separatists",
-    "name": "Wei Separatists",
+    "name": "Cao Cao Separatists",
     "color": "#BB9438",
     "icon": "3k_main_faction_cao_separatists"
   },
   "3k_main_faction_changan": {
     "key": "3k_main_faction_changan",
-    "name": "Jingzhao",
+    "name": "Jingzhao Commandery",
     "color": "#511907",
     "icon": "3k_main_faction_changan"
   },
@@ -1831,31 +1831,31 @@
   },
   "3k_main_faction_changsha": {
     "key": "3k_main_faction_changsha",
-    "name": "Changsha",
+    "name": "Changsha Commandery",
     "color": "#4A5540",
     "icon": "3k_main_faction_changsha"
   },
   "3k_main_faction_changsha_separatists": {
     "key": "3k_main_faction_changsha_separatists",
-    "name": "Changsha Separatists",
+    "name": "Changsha Commandery Separatists",
     "color": "#544937",
     "icon": "3k_main_faction_changsha_separatists"
   },
   "3k_main_faction_chen": {
     "key": "3k_main_faction_chen",
-    "name": "Chen",
+    "name": "Chen Commandery",
     "color": "#404822",
     "icon": "3k_main_faction_chen"
   },
   "3k_main_faction_chen_separatists": {
     "key": "3k_main_faction_chen_separatists",
-    "name": "Chen Separatists",
+    "name": "Chen Commandery Separatists",
     "color": "#688282",
     "icon": "3k_main_faction_chen_separatists"
   },
   "3k_main_faction_chengdu": {
     "key": "3k_main_faction_chengdu",
-    "name": "Shu",
+    "name": "Shu Commandery",
     "color": "#552000",
     "icon": "3k_main_faction_chengdu"
   },
@@ -1867,7 +1867,7 @@
   },
   "3k_main_faction_daijun": {
     "key": "3k_main_faction_daijun",
-    "name": "Daijun",
+    "name": "Daijun Commandery",
     "color": "#202F0D",
     "icon": "3k_main_faction_daijun"
   },
@@ -1879,7 +1879,7 @@
   },
   "3k_main_faction_dong_separatists": {
     "key": "3k_main_faction_dong_separatists",
-    "name": "Dong Separatists",
+    "name": "Dong Zhuo Separatists",
     "color": "#E6E6E6",
     "icon": "3k_main_faction_dong_separatists"
   },
@@ -1891,19 +1891,19 @@
   },
   "3k_main_faction_donghai": {
     "key": "3k_main_faction_donghai",
-    "name": "Donghai",
+    "name": "Donghai Commandery",
     "color": "#4F643B",
     "icon": "3k_main_faction_donghai"
   },
   "3k_main_faction_donghai_separatists": {
     "key": "3k_main_faction_donghai_separatists",
-    "name": "Donghai Separatists",
+    "name": "Donghai Commandery Separatists",
     "color": "#283E5D",
     "icon": "3k_main_faction_donghai_separatists"
   },
   "3k_main_faction_dongjun": {
     "key": "3k_main_faction_dongjun",
-    "name": "Dongjun",
+    "name": "Dongjun Commandery",
     "color": "#894A3B",
     "icon": "3k_main_faction_dongjun"
   },
@@ -1915,19 +1915,19 @@
   },
   "3k_main_faction_donglai": {
     "key": "3k_main_faction_donglai",
-    "name": "Donglai",
+    "name": "Donglai Commandery",
     "color": "#685C3E",
     "icon": "3k_main_faction_donglai"
   },
   "3k_main_faction_donglai_separatists": {
     "key": "3k_main_faction_donglai_separatists",
-    "name": "Donglai Separatists",
+    "name": "Donglai Commandery Separatists",
     "color": "#572F1C",
     "icon": "3k_main_faction_donglai_separatists"
   },
   "3k_main_faction_dongou": {
     "key": "3k_main_faction_dongou",
-    "name": "Linhai",
+    "name": "Linhai Commandery",
     "color": "#42403B",
     "icon": "3k_main_faction_dongou"
   },
@@ -1939,31 +1939,31 @@
   },
   "3k_main_faction_fuling": {
     "key": "3k_main_faction_fuling",
-    "name": "Fuling",
+    "name": "Fuling Commandery",
     "color": "#484B76",
     "icon": "3k_main_faction_fuling"
   },
   "3k_main_faction_fuling_separatists": {
     "key": "3k_main_faction_fuling_separatists",
-    "name": "Fuling Separatists",
+    "name": "Fuling Commandery Separatists",
     "color": "#5E5C54",
     "icon": "3k_main_faction_fuling_separatists"
   },
   "3k_main_faction_gao_gan": {
     "key": "3k_main_faction_gao_gan",
-    "name": "Bing",
+    "name": "Gao Gan",
     "color": "#6E525A",
     "icon": "3k_main_faction_gao_gan"
   },
   "3k_main_faction_gao_gan_separatists": {
     "key": "3k_main_faction_gao_gan_separatists",
-    "name": "Bing Separatists",
+    "name": "Gao Gan Separatists",
     "color": "#722528",
     "icon": "3k_main_faction_gao_gan_separatists"
   },
   "3k_main_faction_gaoliang": {
     "key": "3k_main_faction_gaoliang",
-    "name": "Gaoliang",
+    "name": "Gaoliang Commandery",
     "color": "#3B1F47",
     "icon": "3k_main_faction_gaoliang"
   },
@@ -1975,37 +1975,37 @@
   },
   "3k_main_faction_gongsun_du": {
     "key": "3k_main_faction_gongsun_du",
-    "name": "Guzhu",
+    "name": "Gongsun Du",
     "color": "#6B5B6D",
     "icon": "3k_main_faction_gongsun_du"
   },
   "3k_main_faction_gongsun_du_separatists": {
     "key": "3k_main_faction_gongsun_du_separatists",
-    "name": "Guzhu Separatists",
+    "name": "Gongsun Du Separatists",
     "color": "#B1B0B5",
     "icon": "3k_main_faction_gongsun_du_separatists"
   },
   "3k_main_faction_gongsun_separatists": {
     "key": "3k_main_faction_gongsun_separatists",
-    "name": "Yan Separatists",
+    "name": "Gongsun Zan Separatists",
     "color": "#F1E1E1",
     "icon": "3k_main_faction_gongsun_separatists"
   },
   "3k_main_faction_gongsun_zan": {
     "key": "3k_main_faction_gongsun_zan",
-    "name": "Yan",
+    "name": "Gongsun Zan",
     "color": "#F1E1E1",
     "icon": "3k_main_faction_gongsun_zan"
   },
   "3k_main_faction_guangling": {
     "key": "3k_main_faction_guangling",
-    "name": "Guangling",
+    "name": "Guangling Commandery",
     "color": "#42704C",
     "icon": "3k_main_faction_guangling"
   },
   "3k_main_faction_guangling_separatists": {
     "key": "3k_main_faction_guangling_separatists",
-    "name": "Guangling Separatists",
+    "name": "Guangling Commandery Separatists",
     "color": "#3E4A51",
     "icon": "3k_main_faction_guangling_separatists"
   },
@@ -2017,37 +2017,37 @@
   },
   "3k_main_faction_han_empire_separatists": {
     "key": "3k_main_faction_han_empire_separatists",
-    "name": "Han Empire Separatists",
+    "name": "Han Empire",
     "color": "#EAE5DF",
     "icon": "3k_main_faction_han_empire_separatists"
   },
   "3k_main_faction_han_fu": {
     "key": "3k_main_faction_han_fu",
-    "name": "Nie",
+    "name": "Han Fu",
     "color": "#D59D5B",
     "icon": "3k_main_faction_han_fu"
   },
   "3k_main_faction_han_separatists": {
     "key": "3k_main_faction_han_separatists",
-    "name": "Nie Separatists",
+    "name": "Han Fu Separatists",
     "color": "#502830",
     "icon": "3k_main_faction_han_separatists"
   },
   "3k_main_faction_han_sui": {
     "key": "3k_main_faction_han_sui",
-    "name": "Zhai",
+    "name": "Han Sui",
     "color": "#783A57",
     "icon": "3k_main_faction_han_sui"
   },
   "3k_main_faction_han_sui_separatists": {
     "key": "3k_main_faction_han_sui_separatists",
-    "name": "Zhai Separatists",
+    "name": "Han Sui Separatists",
     "color": "#9B788E",
     "icon": "3k_main_faction_han_sui_separatists"
   },
   "3k_main_faction_hanzhong": {
     "key": "3k_main_faction_hanzhong",
-    "name": "Hanzhong",
+    "name": "Hanzhong Commandery",
     "color": "#664B09",
     "icon": "3k_main_faction_hanzhong"
   },
@@ -2059,19 +2059,19 @@
   },
   "3k_main_faction_hedong": {
     "key": "3k_main_faction_hedong",
-    "name": "Hedong",
+    "name": "Hedong Commandery",
     "color": "#756540",
     "icon": "3k_main_faction_hedong"
   },
   "3k_main_faction_hedong_separatists": {
     "key": "3k_main_faction_hedong_separatists",
-    "name": "Hedong Separatists",
+    "name": "Hedong Commandery Separatists",
     "color": "#465E44",
     "icon": "3k_main_faction_hedong_separatists"
   },
   "3k_main_faction_henei": {
     "key": "3k_main_faction_henei",
-    "name": "Henei",
+    "name": "Henei Commandery",
     "color": "#85473A",
     "icon": "3k_main_faction_henei"
   },
@@ -2083,43 +2083,43 @@
   },
   "3k_main_faction_hepu": {
     "key": "3k_main_faction_hepu",
-    "name": "Hepu",
+    "name": "Hepu Commandery",
     "color": "#78453E",
     "icon": "3k_main_faction_hepu"
   },
   "3k_main_faction_hepu_separatists": {
     "key": "3k_main_faction_hepu_separatists",
-    "name": "Hepu Separatists",
+    "name": "Hepu Commandery Separatists",
     "color": "#445E5D",
     "icon": "3k_main_faction_hepu_separatists"
   },
   "3k_main_faction_huang_zu": {
     "key": "3k_main_faction_huang_zu",
-    "name": "Sui",
+    "name": "Huang Zu",
     "color": "#666B3F",
     "icon": "3k_main_faction_huang_zu"
   },
   "3k_main_faction_huang_zu_separatists": {
     "key": "3k_main_faction_huang_zu_separatists",
-    "name": "Sui Separatists",
+    "name": "Huang Zu Separatists",
     "color": "#D5CAC7",
     "icon": "3k_main_faction_huang_zu_separatists"
   },
   "3k_main_faction_jia_long": {
     "key": "3k_main_faction_jia_long",
-    "name": "Jianwei",
+    "name": "Jia Long",
     "color": "#AB748A",
     "icon": "3k_main_faction_jia_long"
   },
   "3k_main_faction_jia_long_separatists": {
     "key": "3k_main_faction_jia_long_separatists",
-    "name": "Jianwei Separatists",
+    "name": "Jia Long Separatists",
     "color": "#54273C",
     "icon": "3k_main_faction_jia_long_separatists"
   },
   "3k_main_faction_jianan": {
     "key": "3k_main_faction_jianan",
-    "name": "Northern Jian'an",
+    "name": "Northern Jian'an Commandery",
     "color": "#46423D",
     "icon": "3k_main_faction_jianan"
   },
@@ -2131,19 +2131,19 @@
   },
   "3k_main_faction_jiangxia": {
     "key": "3k_main_faction_jiangxia",
-    "name": "Jiangxia",
+    "name": "Jiangxia Commandery",
     "color": "#918A81",
     "icon": "3k_main_faction_jiangxia"
   },
   "3k_main_faction_jiangxia_separatists": {
     "key": "3k_main_faction_jiangxia_separatists",
-    "name": "Jiangxia Separatists",
+    "name": "Jiangxia Commandery Separatists",
     "color": "#314E32",
     "icon": "3k_main_faction_jiangxia_separatists"
   },
   "3k_main_faction_jiangyang": {
     "key": "3k_main_faction_jiangyang",
-    "name": "Jiangyang",
+    "name": "Jiangyang Commandery",
     "color": "#572100",
     "icon": "3k_main_faction_jiangyang"
   },
@@ -2155,19 +2155,19 @@
   },
   "3k_main_faction_jianning": {
     "key": "3k_main_faction_jianning",
-    "name": "Jianning",
+    "name": "Jianning Commandery",
     "color": "#145023",
     "icon": "3k_main_faction_jianning"
   },
   "3k_main_faction_jianning_separatists": {
     "key": "3k_main_faction_jianning_separatists",
-    "name": "Jianning Separatists",
+    "name": "Jianning Commandery Separatists",
     "color": "#6E5049",
     "icon": "3k_main_faction_jianning_separatists"
   },
   "3k_main_faction_jianye": {
     "key": "3k_main_faction_jianye",
-    "name": "Danyang",
+    "name": "Danyang Commandery",
     "color": "#49453F",
     "icon": "3k_main_faction_jianye"
   },
@@ -2179,19 +2179,19 @@
   },
   "3k_main_faction_jiaozhi": {
     "key": "3k_main_faction_jiaozhi",
-    "name": "Jiaozhi",
+    "name": "Jiaozhi Commandery",
     "color": "#806C38",
     "icon": "3k_main_faction_jiaozhi"
   },
   "3k_main_faction_jiaozhi_separatists": {
     "key": "3k_main_faction_jiaozhi_separatists",
-    "name": "Jiaozhi Separatists",
+    "name": "Jiaozhi Commandery Separatists",
     "color": "#5C7190",
     "icon": "3k_main_faction_jiaozhi_separatists"
   },
   "3k_main_faction_jincheng": {
     "key": "3k_main_faction_jincheng",
-    "name": "Jincheng",
+    "name": "Jincheng Commandery",
     "color": "#60516E",
     "icon": "3k_main_faction_jincheng"
   },
@@ -2203,43 +2203,43 @@
   },
   "3k_main_faction_jingzhou": {
     "key": "3k_main_faction_jingzhou",
-    "name": "Nan",
+    "name": "Nan Commandery",
     "color": "#5C4E2C",
     "icon": "3k_main_faction_jingzhou"
   },
   "3k_main_faction_jingzhou_separatists": {
     "key": "3k_main_faction_jingzhou_separatists",
-    "name": "Nan Separatists",
+    "name": "Nan Commandery Separatists",
     "color": "#3D4551",
     "icon": "3k_main_faction_jingzhou_separatists"
   },
   "3k_main_faction_kong_rong": {
     "key": "3k_main_faction_kong_rong",
-    "name": "Qi",
+    "name": "Kong Rong",
     "color": "#3149A7",
     "icon": "3k_main_faction_kong_rong"
   },
   "3k_main_faction_kong_rong_separatists": {
     "key": "3k_main_faction_kong_rong_separatists",
-    "name": "Qi Separatists",
+    "name": "Kong Rong Separatists",
     "color": "#1F6A94",
     "icon": "3k_main_faction_kong_rong_separatists"
   },
   "3k_main_faction_kong_zhou": {
     "key": "3k_main_faction_kong_zhou",
-    "name": "Chen",
+    "name": "Kong Zhou",
     "color": "#999FB6",
     "icon": "3k_main_faction_kong_zhou"
   },
   "3k_main_faction_kong_zhou_separatists": {
     "key": "3k_main_faction_kong_zhou_separatists",
-    "name": "Chen Separatists",
+    "name": "Kong Zhou",
     "color": "#30343F",
     "icon": "3k_main_faction_kong_zhou_separatists"
   },
   "3k_main_faction_kuaiji": {
     "key": "3k_main_faction_kuaiji",
-    "name": "Kuaiji",
+    "name": "Kuaiji Commandery",
     "color": "#403E3F",
     "icon": "3k_main_faction_kuaiji"
   },
@@ -2251,19 +2251,19 @@
   },
   "3k_main_faction_langye": {
     "key": "3k_main_faction_langye",
-    "name": "Langye",
+    "name": "Langye Commandery",
     "color": "#463C46",
     "icon": "3k_main_faction_langye"
   },
   "3k_main_faction_langye_separatists": {
     "key": "3k_main_faction_langye_separatists",
-    "name": "Langye Separatists",
+    "name": "Langye Commandery Separatists",
     "color": "#39414E",
     "icon": "3k_main_faction_langye_separatists"
   },
   "3k_main_faction_lingling": {
     "key": "3k_main_faction_lingling",
-    "name": "Lingling",
+    "name": "Lingling Commandery",
     "color": "#04534F",
     "icon": "3k_main_faction_lingling"
   },
@@ -2275,73 +2275,73 @@
   },
   "3k_main_faction_liu_bei": {
     "key": "3k_main_faction_liu_bei",
-    "name": "Shu-Han",
+    "name": "Liu Bei",
     "color": "#4AA56D",
     "icon": "3k_main_faction_liu_bei"
   },
   "3k_main_faction_liu_bei_separatists": {
     "key": "3k_main_faction_liu_bei_separatists",
-    "name": "Shu-Han Separatists",
+    "name": "Liu Bei Separatists",
     "color": "#D5AF3A",
     "icon": "3k_main_faction_liu_bei_separatists"
   },
   "3k_main_faction_liu_biao": {
     "key": "3k_main_faction_liu_biao",
-    "name": "Chu",
+    "name": "Liu Biao",
     "color": "#3FBABC",
     "icon": "3k_main_faction_liu_biao"
   },
   "3k_main_faction_liu_biao_separatists": {
     "key": "3k_main_faction_liu_biao_separatists",
-    "name": "Chu Separatists",
+    "name": "Liu Biao Separatists",
     "color": "#2B292A",
     "icon": "3k_main_faction_liu_biao_separatists"
   },
   "3k_main_faction_liu_dai": {
     "key": "3k_main_faction_liu_dai",
-    "name": "Tang",
+    "name": "Liu Dai",
     "color": "#2C434F",
     "icon": "3k_main_faction_liu_dai"
   },
   "3k_main_faction_liu_dai_separatists": {
     "key": "3k_main_faction_liu_dai_separatists",
-    "name": "Tang Separatists",
+    "name": "Liu Dai Separatists",
     "color": "#C8C8C6",
     "icon": "3k_main_faction_liu_dai_separatists"
   },
   "3k_main_faction_liu_yan": {
     "key": "3k_main_faction_liu_yan",
-    "name": "Xun",
+    "name": "Liu Yan",
     "color": "#CD974E",
     "icon": "3k_main_faction_liu_yan"
   },
   "3k_main_faction_liu_yan_separatists": {
     "key": "3k_main_faction_liu_yan_separatists",
-    "name": "Xun Separatists",
+    "name": "Liu Yan Separatists",
     "color": "#B3623B",
     "icon": "3k_main_faction_liu_yan_separatists"
   },
   "3k_main_faction_liu_yao": {
     "key": "3k_main_faction_liu_yao",
-    "name": "Yue",
+    "name": "Liu Yao",
     "color": "#A8A4AD",
     "icon": "3k_main_faction_liu_yao"
   },
   "3k_main_faction_liu_yao_separatists": {
     "key": "3k_main_faction_liu_yao_separatists",
-    "name": "Yue Separatists",
+    "name": "Liu Yao Separatists",
     "color": "#493845",
     "icon": "3k_main_faction_liu_yao_separatists"
   },
   "3k_main_faction_liu_yu": {
     "key": "3k_main_faction_liu_yu",
-    "name": "Dai",
+    "name": "Liu Yu",
     "color": "#DFAF1E",
     "icon": "3k_main_faction_liu_yu"
   },
   "3k_main_faction_liu_yu_separatists": {
     "key": "3k_main_faction_liu_yu_separatists",
-    "name": "Dai Separatists",
+    "name": "Liu Yu Separatists",
     "color": "#ECEDEC",
     "icon": "3k_main_faction_liu_yu_separatists"
   },
@@ -2359,19 +2359,19 @@
   },
   "3k_main_faction_lujiang": {
     "key": "3k_main_faction_lujiang",
-    "name": "Lujiang",
+    "name": "Lujiang Commandery",
     "color": "#978F87",
     "icon": "3k_main_faction_lujiang"
   },
   "3k_main_faction_lujiang_separatists": {
     "key": "3k_main_faction_lujiang_separatists",
-    "name": "Lujiang Separatists",
+    "name": "Lujiang Commandery Separatists",
     "color": "#282B30",
     "icon": "3k_main_faction_lujiang_separatists"
   },
   "3k_main_faction_luling": {
     "key": "3k_main_faction_luling",
-    "name": "Luling",
+    "name": "Luling Commandery",
     "color": "#4C494A",
     "icon": "3k_main_faction_luling"
   },
@@ -2383,31 +2383,31 @@
   },
   "3k_main_faction_luoyang": {
     "key": "3k_main_faction_luoyang",
-    "name": "Luoyang",
+    "name": "Luoyang Commandery",
     "color": "#0B5E75",
     "icon": "3k_main_faction_luoyang"
   },
   "3k_main_faction_luoyang_separatists": {
     "key": "3k_main_faction_luoyang_separatists",
-    "name": "Luoyang Separatists",
+    "name": "Luoyang Commandery Separatists",
     "color": "#5A613C",
     "icon": "3k_main_faction_luoyang_separatists"
   },
   "3k_main_faction_ma_teng": {
     "key": "3k_main_faction_ma_teng",
-    "name": "Liang",
+    "name": "Ma Teng",
     "color": "#C06B75",
     "icon": "3k_main_faction_ma_teng"
   },
   "3k_main_faction_ma_teng_separatists": {
     "key": "3k_main_faction_ma_teng_separatists",
-    "name": "Liang Separatists",
+    "name": "Ma Teng Separatists",
     "color": "#EAE5DF",
     "icon": "3k_main_faction_ma_teng_separatists"
   },
   "3k_main_faction_nanhai": {
     "key": "3k_main_faction_nanhai",
-    "name": "Nanhai",
+    "name": "Nanhai Commandery",
     "color": "#3C204A",
     "icon": "3k_main_faction_nanhai"
   },
@@ -2419,19 +2419,19 @@
   },
   "3k_main_faction_nanyang": {
     "key": "3k_main_faction_nanyang",
-    "name": "Nanyang",
+    "name": "Nanyang Commandery",
     "color": "#6D5B2F",
     "icon": "3k_main_faction_nanyang"
   },
   "3k_main_faction_nanyang_separatists": {
     "key": "3k_main_faction_nanyang_separatists",
-    "name": "Nanyang Separatists",
+    "name": "Nanyang Commandery Separatists",
     "color": "#47583B",
     "icon": "3k_main_faction_nanyang_separatists"
   },
   "3k_main_faction_penchang": {
     "key": "3k_main_faction_penchang",
-    "name": "Pengcheng",
+    "name": "Pengcheng Commandery",
     "color": "#2A2929",
     "icon": "3k_main_faction_penchang"
   },
@@ -2443,19 +2443,19 @@
   },
   "3k_main_faction_pingyuan": {
     "key": "3k_main_faction_pingyuan",
-    "name": "Pingyuan",
+    "name": "Pingyuan Commandery",
     "color": "#A1988F",
     "icon": "3k_main_faction_pingyuan"
   },
   "3k_main_faction_pingyuan_separatists": {
     "key": "3k_main_faction_pingyuan_separatists",
-    "name": "Pingyuan Separatists",
+    "name": "Pingyuan Commandery Separatists",
     "color": "#4B5856",
     "icon": "3k_main_faction_pingyuan_separatists"
   },
   "3k_main_faction_poyang": {
     "key": "3k_main_faction_poyang",
-    "name": "Poyang",
+    "name": "Poyang Commandery",
     "color": "#4F4D4D",
     "icon": "3k_main_faction_poyang"
   },
@@ -2473,19 +2473,19 @@
   },
   "3k_main_faction_runan": {
     "key": "3k_main_faction_runan",
-    "name": "Runan",
+    "name": "Runan Commandery",
     "color": "#5E3920",
     "icon": "3k_main_faction_runan"
   },
   "3k_main_faction_runan_separatists": {
     "key": "3k_main_faction_runan_separatists",
-    "name": "Runan Separatists",
+    "name": "Runan Commandery Separatists",
     "color": "#504660",
     "icon": "3k_main_faction_runan_separatists"
   },
   "3k_main_faction_shangdang": {
     "key": "3k_main_faction_shangdang",
-    "name": "Shangdang",
+    "name": "Shangdang Commandery",
     "color": "#1F2B4B",
     "icon": "3k_main_faction_shangdang"
   },
@@ -2497,31 +2497,31 @@
   },
   "3k_main_faction_shangyong": {
     "key": "3k_main_faction_shangyong",
-    "name": "Shangyong",
+    "name": "Shangyong Commandery",
     "color": "#24262A",
     "icon": "3k_main_faction_shangyong"
   },
   "3k_main_faction_shangyong_separatists": {
     "key": "3k_main_faction_shangyong_separatists",
-    "name": "Shangyong Separatists",
+    "name": "Shangyong Commandery Separatists",
     "color": "#6A7D9B",
     "icon": "3k_main_faction_shangyong_separatists"
   },
   "3k_main_faction_shi_separatists": {
     "key": "3k_main_faction_shi_separatists",
-    "name": "Ba Separatists",
+    "name": "Shi Xie Separatists",
     "color": "#57829A",
     "icon": "3k_main_faction_shi_separatists"
   },
   "3k_main_faction_shi_xie": {
     "key": "3k_main_faction_shi_xie",
-    "name": "Ba",
+    "name": "Shi Xie",
     "color": "#5195BB",
     "icon": "3k_main_faction_shi_xie"
   },
   "3k_main_faction_shoufang": {
     "key": "3k_main_faction_shoufang",
-    "name": "Shuofang",
+    "name": "Shuofang Commandery",
     "color": "#1E2A4E",
     "icon": "3k_main_faction_shoufang"
   },
@@ -2533,31 +2533,31 @@
   },
   "3k_main_faction_sun_jian": {
     "key": "3k_main_faction_sun_jian",
-    "name": "Wu",
+    "name": "Sun Jian",
     "color": "#C5312D",
     "icon": "3k_main_faction_sun_jian"
   },
   "3k_main_faction_sun_separatists": {
     "key": "3k_main_faction_sun_separatists",
-    "name": "Wu Separatists",
+    "name": "Sun Jian Separatists",
     "color": "#735661",
     "icon": "3k_main_faction_sun_separatists"
   },
   "3k_main_faction_taishan": {
     "key": "3k_main_faction_taishan",
-    "name": "Lean",
+    "name": "Lean Commandery",
     "color": "#463E2A",
     "icon": "3k_main_faction_taishan"
   },
   "3k_main_faction_taishan_separatists": {
     "key": "3k_main_faction_taishan_separatists",
-    "name": "Lean Separatists",
+    "name": "Lean Commandery Separatists",
     "color": "#93979E",
     "icon": "3k_main_faction_taishan_separatists"
   },
   "3k_main_faction_taiyuan": {
     "key": "3k_main_faction_taiyuan",
-    "name": "Taiyuan",
+    "name": "Taiyuan Commandery",
     "color": "#26304E",
     "icon": "3k_main_faction_taiyuan"
   },
@@ -2569,49 +2569,49 @@
   },
   "3k_main_faction_tao_qian": {
     "key": "3k_main_faction_tao_qian",
-    "name": "Lu",
+    "name": "Tao Qian",
     "color": "#2B3A6C",
     "icon": "3k_main_faction_tao_qian"
   },
   "3k_main_faction_tao_qian_separatists": {
     "key": "3k_main_faction_tao_qian_separatists",
-    "name": "Lu Separatists",
+    "name": "Tao Qian Separatists",
     "color": "#4A5567",
     "icon": "3k_main_faction_tao_qian_separatists"
   },
   "3k_main_faction_tong'an": {
     "key": "3k_main_faction_tong'an",
-    "name": "Southern Jian'an",
+    "name": "Southern Jian'an Commandery",
     "color": "#6C8635",
     "icon": "3k_main_faction_tong'an"
   },
   "3k_main_faction_tong'an_separatists": {
     "key": "3k_main_faction_tong'an_separatists",
-    "name": "Southern Jian'an Separatists",
+    "name": "Southern Jian'an Commandery Separatists",
     "color": "#333D4D",
     "icon": "3k_main_faction_tong'an_separatists"
   },
   "3k_main_faction_wang_kuang": {
     "key": "3k_main_faction_wang_kuang",
-    "name": "Wang",
+    "name": "Wang Kuang",
     "color": "#614D60",
     "icon": "3k_main_faction_wang_kuang"
   },
   "3k_main_faction_wang_kuang_separatists": {
     "key": "3k_main_faction_wang_kuang_separatists",
-    "name": "Wang Separatists",
+    "name": "Wang Kuang Separatists",
     "color": "#A07338",
     "icon": "3k_main_faction_wang_kuang_separatists"
   },
   "3k_main_faction_wang_lang": {
     "key": "3k_main_faction_wang_lang",
-    "name": "Tan",
+    "name": "Wang Lang",
     "color": "#A07338",
     "icon": "3k_main_faction_wang_lang"
   },
   "3k_main_faction_wang_lang_separatists": {
     "key": "3k_main_faction_wang_lang_separatists",
-    "name": "Tan Separatists",
+    "name": "Wang Lang Separatists",
     "color": "#A79073",
     "icon": "3k_main_faction_wang_lang_separatists"
   },
@@ -2629,19 +2629,19 @@
   },
   "3k_main_faction_wudu": {
     "key": "3k_main_faction_wudu",
-    "name": "Wudu",
+    "name": "Wudu Commandery",
     "color": "#453D2A",
     "icon": "3k_main_faction_wudu"
   },
   "3k_main_faction_wudu_separatists": {
     "key": "3k_main_faction_wudu_separatists",
-    "name": "Wudu Separatists",
+    "name": "Wudu Commandery Separatists",
     "color": "#21250C",
     "icon": "3k_main_faction_wudu_separatists"
   },
   "3k_main_faction_wuling": {
     "key": "3k_main_faction_wuling",
-    "name": "Wuling",
+    "name": "Wuling Commandery",
     "color": "#044F4B",
     "icon": "3k_main_faction_wuling"
   },
@@ -2653,19 +2653,19 @@
   },
   "3k_main_faction_wuwei": {
     "key": "3k_main_faction_wuwei",
-    "name": "Wuwei",
+    "name": "Wuwei Commandery",
     "color": "#4A6B63",
     "icon": "3k_main_faction_wuwei"
   },
   "3k_main_faction_wuwei_separatists": {
     "key": "3k_main_faction_wuwei_separatists",
-    "name": "Wuwei Separatists",
+    "name": "Wuwei Commandery Separatists",
     "color": "#584E5B",
     "icon": "3k_main_faction_wuwei_separatists"
   },
   "3k_main_faction_xiangyang": {
     "key": "3k_main_faction_xiangyang",
-    "name": "Xiangyang",
+    "name": "Xiangyang Commandery",
     "color": "#055A56",
     "icon": "3k_main_faction_xiangyang"
   },
@@ -2677,19 +2677,19 @@
   },
   "3k_main_faction_xihe": {
     "key": "3k_main_faction_xihe",
-    "name": "Xihe",
+    "name": "Xihe Commandery",
     "color": "#6A6046",
     "icon": "3k_main_faction_xihe"
   },
   "3k_main_faction_xihe_separatists": {
     "key": "3k_main_faction_xihe_separatists",
-    "name": "Xihe Separatists",
+    "name": "Xihe Commandery Separatists",
     "color": "#525B3A",
     "icon": "3k_main_faction_xihe_separatists"
   },
   "3k_main_faction_xindu": {
     "key": "3k_main_faction_xindu",
-    "name": "Xindu",
+    "name": "Xindu Commandery",
     "color": "#4C4942",
     "icon": "3k_main_faction_xindu"
   },
@@ -2701,19 +2701,19 @@
   },
   "3k_main_faction_yangzhou": {
     "key": "3k_main_faction_yangzhou",
-    "name": "Huainan",
+    "name": "Huainan Commandery",
     "color": "#2D3652",
     "icon": "3k_main_faction_yangzhou"
   },
   "3k_main_faction_yangzhou_separatists": {
     "key": "3k_main_faction_yangzhou_separatists",
-    "name": "Huainan Separatists",
+    "name": "Huainan Commandery Separatists",
     "color": "#617E67",
     "icon": "3k_main_faction_yangzhou_separatists"
   },
   "3k_main_faction_yanmen": {
     "key": "3k_main_faction_yanmen",
-    "name": "Yanmen",
+    "name": "Yanmen Commandery",
     "color": "#232E50",
     "icon": "3k_main_faction_yanmen"
   },
@@ -2725,43 +2725,43 @@
   },
   "3k_main_faction_ye": {
     "key": "3k_main_faction_ye",
-    "name": "Ye",
+    "name": "Ye Commandery",
     "color": "#977858",
     "icon": "3k_main_faction_ye"
   },
   "3k_main_faction_ye_separatists": {
     "key": "3k_main_faction_ye_separatists",
-    "name": "Ye Separatists",
+    "name": "Ye Commandery Separatists",
     "color": "#A3AA52",
     "icon": "3k_main_faction_ye_separatists"
   },
   "3k_main_faction_yellow_turban_anding": {
     "key": "3k_main_faction_yellow_turban_anding",
-    "name": "Gong Du Yellow Turbans",
+    "name": "Gong Du",
     "color": "#C9893D",
     "icon": "3k_main_faction_yellow_turban_anding"
   },
   "3k_main_faction_yellow_turban_generic": {
     "key": "3k_main_faction_yellow_turban_generic",
-    "name": "Yellow Turban Rebellion",
+    "name": "Yellow Turban Rebels",
     "color": "#3B3839",
     "icon": "3k_main_faction_rebels"
   },
   "3k_main_faction_yellow_turban_rebels": {
     "key": "3k_main_faction_yellow_turban_rebels",
-    "name": "He Yi Yellow Turbans",
+    "name": "He Yi",
     "color": "#E4C155",
     "icon": "3k_main_faction_yellow_turban_rebels"
   },
   "3k_main_faction_yellow_turban_taishan": {
     "key": "3k_main_faction_yellow_turban_taishan",
-    "name": "Huang Shao Yellow Turbans",
+    "name": "Huang Shao",
     "color": "#3F313F",
     "icon": "3k_main_faction_yellow_turban_taishan"
   },
   "3k_main_faction_yingchuan": {
     "key": "3k_main_faction_yingchuan",
-    "name": "Yingchuan",
+    "name": "Yingchuan Commandery",
     "color": "#7D4336",
     "icon": "3k_main_faction_yingchuan"
   },
@@ -2773,19 +2773,19 @@
   },
   "3k_main_faction_yizhou": {
     "key": "3k_main_faction_yizhou",
-    "name": "Yizhou",
+    "name": "Yizhou Commandery",
     "color": "#A1978E",
     "icon": "3k_main_faction_yizhou"
   },
   "3k_main_faction_yizhou_separatists": {
     "key": "3k_main_faction_yizhou_separatists",
-    "name": "Yizhou Separatists",
+    "name": "Yizhou Commandery Separatists",
     "color": "#9C7679",
     "icon": "3k_main_faction_yizhou_separatists"
   },
   "3k_main_faction_youbeiping": {
     "key": "3k_main_faction_youbeiping",
-    "name": "Youbeiping",
+    "name": "Youbeiping Commandery",
     "color": "#23330E",
     "icon": "3k_main_faction_youbeiping"
   },
@@ -2797,19 +2797,19 @@
   },
   "3k_main_faction_youzhou": {
     "key": "3k_main_faction_youzhou",
-    "name": "Guangyang",
+    "name": "Guangyang Commandery",
     "color": "#814407",
     "icon": "3k_main_faction_youzhou"
   },
   "3k_main_faction_youzhou_separatists": {
     "key": "3k_main_faction_youzhou_separatists",
-    "name": "Guangyang Separatists",
+    "name": "Guangyang Commandery Separatists",
     "color": "#49655D",
     "icon": "3k_main_faction_youzhou_separatists"
   },
   "3k_main_faction_yu": {
     "key": "3k_main_faction_yu",
-    "name": "Yu",
+    "name": "Yu Commandery",
     "color": "#22300C",
     "icon": "3k_main_faction_yu"
   },
@@ -2821,145 +2821,145 @@
   },
   "3k_main_faction_yuan_separatists": {
     "key": "3k_main_faction_yuan_separatists",
-    "name": "Song Separatists",
+    "name": "Yuan Shao Separatists",
     "color": "#EAB330",
     "icon": "3k_main_faction_yuan_separatists"
   },
   "3k_main_faction_yuan_shao": {
     "key": "3k_main_faction_yuan_shao",
-    "name": "Song",
+    "name": "Yuan Shao",
     "color": "#8A633C",
     "icon": "3k_main_faction_yuan_shao"
   },
   "3k_main_faction_yuan_shu": {
     "key": "3k_main_faction_yuan_shu",
-    "name": "Zhong",
+    "name": "Yuan Shu",
     "color": "#D05939",
     "icon": "3k_main_faction_yuan_shu"
   },
   "3k_main_faction_yuan_shu_separatists": {
     "key": "3k_main_faction_yuan_shu_separatists",
-    "name": "Zhong Separatists",
+    "name": "Yuan Shu Separatists",
     "color": "#B67836",
     "icon": "3k_main_faction_yuan_shu_separatists"
   },
   "3k_main_faction_yulin": {
     "key": "3k_main_faction_yulin",
-    "name": "Yulin",
+    "name": "Yulin Commandery",
     "color": "#7C7800",
     "icon": "3k_main_faction_yulin"
   },
   "3k_main_faction_yulin_separatists": {
     "key": "3k_main_faction_yulin_separatists",
-    "name": "Yulin Separatists",
+    "name": "Yulin Commandery Separatists",
     "color": "#508C85",
     "icon": "3k_main_faction_yulin_separatists"
   },
   "3k_main_faction_yuzhang": {
     "key": "3k_main_faction_yuzhang",
-    "name": "Yuzhang",
+    "name": "Yuzhang Commandery",
     "color": "#45421B",
     "icon": "3k_main_faction_yuzhang"
   },
   "3k_main_faction_yuzhang_separatists": {
     "key": "3k_main_faction_yuzhang_separatists",
-    "name": "Yuzhang_Separatists",
+    "name": "Yuzhang Separatists",
     "color": "#083D3E",
     "icon": "3k_main_faction_yuzhang_separatists"
   },
   "3k_main_faction_zangke": {
     "key": "3k_main_faction_zangke",
-    "name": "Zangke",
+    "name": "Zangke Commandery",
     "color": "#0A0A00",
     "icon": "3k_main_faction_zangke"
   },
   "3k_main_faction_zangke_separatists": {
     "key": "3k_main_faction_zangke_separatists",
-    "name": "Zangke Separatists",
+    "name": "Zangke Commandery Separatists",
     "color": "#465849",
     "icon": "3k_main_faction_zangke_separatists"
   },
   "3k_main_faction_zhai_rong": {
     "key": "3k_main_faction_zhai_rong",
-    "name": "Chao",
+    "name": "Zhai Rong",
     "color": "#99778C",
     "icon": "3k_main_faction_zhai_rong"
   },
   "3k_main_faction_zhai_rong_separatists": {
     "key": "3k_main_faction_zhai_rong_separatists",
-    "name": "Chao Separatists",
+    "name": "Zhai Rong Separatists",
     "color": "#3F2429",
     "icon": "3k_main_faction_zhai_rong_separatists"
   },
   "3k_main_faction_zhang_chao": {
     "key": "3k_main_faction_zhang_chao",
-    "name": "Zhongwu",
+    "name": "Zhang Chao",
     "color": "#544D59",
     "icon": "3k_main_faction_zhang_chao"
   },
   "3k_main_faction_zhang_chao_separatists": {
     "key": "3k_main_faction_zhang_chao_separatists",
-    "name": "Zhongwu Separatists",
+    "name": "Zhang Chao Separatists",
     "color": "#F5EDEA",
     "icon": "3k_main_faction_zhang_chao_separatists"
   },
   "3k_main_faction_zhang_lu": {
     "key": "3k_main_faction_zhang_lu",
-    "name": "Hanning",
+    "name": "Zhang Lu",
     "color": "#748B2E",
     "icon": "3k_main_faction_zhang_lu"
   },
   "3k_main_faction_zhang_separatists": {
     "key": "3k_main_faction_zhang_separatists",
-    "name": "Hanning Separatists",
+    "name": "Zhang Lu Separatists",
     "color": "#9F2D11",
     "icon": "3k_main_faction_zhang_separatists"
   },
   "3k_main_faction_zhang_yan": {
     "key": "3k_main_faction_zhang_yan",
-    "name": "Heishan",
+    "name": "Zhang Yan",
     "color": "#2A714C",
     "icon": "3k_main_faction_zhang_yan"
   },
   "3k_main_faction_zhang_yan_separatists": {
     "key": "3k_main_faction_zhang_yan_separatists",
-    "name": "Heishan Separatists",
+    "name": "Zhang Yan Separatists",
     "color": "#975B37",
     "icon": "3k_main_faction_zhang_yan_separatists"
   },
   "3k_main_faction_zhang_yang": {
     "key": "3k_main_faction_zhang_yang",
-    "name": "Zhongshan",
+    "name": "Zhang Yang",
     "color": "#87383E",
     "icon": "3k_main_faction_zhang_yang"
   },
   "3k_main_faction_zhang_yang_separatists": {
     "key": "3k_main_faction_zhang_yang_separatists",
-    "name": "Zhongshan Separatists",
+    "name": "Zhang Yang Separatists",
     "color": "#543240",
     "icon": "3k_main_faction_zhang_yang_separatists"
   },
   "3k_main_faction_zheng_jiang": {
     "key": "3k_main_faction_zheng_jiang",
-    "name": "Tai Bandits",
+    "name": "Zheng Jiang",
     "color": "#238E1C",
     "icon": "3k_main_faction_zheng_jiang"
   },
   "3k_main_faction_zheng_jiang_separatists": {
     "key": "3k_main_faction_zheng_jiang_separatists",
-    "name": "Tai Separatists",
+    "name": "Zheng Jiang Separatists",
     "color": "#C4B8B2",
     "icon": "3k_main_faction_zheng_jiang_separatists"
   },
   "3k_main_faction_zhongshan": {
     "key": "3k_main_faction_zhongshan",
-    "name": "Zhongshan",
+    "name": "Zhongshan Commandery",
     "color": "#ACA498",
     "icon": "3k_main_faction_zhongshan"
   },
   "3k_main_faction_zhongshan_separatists": {
     "key": "3k_main_faction_zhongshan_separatists",
-    "name": "Zhongshan_Separatists",
+    "name": "Zhongshan Separatists",
     "color": "#08346D",
     "icon": "3k_main_faction_zhongshan_separatists"
   },
@@ -3019,13 +3019,13 @@
   },
   "ep_faction_bajun": {
     "key": "ep_faction_bajun",
-    "name": "Ba",
+    "name": "Ba Commandery",
     "color": "#226A7B",
     "icon": "3k_main_faction_ba"
   },
   "ep_faction_bajun_separatists": {
     "key": "ep_faction_bajun_separatists",
-    "name": "Ba Separatists",
+    "name": "Ba Commandery Separatists",
     "color": "#3F5943",
     "icon": "3k_main_faction_ba_separatists"
   },
@@ -3103,7 +3103,7 @@
   },
   "ep_faction_chengdu": {
     "key": "ep_faction_chengdu",
-    "name": "Shu",
+    "name": "Shu Commandery",
     "color": "#552000",
     "icon": "3k_main_faction_chengdu"
   },
@@ -3175,7 +3175,7 @@
   },
   "ep_faction_dongou": {
     "key": "ep_faction_dongou",
-    "name": "Linhai",
+    "name": "Linhai Commandery",
     "color": "#42403B",
     "icon": "3k_main_faction_dongou"
   },
@@ -3295,7 +3295,7 @@
   },
   "ep_faction_jianan": {
     "key": "ep_faction_jianan",
-    "name": "Northern Jian'an",
+    "name": "Northern Jian'an Commandery",
     "color": "#46423D",
     "icon": "3k_main_faction_jianan"
   },
@@ -3343,7 +3343,7 @@
   },
   "ep_faction_jianye": {
     "key": "ep_faction_jianye",
-    "name": "Danyang",
+    "name": "Danyang Commandery",
     "color": "#49453F",
     "icon": "3k_main_faction_jianye"
   },
@@ -3379,13 +3379,13 @@
   },
   "ep_faction_jingzhou": {
     "key": "ep_faction_jingzhou",
-    "name": "Nan",
+    "name": "Nan Commandery",
     "color": "#5C4E2C",
     "icon": "3k_main_faction_jingzhou"
   },
   "ep_faction_jingzhou_separatists": {
     "key": "ep_faction_jingzhou_separatists",
-    "name": "Nan Separatists",
+    "name": "Nan Commandery Separatists",
     "color": "#3D4551",
     "icon": "3k_main_faction_jingzhou_separatists"
   },
@@ -4453,13 +4453,13 @@
   },
   "ep_faction_taishan": {
     "key": "ep_faction_taishan",
-    "name": "Lean",
+    "name": "Lean Commandery",
     "color": "#463E2A",
     "icon": "3k_main_faction_taishan"
   },
   "ep_faction_taishan_separatists": {
     "key": "ep_faction_taishan_separatists",
-    "name": "Lean Separatists",
+    "name": "Lean Commandery Separatists",
     "color": "#93979E",
     "icon": "3k_main_faction_taishan_separatists"
   },
@@ -4477,13 +4477,13 @@
   },
   "ep_faction_tongan": {
     "key": "ep_faction_tongan",
-    "name": "Southern Jian'an",
+    "name": "Southern Jian'an Commandery",
     "color": "#6C8635",
     "icon": "3k_main_faction_tong'an"
   },
   "ep_faction_tongan_separatists": {
     "key": "ep_faction_tongan_separatists",
-    "name": "Southern Jian'an Separatists",
+    "name": "Southern Jian'an Commandery Separatists",
     "color": "#333D4D",
     "icon": "3k_main_faction_tong'an_separatists"
   },
@@ -4573,13 +4573,13 @@
   },
   "ep_faction_yangzhou": {
     "key": "ep_faction_yangzhou",
-    "name": "Huainan",
+    "name": "Huainan Commandery",
     "color": "#2D3652",
     "icon": "3k_main_faction_yangzhou"
   },
   "ep_faction_yangzhou_separatists": {
     "key": "ep_faction_yangzhou_separatists",
-    "name": "Huainan Separatists",
+    "name": "Huainan Commandery Separatists",
     "color": "#617E67",
     "icon": "3k_main_faction_yangzhou_separatists"
   },
@@ -4657,13 +4657,13 @@
   },
   "ep_faction_youzhou": {
     "key": "ep_faction_youzhou",
-    "name": "Guangyang",
+    "name": "Guangyang Commandery",
     "color": "#814407",
     "icon": "3k_main_faction_youzhou"
   },
   "ep_faction_youzhou_separatists": {
     "key": "ep_faction_youzhou_separatists",
-    "name": "Guangyang Separatists",
+    "name": "Guangyang Commandery Separatists",
     "color": "#49655D",
     "icon": "3k_main_faction_youzhou_separatists"
   },
