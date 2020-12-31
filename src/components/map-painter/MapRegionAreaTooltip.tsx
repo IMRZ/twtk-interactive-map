@@ -56,7 +56,7 @@ const MapRegionAreaTooltip = (props: MapRegionAreaTooltipProps) => {
         <Typography variant="overline">Abandoned</Typography>
       )}
       <Divider className={classes.divider} />
-      <Typography variant="caption">Commandery: {props.region.province.name}</Typography>
+      <Typography variant="body2">Commandery: {props.region.province.name}</Typography>
     </div>
   );
 

@@ -8,8 +8,7 @@ import { createSvgElement } from '../map/util';
 import MapRegionAreaTooltip from './MapRegionAreaTooltip';
 import regions from '../../data/common/regions.json';
 
-import { useStoreState, useStoreActions } from '../../store';
-import factions from '../../data/common/factions.json';
+import { usePainter, useOwnership } from './painter';
 
 const useStyles = makeStyles({
   path: {
@@ -48,8 +47,7 @@ const RegionPath = (props: { region: any }) => {
   const { region } = props;
 
   const owningFaction = useOwnership(region.key);
-
-  const paintRegion = useStoreActions((actions) => actions.painter.paintRegion);
+  const { paintRegion } = usePainter();
 
   return (
     <MapRegionAreaTooltip region={region} faction={owningFaction}>
@@ -62,11 +60,5 @@ const RegionPath = (props: { region: any }) => {
     </MapRegionAreaTooltip>
   );
 };
-
-function useOwnership(region: string) {
-  const regionOwner = useStoreState((state) => state.painter.ownership[region]);
-  const owningFaction = (factions as any)[regionOwner] ?? null;
-  return owningFaction;
-}
 
 export default RegionAreaLayer;

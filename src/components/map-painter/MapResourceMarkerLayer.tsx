@@ -7,6 +7,7 @@ import { regions } from '../../data/common';
 import assets from '../../assets';
 import { createPortalIcon } from '../map/util';
 import MapResourceMarkerTooltip from './MapResourceMarkerTooltip';
+import { usePainter } from './painter';
 
 const useStyles = makeStyles((theme) => ({
   marker: {
@@ -83,14 +84,16 @@ const RegionMarker = (props: { regionKey: string }) => {
   const classes = useStyles();
 
   const region = regions[regionKey];
+  const { paintRegion } = usePainter();
 
   return (
     <MapResourceMarkerTooltip region={region}>
-      {region.isCapital ? (
-        <img className={classes.marker} src={assets['icons/marker_high_city']} alt="" />
-      ) : (
-        <img className={classes.marker} src={assets['icons/marker_high_town']} alt="" />
-      )}
+      <img
+        className={classes.marker}
+        onClick={() => paintRegion(region.key)}
+        src={assets[region.isCapital ? 'icons/marker_high_city' : 'icons/marker_high_town']}
+        alt=""
+      />
     </MapResourceMarkerTooltip>
   )
 };
