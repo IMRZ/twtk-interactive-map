@@ -58,6 +58,9 @@ const PainterSection = () => {
     setOwnership(presets[selectedCampaign]);
   }, [selectedCampaign]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  const overlays = useStoreState((state) => state.map.overlays);
+  const selectOverlay = useStoreActions((actions) => actions.map.selectOverlay);
+
   return (
     <div className={classes.root}>
       <div className={classes.content}>
@@ -135,21 +138,36 @@ const PainterSection = () => {
         </ListItem>
       </List>
       <Divider />
-      <List subheader={<ListSubheader disableSticky>Layers</ListSubheader>}>
-        <ListItem dense button onClick={() => {}}>
-          <ListItemIcon>
-            <Layers />
-          </ListItemIcon>
-          <ListItemText primary={'City markers'} />
-          <ListItemSecondaryAction>
-            <Radio
-              color="primary"
-              checked={true}
-              onChange={() => {}}
-            />
-          </ListItemSecondaryAction>
-        </ListItem>
-      </List>
+      {false && (
+        <List subheader={<ListSubheader disableSticky>Layers</ListSubheader>}>
+          <ListItem dense button onClick={() => selectOverlay('painter.ownership')}>
+            <ListItemIcon>
+              <Layers />
+            </ListItemIcon>
+            <ListItemText primary={'Ownership'} />
+            <ListItemSecondaryAction>
+              <Radio
+                color="primary"
+                checked={overlays['painter.ownership'].visible}
+                onChange={() => selectOverlay('painter.ownership')}
+              />
+            </ListItemSecondaryAction>
+          </ListItem>
+          <ListItem dense button onChange={() => selectOverlay('painter.settlements')}>
+            <ListItemIcon>
+              <Layers />
+            </ListItemIcon>
+            <ListItemText primary={'Settlements'} />
+            <ListItemSecondaryAction>
+              <Radio
+                color="primary"
+                checked={overlays['painter.settlements'].visible}
+                onChange={() => selectOverlay('painter.settlements')}
+              />
+            </ListItemSecondaryAction>
+          </ListItem>
+        </List>
+      )}
     </div>
   );
 };

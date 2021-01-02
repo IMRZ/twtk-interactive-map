@@ -7,7 +7,6 @@ import { useMapContext, } from '../map/context';
 import { createSvgElement } from '../map/util';
 import MapRegionOwnerTooltip from './MapRegionOwnerTooltip';
 import regions from '../../data/common/regions.json';
-
 import { usePainter, useOwnership } from './painter';
 
 const useStyles = makeStyles({

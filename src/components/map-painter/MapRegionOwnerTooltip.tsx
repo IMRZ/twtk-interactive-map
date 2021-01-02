@@ -44,17 +44,16 @@ type MapRegionOwnerTooltipProps = {
 const MapRegionOwnerTooltip = (props: MapRegionOwnerTooltipProps) => {
   const classes = useStyles();
 
+  const icon = assets[`flags/${props.faction?.icon ?? 'abandoned'}/mon_64`];
+  const name = props.faction?.name ?? 'Abandoned';
+
   const tooltip = (
     <div className={classes.tooltip}>
       <Typography className={classes.regionName}>{props.region.name}</Typography>
-      {props.faction ? (
-        <div className={classes.owner}>
-          <img className={classes.flag} src={assets[`flags/${props.faction.icon}/mon_64`]} alt="" />
-          <Typography variant="overline">{props.faction.name}</Typography>
-        </div>
-      ): (
-        <Typography variant="overline">Abandoned</Typography>
-      )}
+      <div className={classes.owner}>
+        <img className={classes.flag} src={icon} alt="" />
+        <Typography variant="overline">{name}</Typography>
+      </div>
       <Divider className={classes.divider} />
       <Typography variant="body2">Commandery: {props.region.province.name}</Typography>
     </div>
