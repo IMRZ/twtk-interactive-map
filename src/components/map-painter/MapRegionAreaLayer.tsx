@@ -5,7 +5,7 @@ import L from 'leaflet';
 import { makeStyles } from '@material-ui/core/styles';
 import { useMapContext, } from '../map/context';
 import { createSvgElement } from '../map/util';
-import MapRegionAreaTooltip from './MapRegionAreaTooltip';
+import MapRegionOwnerTooltip from './MapRegionOwnerTooltip';
 import regions from '../../data/common/regions.json';
 
 import { usePainter, useOwnership } from './painter';
@@ -50,14 +50,14 @@ const RegionPath = (props: { region: any }) => {
   const { paintRegion } = usePainter();
 
   return (
-    <MapRegionAreaTooltip region={region} faction={owningFaction}>
+    <MapRegionOwnerTooltip region={region} faction={owningFaction}>
       <path
         className={clsx('leaflet-interactive', classes.path)}
         d={region.d}
         fill={owningFaction?.color ?? 'transparent'}
         onClick={() => paintRegion(region.key)}
       />
-    </MapRegionAreaTooltip>
+    </MapRegionOwnerTooltip>
   );
 };
 

@@ -6,8 +6,6 @@ import { useMapContext } from '../map/context';
 import { regions } from '../../data/common';
 import assets from '../../assets';
 import { createPortalIcon } from '../map/util';
-import MapResourceMarkerTooltip from './MapResourceMarkerTooltip';
-import { usePainter } from './painter';
 
 const useStyles = makeStyles((theme) => ({
   marker: {
@@ -44,7 +42,7 @@ const MapResourceMarkerLayer = () => {
     const { map } = context;
     const elements = Object.values(regions).map((region: any) => {
       const { x, y } = region.settlement;
-      const icon = createPortalIcon();
+      const icon = createPortalIcon({ interactive: false });
       const el = icon.getElement();
       const marker = L.marker([y, x], { icon });
       return [el, region, marker];
@@ -73,28 +71,22 @@ const MapResourceMarkerLayer = () => {
   return (
     <>
       {entries.map(([e, region]: any) =>
-        ReactDOM.createPortal(<RegionMarker regionKey={region.key} />, e)
+        ReactDOM.createPortal(<RegionMarker region={region} />, e)
       )}
     </>
   );
 };
 
-const RegionMarker = (props: { regionKey: string }) => {
-  const { regionKey } = props;
+const RegionMarker = (props: { region: any }) => {
+  const { region } = props;
   const classes = useStyles();
 
-  const region = regions[regionKey];
-  const { paintRegion } = usePainter();
-
   return (
-    <MapResourceMarkerTooltip region={region}>
-      <img
-        className={classes.marker}
-        onClick={() => paintRegion(region.key)}
-        src={assets[region.isCapital ? 'icons/marker_high_city' : 'icons/marker_high_town']}
-        alt=""
-      />
-    </MapResourceMarkerTooltip>
+    <img
+      className={classes.marker}
+      src={assets[region.isCapital ? 'icons/marker_high_city' : 'icons/marker_high_town']}
+      alt=""
+    />
   )
 };
 

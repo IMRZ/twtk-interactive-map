@@ -35,13 +35,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-type MapRegionAreaTooltipProps = {
+type MapRegionOwnerTooltipProps = {
   region: any;
   faction?: any;
   children: React.ReactElement;
 };
 
-const MapRegionAreaTooltip = (props: MapRegionAreaTooltipProps) => {
+const MapRegionOwnerTooltip = (props: MapRegionOwnerTooltipProps) => {
   const classes = useStyles();
 
   const tooltip = (
@@ -67,4 +67,4 @@ const MapRegionAreaTooltip = (props: MapRegionAreaTooltipProps) => {
   )
 };
 
-export default MapRegionAreaTooltip;
+export default MapRegionOwnerTooltip;
