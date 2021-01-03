@@ -138,7 +138,7 @@ const PainterSection = () => {
         </ListItem>
       </List>
       <Divider />
-      {false && (
+      {Object.values(overlays).length === 3 && (
         <List subheader={<ListSubheader disableSticky>Layers</ListSubheader>}>
           <ListItem dense button onClick={() => selectOverlay('painter.ownership')}>
             <ListItemIcon>
@@ -153,7 +153,20 @@ const PainterSection = () => {
               />
             </ListItemSecondaryAction>
           </ListItem>
-          <ListItem dense button onChange={() => selectOverlay('painter.settlements')}>
+          <ListItem dense button onClick={() => selectOverlay('painter.resources')}>
+            <ListItemIcon>
+              <Layers />
+            </ListItemIcon>
+            <ListItemText primary={'Resources'} />
+            <ListItemSecondaryAction>
+              <Radio
+                color="primary"
+                checked={overlays['painter.resources'].visible}
+                onChange={() => selectOverlay('painter.resources')}
+              />
+            </ListItemSecondaryAction>
+          </ListItem>
+          <ListItem dense button onClick={() => selectOverlay('painter.settlements')}>
             <ListItemIcon>
               <Layers />
             </ListItemIcon>

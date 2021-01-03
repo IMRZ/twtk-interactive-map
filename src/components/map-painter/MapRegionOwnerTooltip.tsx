@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles, Typography, Divider } from '@material-ui/core';
 import GlobalTooltipWrapper from '../GlobalTooltip/GlobalTooltipWrapper';
+import { useTranslation } from '../../i18n';
 import assets from '../../assets';
 
 const tooltip_bg = assets['images/tooltip_bg'];
@@ -8,7 +9,7 @@ const tooltip_bg = assets['images/tooltip_bg'];
 const useStyles = makeStyles((theme) => ({
   tooltip: {
     minWidth: 200,
-    color: '#ECECEC',
+    color: 'rgba(255, 255, 255, 0.8)',
     borderImageSlice: '18 18 18 18 fill',
     borderImageWidth: '18px 18px 18px 18px',
     borderImageRepeat: 'repeat',
@@ -30,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(-1, 0),
   },
   divider: {
-    backgroundColor: '#ECECEC',
+    backgroundColor: 'rgba(255, 255, 255, 0.8)',
     margin: theme.spacing(1, 0),
   },
 }));
@@ -43,6 +44,7 @@ type MapRegionOwnerTooltipProps = {
 
 const MapRegionOwnerTooltip = (props: MapRegionOwnerTooltipProps) => {
   const classes = useStyles();
+  const { t } = useTranslation();
 
   const icon = assets[`flags/${props.faction?.icon ?? 'abandoned'}/mon_64`];
   const name = props.faction?.name ?? 'Abandoned';
@@ -54,6 +56,8 @@ const MapRegionOwnerTooltip = (props: MapRegionOwnerTooltipProps) => {
         <img className={classes.flag} src={icon} alt="" />
         <Typography variant="overline">{name}</Typography>
       </div>
+      <Divider className={classes.divider} />
+      <Typography variant="body2">{t(`markers.${props.region.icon}`)}</Typography>
       <Divider className={classes.divider} />
       <Typography variant="body2">Commandery: {props.region.province.name}</Typography>
     </div>

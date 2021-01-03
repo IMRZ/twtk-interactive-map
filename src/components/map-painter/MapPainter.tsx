@@ -8,6 +8,8 @@ import MapCenterButton from '../map-base/MapCenterButton';
 import MapEventListener from './MapEventListener';
 import MapRegionAreaLayer from './MapRegionAreaLayer';
 import MapRegionOwnerMarkerLayer from './MapRegionOwnerMarkerLayer';
+import MapSettlementMarkerLayer from './MapSettlementMarkerLayer';
+import MapResourceMarkerLayer from './MapResourceMarkerLayer';
 
 import mapConfig from '../../data/config';
 
@@ -27,6 +29,8 @@ const MapPainter = () => {
         <Map config={mapConfig}>
           <MapImageLayer image={mapConfig.image} />
           <MapRegionAreaLayer />
+          <MapSettlementMarkerLayer />
+          <MapResourceMarkerLayer />
           <MapRegionOwnerMarkerLayer />
           <MapCenterButton />
           <MapEventListener />

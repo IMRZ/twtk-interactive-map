@@ -28,7 +28,7 @@ const RegionAreaLayer = () => {
     const svgElement = createSvgElement(3840, 3024);
     const layer = L.svgOverlay(svgElement, bounds);
     map.addLayer(layer);
-    context.addOverlay('region-paths', layer, true);
+    // context.addOverlay('region-paths', layer, true);
     setSvgElem(svgElement);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 

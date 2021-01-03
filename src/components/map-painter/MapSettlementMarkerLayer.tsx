@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const MapResourceMarkerLayer = () => {
+const MapSettlementMarkerLayer = () => {
   const context = useMapContext();
   const [entries, setEntries] = React.useState<any>([]);
 
@@ -40,7 +40,7 @@ const MapResourceMarkerLayer = () => {
 
     const layer = L.layerGroup(markers);
     map.addLayer(layer);
-    context.addOverlay(`painter.settlements`, layer, false, markers.length);
+    context.addOverlay('painter.settlements', layer, false, markers.length);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
@@ -65,4 +65,4 @@ const RegionMarker = (props: { region: any }) => {
   )
 };
 
-export default MapResourceMarkerLayer;
+export default MapSettlementMarkerLayer;

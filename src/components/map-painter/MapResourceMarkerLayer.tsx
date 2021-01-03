@@ -6,13 +6,12 @@ import { useMapContext } from '../map/context';
 import { regions } from '../../data/common';
 import assets from '../../assets';
 import { createPortalIcon } from '../map/util';
-import { useOwnership } from './painter';
 
 const useStyles = makeStyles((theme) => ({
   marker: {
     position: 'absolute',
-    height: 24,
-    width: 24,
+    height: 50,
+    width: 50,
     flexShrink: 0,
     filter: 'drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.8))',
   },
@@ -41,7 +40,7 @@ const MapResourceMarkerLayer = () => {
 
     const layer = L.layerGroup(markers);
     map.addLayer(layer);
-    context.addOverlay('painter.ownership', layer, true, markers.length);
+    context.addOverlay('painter.resources', layer, false, markers.length);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
@@ -57,13 +56,10 @@ const RegionMarker = (props: { region: any }) => {
   const { region } = props;
   const classes = useStyles();
 
-  const faction = useOwnership(region.key);
-  const icon = assets[`flags/${faction?.icon ?? 'abandoned'}/mon_24`];
-
   return (
     <img
       className={classes.marker}
-      src={icon}
+      src={assets[`icons/${region.icon}`]}
       alt=""
     />
   )
