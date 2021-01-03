@@ -1,0 +1,45 @@
+{
+  "app": {
+    "title": "Total War: THREE KINGDOMS",
+    "subtitle": "Interactive Maps"
+  },
+  "maps": {
+    "strategic": "Strategic",
+    "painter": "Painter",
+    "startpos": "Starting positions"
+  },
+  "strategic": {
+    "search": "Search",
+    "searchPlaceholder": "Search by region, resource or character...",
+    "markerSectionTitle": "Map markers"
+  },
+  "startpos": {
+    "campaigns": "Campaigns"
+  },
+  "markers": {
+    "3k_dlc04_start_pos": "Mandate of Heaven",
+    "3k_dlc05_start_pos": "A World Betrayed",
+    "3k_main_campaign_map": "Rise of the Warlords",
+    "8p_start_pos": "Eight Princes",
+    "city": "Capital of the Commandery",
+    "copper": "Copper Mine",
+    "craftsmen_armour": "Armour Craftsmen",
+    "craftsmen_mounts": "Animal Tamer",
+    "craftsmen_weapon": "Weapon Craftsmen",
+    "farms": "Rice Paddy",
+    "fish": "Fishing Port",
+    "gate_pass": "Gate Pass",
+    "horses": "Northern Horses",
+    "iron": "Iron Mine",
+    "jade": "Jade Mine",
+    "livestock": "Livestock Farm",
+    "lumber": "Lumber Yard",
+    "salt": "Salt Mine",
+    "silk": "Silk Trader",
+    "spice": "Spice Trader",
+    "tea": "Teahouse",
+    "temple": "Temple of Pengcheng",
+    "tools": "Toolmaker",
+    "trade_port": "Trade Port"
+  }
+}
