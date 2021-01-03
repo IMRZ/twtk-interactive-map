@@ -80,7 +80,8 @@ export function useSearch() {
   return {
     options,
     inputValue,
-    allOptions: allOptions.reduce((acc, val)=> (acc[val.searchKey]=val, acc),{}),
+    // eslint-disable-next-line no-sequences
+    allOptions: allOptions.reduce((acc, val)=> (acc[val.searchKey] = val, acc),{}),
     onInputChange,
   };
 }
