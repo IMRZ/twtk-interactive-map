@@ -22,7 +22,7 @@
     "i18next-http-backend": "^1.0.21",
     "leaflet": "^1.7.1",
     "parallax-js": "^3.1.0",
-    "qs": "^6.9.4",
+    "qs": "^6.9.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-i18next": "^11.7.3",
