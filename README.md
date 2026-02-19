@@ -2,12 +2,12 @@
 
 Total War THREE KINGDOMS Interactive Map.
 
-This map is no longed maintained, the latest versions of the [Three Kingdoms maps](https:/twdb.io/three-kingdoms/maps/) are available here:
-* [Rise of the Warlords](https:/twdb.io/three-kingdoms/maps/rise-of-the-warlords/)
-* [Mandate of Heaven](https:/twdb.io/three-kingdoms/maps/mandate-of-heaven/)
-* [A World Betrayed](https:/twdb.io/three-kingdoms/maps/a-world-betrayed/)
-* [Fates Divided](https:/twdb.io/three-kingdoms/maps/fates-divided/)
-* [Eight Princes](https:/twdb.io/three-kingdoms/maps/eight-princes/)
+This map is no longed maintained, the latest versions of the [Three Kingdoms maps](https://twdb.io/three-kingdoms/maps/) are available here:
+* [Rise of the Warlords](https://twdb.io/three-kingdoms/maps/rise-of-the-warlords/)
+* [Mandate of Heaven](https://twdb.io/three-kingdoms/maps/mandate-of-heaven/)
+* [A World Betrayed](https://twdb.io/three-kingdoms/maps/a-world-betrayed/)
+* [Fates Divided](https://twdb.io/three-kingdoms/maps/fates-divided/)
+* [Eight Princes](https://twdb.io/three-kingdoms/maps/eight-princes/)
 
 [View the app here](https://imrz.github.io/twtk-interactive-map)
 
