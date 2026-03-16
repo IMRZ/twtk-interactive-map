@@ -8,6 +8,10 @@ import { useMainScaffold } from '../MainScaffold/useMainScaffold';
 import TopBar from '../map-base/TopBar';
 import MapStrategic from '../map-strategic/MapStrategic';
 import MapRegionMarkerFilterSection from '../map-strategic/MapRegionMarkerFilterSection';
+
+import MapPainter from '../map-painter/MapPainter';
+import PainterSection from '../map-painter/PainterSection';
+
 import MapStartpos from '../map-startpos/MapStartpos';
 import CampaignSelect from '../map-startpos/CampaignSelect';
 
@@ -17,6 +21,12 @@ const routes: RouteConfig[] = [
     exact: true,
     main: MapStrategic,
     sidebar: MapRegionMarkerFilterSection
+  },
+  {
+    path: '/maps/painter',
+    exact: true,
+    main: MapPainter,
+    sidebar: PainterSection,
   },
   {
     path: '/maps/startpos',

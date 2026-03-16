@@ -7,12 +7,12 @@ export function createSvgElement(imageWidth: number, imageHeight: number) {
   return svgElement;
 }
 
-export function createPortalIcon() {
+export function createPortalIcon(options = { interactive: true }) {
   const element = document.createElement('div');
   document.createElement('div')
   element.setAttribute(
     'style',
-    'display: flex; height: 0; width: 0; align-items: center; justify-content: center; position: relative;'
+    `display: flex; height: 0; width: 0; align-items: center; justify-content: center; position: relative;${options.interactive ? '' : ' pointer-events: none;'}`,
   );
   return new PortalIcon({ element });
 }

@@ -60,7 +60,7 @@ const Home = () => {
         </div>
         <div className={classes.links}>
           <Button size="large" component={Link} to="/maps/strategic">{t('maps.strategic')}</Button>
-          <Button disabled size="large" component={Link} to="/maps/painter">{t('maps.painter')}</Button>
+          <Button size="large" component={Link} to="/maps/painter">{t('maps.painter')}</Button>
           <Button size="large" component={Link} to="/maps/startpos">{t('maps.startpos')}</Button>
         </div>
       </div>

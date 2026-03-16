@@ -8,6 +8,7 @@ import { useStoreState, useStoreActions } from '../../store';
 import startpos from '../../data/startpos';
 import assets from '../../assets';
 import { createPortalIcon } from '../map/util';
+import MapStartposMarkerTooltip from './MapStartposMarkerTooltip';
 
 const base = assets['images/ph_armyid_base'];
 
@@ -100,7 +101,9 @@ const Marker = ({ startpos }: any) => {
 
   return (
     <>
-      <img onClick={onSelect} className={clsx([ classes.base, { [classes.selected]: isSelected } ])} src={base} alt="" />
+      <MapStartposMarkerTooltip startpos={startpos}>
+        <img onClick={onSelect} className={clsx([ classes.base, { [classes.selected]: isSelected } ])} src={base} alt="" />
+      </MapStartposMarkerTooltip>
       <img className={clsx([ classes.bobble, { [classes.visible]: isSelected } ])} src={bobble} alt="" />
       <img className={clsx([ classes.mini, { [classes.visible]: !isSelected } ])} src={mini} alt="" />
     </>

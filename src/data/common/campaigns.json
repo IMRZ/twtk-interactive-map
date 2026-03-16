@@ -5,14 +5,14 @@
     "description": "The Han falters and rebellions rise"
   },
   {
-    "key": "3k_dlc05_start_pos",
-    "name": "A World Betrayed",
-    "description": "Warlords inherit a world in chaos"
-  },
-  {
     "key": "3k_main_campaign_map",
     "name": "Rise of the Warlords",
     "description": "Dong Zhuo seizes the young emperor"
+  },
+  {
+    "key": "3k_dlc05_start_pos",
+    "name": "A World Betrayed",
+    "description": "Warlords inherit a world in chaos"
   },
   {
     "key": "8p_start_pos",

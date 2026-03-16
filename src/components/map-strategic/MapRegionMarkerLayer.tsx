@@ -8,6 +8,7 @@ import { regions } from '../../data/common';
 import assets from '../../assets';
 import { useStoreState } from '../../store';
 import { createPortalIcon } from '../map/util';
+import MapRegionMarkerTooltip from './MapRegionMarkerTooltip';
 
 const useStyles = makeStyles((theme) => ({
   marker: {
@@ -19,8 +20,6 @@ const useStyles = makeStyles((theme) => ({
     '&:hover': {
       filter: 'drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4))',
     },
-    transition: 'opacity 200ms',
-    opacity: 0,
   },
   name: {
     position: 'absolute',
@@ -90,11 +89,14 @@ const RegionMarker = (props: { regionKey: string }) => {
 
   const region = regions[regionKey];
 
-  return <>
-    <img className={clsx(classes.marker, { [classes.visible]: zoom === 'high' })} src={region.isCapital ? assets['icons/marker_high_city'] : assets['icons/marker_high_town']} alt="" />
-    <img className={clsx(classes.marker, { [classes.visible]: zoom !== 'high' })} src={assets[`icons/${region.icon}`]} alt="" />
-    <pre className={clsx(classes.name, { [classes.visible]: zoom === 'low' })}>{region.province.name}, {region.name}</pre>
-  </>
+  return (
+    <>
+      <MapRegionMarkerTooltip region={region}>
+        <img className={classes.marker} src={assets[`icons/${region.icon}`]} alt="" />
+      </MapRegionMarkerTooltip>
+      <pre className={clsx(classes.name, { [classes.visible]: zoom === 'low' })}>{region.province.name}, {region.name}</pre>
+    </>
+  )
 };
 
 export default MapRegionMarkerLayer;
